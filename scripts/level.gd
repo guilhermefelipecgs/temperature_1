@@ -19,9 +19,10 @@ func _on_button2_pressed():
 
 func update_temperature():
 	$thermostat_hud/h_split_container/label.text = str(temperature) + "ºC"
+	$thermostat.text = str(temperature) + "ºC"
 
 	if temperature > 31:
 		$thermostat_hud.hide()
 		$enemy/animation_player.play("New Anim")
 		$player.look = true
-		$player.new_pos = Vector2(270, 320)
+		$player.new_pos = Vector2(290, 210)

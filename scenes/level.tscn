@@ -33,7 +33,7 @@ length = 3.0
 loop = false
 step = 0.1
 tracks/0/type = "value"
-tracks/0/path = NodePath(".:position")
+tracks/0/path = NodePath(".:animation")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
@@ -41,11 +41,11 @@ tracks/0/enabled = true
 tracks/0/keys = {
 "times": PoolRealArray( 0, 2 ),
 "transitions": PoolRealArray( 1, 1 ),
-"update": 0,
-"values": [ Vector2( 680, 420 ), Vector2( 90, 350 ) ]
+"update": 1,
+"values": [ "walk", "idle" ]
 }
 tracks/1/type = "value"
-tracks/1/path = NodePath(".:animation")
+tracks/1/path = NodePath("label:visible")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/imported = false
@@ -54,34 +54,34 @@ tracks/1/keys = {
 "times": PoolRealArray( 0, 2 ),
 "transitions": PoolRealArray( 1, 1 ),
 "update": 1,
-"values": [ "walk", "idle" ]
+"values": [ false, true ]
 }
 tracks/2/type = "value"
-tracks/2/path = NodePath("label:visible")
+tracks/2/path = NodePath("../thermostat_hud:visible")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/imported = false
 tracks/2/enabled = true
 tracks/2/keys = {
-"times": PoolRealArray( 0, 2 ),
-"transitions": PoolRealArray( 1, 1 ),
-"update": 1,
-"values": [ false, true ]
-}
-tracks/3/type = "value"
-tracks/3/path = NodePath("../thermostat_hud:visible")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/keys = {
 "times": PoolRealArray(  ),
 "transitions": PoolRealArray(  ),
 "update": 1,
 "values": [  ]
 }
+tracks/3/type = "value"
+tracks/3/path = NodePath(".:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 640, 310 ), Vector2( 90, 250 ) ]
+}
 
-[node name="node" type="Node"]
+[node name="node" type="Node" index="0"]
 
 script = ExtResource( 1 )
 
@@ -91,10 +91,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 260.0
-margin_top = 100.0
-margin_right = 289.0
-margin_bottom = 114.0
+margin_left = 262.0
+margin_top = 10.0
+margin_right = 291.0
+margin_bottom = 24.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
@@ -108,12 +108,13 @@ max_lines_visible = -1
 
 [node name="player" parent="." index="1" instance=ExtResource( 2 )]
 
-position = Vector2( 420, 340 )
+position = Vector2( 440, 220 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="area_2d" type="Area2D" parent="." index="2"]
 
-position = Vector2( 30, 300 )
+editor/display_folded = true
+position = Vector2( 32, 210 )
 input_pickable = true
 gravity_vec = Vector2( 0, 1 )
 gravity = 98.0
@@ -150,10 +151,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 160.0
-margin_top = 250.0
-margin_right = 470.0
-margin_bottom = 400.0
+margin_left = 150.0
+margin_top = 120.0
+margin_right = 460.0
+margin_bottom = 270.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 0
@@ -266,9 +267,10 @@ align = 1
 
 [node name="enemy" type="AnimatedSprite" parent="." index="4"]
 
-position = Vector2( 680, 420 )
+position = Vector2( 640, 310 )
 frames = SubResource( 2 )
 animation = "walk"
+frame = 2
 playing = true
 
 [node name="animation_player" type="AnimationPlayer" parent="enemy" index="0"]
