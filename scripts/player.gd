@@ -3,9 +3,13 @@ extends Node2D
 const SPEED = 3
 
 onready var new_pos = self.position
+var look = false
 
 
 func _input(event):
+	if look:
+		return
+
 	if event is InputEventMouseButton:
 
 		if event.button_index == BUTTON_LEFT:
@@ -13,7 +17,7 @@ func _input(event):
 
 
 func _process(delta):
-	if $"../thermostat".visible:
+	if $"../thermostat_hud".visible:
 		$animated_sprite.animation = "idle"
 		return
 
