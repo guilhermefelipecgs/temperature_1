@@ -277,6 +277,8 @@ __meta__ = {
 
 [node name="objects" type="Node" parent="." index="1"]
 
+editor/display_folded = true
+
 [node name="bed" type="Sprite" parent="objects" index="0"]
 
 position = Vector2( 310, 170 )
@@ -287,7 +289,7 @@ _sections_unfolded = [ "Region" ]
 
 [node name="door" type="Sprite" parent="objects" index="1"]
 
-position = Vector2( 220, 120 )
+position = Vector2( 220, 121 )
 texture = ExtResource( 2 )
 region_enabled = true
 region_rect = Rect2( 178, 8, 29, 40 )
@@ -295,7 +297,7 @@ _sections_unfolded = [ "Region" ]
 
 [node name="window" type="Sprite" parent="objects" index="2"]
 
-position = Vector2( 150, 120 )
+position = Vector2( 150, 114 )
 texture = ExtResource( 2 )
 region_enabled = true
 region_rect = Rect2( 136, 2, 32, 38 )
@@ -340,7 +342,7 @@ color = Color( 0.0666667, 0.0666667, 0.0666667, 1 )
 
 [node name="player" parent="." index="4" instance=ExtResource( 3 )]
 
-position = Vector2( 180, 170 )
+position = Vector2( 190, 140 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="area_2d" type="Area2D" parent="." index="5"]
@@ -362,6 +364,7 @@ shape = SubResource( 5 )
 
 [node name="thermostat_hud" type="Panel" parent="." index="6"]
 
+editor/display_folded = true
 visible = false
 anchor_left = 0.0
 anchor_top = 0.0
@@ -484,11 +487,12 @@ _sections_unfolded = [ "custom_fonts" ]
 
 [node name="enemy" type="AnimatedSprite" parent="." index="7"]
 
+editor/display_folded = true
 modulate = Color( 1, 0, 0, 1 )
 position = Vector2( 470, 250 )
 frames = SubResource( 6 )
 animation = "walk"
-frame = 1
+frame = 2
 playing = true
 _sections_unfolded = [ "Visibility" ]
 
@@ -528,7 +532,7 @@ _sections_unfolded = [ "Visibility" ]
 [node name="audio_stream_player" type="AudioStreamPlayer" parent="." index="8"]
 
 stream = ExtResource( 8 )
-volume_db = 0.0
+volume_db = -20.0
 pitch_scale = 1.0
 autoplay = false
 mix_target = 0

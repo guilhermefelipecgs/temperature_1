@@ -14,6 +14,7 @@ func _input(event):
 
 		if event.button_index == BUTTON_LEFT:
 			new_pos = event.position
+			new_pos.y = max(new_pos.y, 130)
 
 
 func _process(delta):
