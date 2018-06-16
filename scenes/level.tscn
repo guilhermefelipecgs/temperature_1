@@ -1,0 +1,178 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://scripts/level.gd" type="Script" id=1]
+[ext_resource path="res://scenes/player.tscn" type="PackedScene" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 20, 20 )
+
+[node name="node" type="Node" index="0"]
+
+script = ExtResource( 1 )
+
+[node name="player" parent="." index="0" instance=ExtResource( 2 )]
+
+position = Vector2( 420, 340 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="area_2d" type="Area2D" parent="." index="1"]
+
+position = Vector2( 30, 300 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="color_rect" type="ColorRect" parent="area_2d" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 40.0
+margin_bottom = 40.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+color = Color( 1, 1, 1, 1 )
+
+[node name="collision_shape_2d" type="CollisionShape2D" parent="area_2d" index="1"]
+
+position = Vector2( 20, 20 )
+shape = SubResource( 1 )
+
+[node name="thermostat" type="Panel" parent="." index="2"]
+
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 160.0
+margin_top = 250.0
+margin_right = 470.0
+margin_bottom = 400.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="h_split_container" type="HSplitContainer" parent="thermostat" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+split_offset = 179
+collapsed = false
+dragger_visibility = 1
+
+[node name="label" type="Label" parent="thermostat/h_split_container" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 68.0
+margin_right = 208.0
+margin_bottom = 82.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+text = "30ºC"
+align = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="v_box_container" type="VBoxContainer" parent="thermostat/h_split_container" index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 220.0
+margin_right = 310.0
+margin_bottom = 150.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+alignment = 1
+
+[node name="button" type="Button" parent="thermostat/h_split_container/v_box_container" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 53.0
+margin_right = 90.0
+margin_bottom = 73.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Up"
+flat = false
+align = 1
+
+[node name="button2" type="Button" parent="thermostat/h_split_container/v_box_container" index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 77.0
+margin_right = 90.0
+margin_bottom = 97.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Down"
+flat = false
+align = 1
+
+[connection signal="area_entered" from="area_2d" to="." method="_on_area_2d_area_entered"]
+
+[connection signal="pressed" from="thermostat/h_split_container/v_box_container/button" to="." method="_on_button_pressed"]
+
+[connection signal="pressed" from="thermostat/h_split_container/v_box_container/button2" to="." method="_on_button2_pressed"]
+
+

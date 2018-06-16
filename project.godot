@@ -11,7 +11,16 @@ config_version=3
 [application]
 
 config/name="Temperature 1"
+run/main_scene="res://scenes/level.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=600
+
+[node]
+
+name_casing=2
 
 [rendering]
 
