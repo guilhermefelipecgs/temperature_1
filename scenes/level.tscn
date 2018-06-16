@@ -257,10 +257,13 @@ align = 1
 
 [node name="enemy" type="AnimatedSprite" parent="." index="5"]
 
+modulate = Color( 1, 0, 0, 1 )
 position = Vector2( 640, 310 )
 frames = SubResource( 2 )
 animation = "walk"
+frame = 2
 playing = true
+_sections_unfolded = [ "Visibility" ]
 
 [node name="animation_player" type="AnimationPlayer" parent="enemy" index="0"]
 
