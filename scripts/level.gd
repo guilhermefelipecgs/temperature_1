@@ -25,4 +25,4 @@ func update_temperature():
 		$thermostat_hud.hide()
 		$enemy/animation_player.play("New Anim")
 		$player.look = true
-		$player.new_pos = Vector2(290, 210)
+		$player.new_pos = Vector2(180, 170)
