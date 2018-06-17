@@ -35,6 +35,7 @@ func update_temperature():
 
 func _on_mission_1_hide():
 	label2.show()
+	$messages/cong/timer.start()
 
 
 func _on_timer_timeout():

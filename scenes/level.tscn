@@ -321,8 +321,6 @@ _sections_unfolded = [ "Region" ]
 
 [node name="messages" type="Node" parent="." index="3"]
 
-editor/display_folded = true
-
 [node name="mission 1" type="Label" parent="messages" index="0"]
 
 anchor_left = 0.0
@@ -372,7 +370,7 @@ max_lines_visible = -1
 process_mode = 1
 wait_time = 3.0
 one_shot = true
-autostart = true
+autostart = false
 
 [node name="now" type="Label" parent="messages" index="2"]
 
@@ -602,7 +600,7 @@ modulate = Color( 1, 0, 0, 1 )
 position = Vector2( 470, 250 )
 frames = SubResource( 6 )
 animation = "walk"
-frame = 2
+frame = 1
 playing = true
 _sections_unfolded = [ "Visibility" ]
 
