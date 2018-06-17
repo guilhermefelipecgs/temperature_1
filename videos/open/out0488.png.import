@@ -11,8 +11,8 @@ dest_files=[ "res://.import/out0488.png-dbd0b014b58f8bf86d19f38069e34d9e.stex" ]
 
 [params]
 
-compress/mode=0
-compress/lossy_quality=0.7
+compress/mode=1
+compress/lossy_quality=0.9
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0

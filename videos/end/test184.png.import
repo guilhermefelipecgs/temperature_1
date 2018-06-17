@@ -12,7 +12,7 @@ dest_files=[ "res://.import/test184.png-3a6a29412fbefec725b69fb3b25c08f8.stex" ]
 [params]
 
 compress/mode=1
-compress/lossy_quality=0.7
+compress/lossy_quality=0.4
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0

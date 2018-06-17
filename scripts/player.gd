@@ -3,8 +3,8 @@ extends Node2D
 const SPEED = 3
 
 var new_pos
-var look = false
-var stop = false
+var look = true
+var stop = true
 
 
 func _ready():
@@ -45,3 +45,7 @@ func _process(delta):
 
 func stop():
 	stop = true
+
+func unlock():
+	stop = false
+	look = false
