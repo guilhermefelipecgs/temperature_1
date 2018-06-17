@@ -1,15 +1,17 @@
 extends Node
 
-var temperature = 30
-
 onready var label1 = $"messages/mission 1"
 onready var label2 = $messages/cong
 onready var label3 = $messages/now
 onready var label4 = $"messages/mission 2"
 
 
+var temperature = 30
+var looked = true
+
 func _on_area_2d_area_entered(area):
-	$thermostat_hud.show()
+	if not looked:
+		$thermostat_hud.show()
 
 
 func _on_button_pressed():
@@ -47,3 +49,7 @@ func _on_timer_timeout():
 func _on_timer2_timeout():
 	label3.hide()
 	label4.show()
+
+
+func _on_mission_2_visibility_changed():
+	looked = false

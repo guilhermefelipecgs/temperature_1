@@ -398,7 +398,7 @@ max_lines_visible = -1
 [node name="timer2" type="Timer" parent="messages/now" index="0"]
 
 process_mode = 1
-wait_time = 0.4
+wait_time = 1.0
 one_shot = true
 autostart = false
 
@@ -600,7 +600,7 @@ modulate = Color( 1, 0, 0, 1 )
 position = Vector2( 470, 250 )
 frames = SubResource( 6 )
 animation = "walk"
-frame = 1
+frame = 2
 playing = true
 _sections_unfolded = [ "Visibility" ]
 
@@ -651,6 +651,8 @@ bus = "Master"
 [connection signal="timeout" from="messages/cong/timer" to="." method="_on_timer_timeout"]
 
 [connection signal="timeout" from="messages/now/timer2" to="." method="_on_timer2_timeout"]
+
+[connection signal="visibility_changed" from="messages/mission 2" to="." method="_on_mission_2_visibility_changed"]
 
 [connection signal="area_entered" from="area_2d" to="." method="_on_area_2d_area_entered"]
 
