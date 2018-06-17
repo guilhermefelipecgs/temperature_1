@@ -44,6 +44,7 @@ func _on_timer_timeout():
 	label2.hide()
 	label3.show()
 	$messages/now/timer2.start()
+	$toasty/animation_player.play("toasty")
 
 
 func _on_timer2_timeout():
