@@ -1,0 +1,14 @@
+[remap]
+
+importer="Webm"
+type="VideoStreamWebm"
+path="res://.import/Temperature1.webm-c745fed39ad7305d8d23b5b39bcd8aca.webmstr"
+
+[deps]
+
+source_file="res://videos/Temperature1.webm"
+dest_files=[ "res://.import/Temperature1.webm-c745fed39ad7305d8d23b5b39bcd8aca.webmstr" ]
+
+[params]
+
+loop=true
