@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Temperature_2_bg.png-741b855a47bb4e1caa4c80210c227daa.stex"
+path="res://.import/Temperature1_400x300_bg.png-4ff5623671ef7acf53abc858659e099b.stex"
 
 [deps]
 
-source_file="res://textures/bgCredits/Temperature_2_bg.png"
-dest_files=[ "res://.import/Temperature_2_bg.png-741b855a47bb4e1caa4c80210c227daa.stex" ]
+source_file="res://textures/Temperature1_400x300_bg.png"
+dest_files=[ "res://.import/Temperature1_400x300_bg.png-4ff5623671ef7acf53abc858659e099b.stex" ]
 
 [params]
 
