@@ -465,7 +465,8 @@ _sections_unfolded = [ "custom_colors" ]
 
 [node name="player" parent="." index="5" instance=ExtResource( 3 )]
 
-position = Vector2( 190, 140 )
+position = Vector2( 236.654, 157.188 )
+scale = Vector2( 0.5, 0.5 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="area_2d" type="Area2D" parent="." index="6"]
@@ -653,7 +654,7 @@ _sections_unfolded = [ "Visibility" ]
 [node name="audio_stream_player" type="AudioStreamPlayer" parent="." index="9"]
 
 stream = ExtResource( 8 )
-volume_db = -20.0
+volume_db = -50.0
 pitch_scale = 1.0
 autoplay = false
 mix_target = 0
