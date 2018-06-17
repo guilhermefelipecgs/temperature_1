@@ -9,6 +9,9 @@ onready var label4 = $"messages/mission 2"
 var temperature = 23
 var looked = true
 
+func _ready():
+	$animated_sprite.play("open")
+
 func _on_area_2d_area_entered(area):
 	if not looked:
 		$thermostat_hud.show()
@@ -65,3 +68,6 @@ func fix_label():
 	else:
 		x = "cold"
 	$dialog/panel/label.text = t.replace("$temp$", x)
+
+func _on_animated_sprite_animation_finished():
+	$animation_player.play("start")

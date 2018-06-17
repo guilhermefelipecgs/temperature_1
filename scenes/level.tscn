@@ -1,4 +1,4 @@
-[gd_scene load_steps=325 format=2]
+[gd_scene load_steps=1159 format=2]
 
 [ext_resource path="res://scripts/level.gd" type="Script" id=1]
 [ext_resource path="res://textures/tileset_16x16_interior.png" type="Texture" id=2]
@@ -11,301 +11,1134 @@
 [ext_resource path="res://sounds/Battlefield 1 Official Reveal Trailer (3).wav" type="AudioStream" id=9]
 [ext_resource path="res://textures/Toasty.png" type="Texture" id=10]
 [ext_resource path="res://sounds/sprise.wav" type="AudioStream" id=11]
-[ext_resource path="res://videos/test001.png" type="Texture" id=12]
-[ext_resource path="res://videos/test002.png" type="Texture" id=13]
-[ext_resource path="res://videos/test003.png" type="Texture" id=14]
-[ext_resource path="res://videos/test004.png" type="Texture" id=15]
-[ext_resource path="res://videos/test005.png" type="Texture" id=16]
-[ext_resource path="res://videos/test006.png" type="Texture" id=17]
-[ext_resource path="res://videos/test007.png" type="Texture" id=18]
-[ext_resource path="res://videos/test008.png" type="Texture" id=19]
-[ext_resource path="res://videos/test009.png" type="Texture" id=20]
-[ext_resource path="res://videos/test010.png" type="Texture" id=21]
-[ext_resource path="res://videos/test011.png" type="Texture" id=22]
-[ext_resource path="res://videos/test012.png" type="Texture" id=23]
-[ext_resource path="res://videos/test013.png" type="Texture" id=24]
-[ext_resource path="res://videos/test014.png" type="Texture" id=25]
-[ext_resource path="res://videos/test015.png" type="Texture" id=26]
-[ext_resource path="res://videos/test016.png" type="Texture" id=27]
-[ext_resource path="res://videos/test017.png" type="Texture" id=28]
-[ext_resource path="res://videos/test018.png" type="Texture" id=29]
-[ext_resource path="res://videos/test019.png" type="Texture" id=30]
-[ext_resource path="res://videos/test020.png" type="Texture" id=31]
-[ext_resource path="res://videos/test021.png" type="Texture" id=32]
-[ext_resource path="res://videos/test022.png" type="Texture" id=33]
-[ext_resource path="res://videos/test023.png" type="Texture" id=34]
-[ext_resource path="res://videos/test024.png" type="Texture" id=35]
-[ext_resource path="res://videos/test025.png" type="Texture" id=36]
-[ext_resource path="res://videos/test026.png" type="Texture" id=37]
-[ext_resource path="res://videos/test027.png" type="Texture" id=38]
-[ext_resource path="res://videos/test028.png" type="Texture" id=39]
-[ext_resource path="res://videos/test029.png" type="Texture" id=40]
-[ext_resource path="res://videos/test030.png" type="Texture" id=41]
-[ext_resource path="res://videos/test031.png" type="Texture" id=42]
-[ext_resource path="res://videos/test032.png" type="Texture" id=43]
-[ext_resource path="res://videos/test033.png" type="Texture" id=44]
-[ext_resource path="res://videos/test034.png" type="Texture" id=45]
-[ext_resource path="res://videos/test035.png" type="Texture" id=46]
-[ext_resource path="res://videos/test036.png" type="Texture" id=47]
-[ext_resource path="res://videos/test037.png" type="Texture" id=48]
-[ext_resource path="res://videos/test038.png" type="Texture" id=49]
-[ext_resource path="res://videos/test039.png" type="Texture" id=50]
-[ext_resource path="res://videos/test040.png" type="Texture" id=51]
-[ext_resource path="res://videos/test041.png" type="Texture" id=52]
-[ext_resource path="res://videos/test042.png" type="Texture" id=53]
-[ext_resource path="res://videos/test043.png" type="Texture" id=54]
-[ext_resource path="res://videos/test044.png" type="Texture" id=55]
-[ext_resource path="res://videos/test045.png" type="Texture" id=56]
-[ext_resource path="res://videos/test046.png" type="Texture" id=57]
-[ext_resource path="res://videos/test047.png" type="Texture" id=58]
-[ext_resource path="res://videos/test048.png" type="Texture" id=59]
-[ext_resource path="res://videos/test049.png" type="Texture" id=60]
-[ext_resource path="res://videos/test050.png" type="Texture" id=61]
-[ext_resource path="res://videos/test051.png" type="Texture" id=62]
-[ext_resource path="res://videos/test052.png" type="Texture" id=63]
-[ext_resource path="res://videos/test053.png" type="Texture" id=64]
-[ext_resource path="res://videos/test054.png" type="Texture" id=65]
-[ext_resource path="res://videos/test055.png" type="Texture" id=66]
-[ext_resource path="res://videos/test056.png" type="Texture" id=67]
-[ext_resource path="res://videos/test057.png" type="Texture" id=68]
-[ext_resource path="res://videos/test058.png" type="Texture" id=69]
-[ext_resource path="res://videos/test059.png" type="Texture" id=70]
-[ext_resource path="res://videos/test060.png" type="Texture" id=71]
-[ext_resource path="res://videos/test061.png" type="Texture" id=72]
-[ext_resource path="res://videos/test062.png" type="Texture" id=73]
-[ext_resource path="res://videos/test063.png" type="Texture" id=74]
-[ext_resource path="res://videos/test064.png" type="Texture" id=75]
-[ext_resource path="res://videos/test065.png" type="Texture" id=76]
-[ext_resource path="res://videos/test066.png" type="Texture" id=77]
-[ext_resource path="res://videos/test067.png" type="Texture" id=78]
-[ext_resource path="res://videos/test068.png" type="Texture" id=79]
-[ext_resource path="res://videos/test069.png" type="Texture" id=80]
-[ext_resource path="res://videos/test070.png" type="Texture" id=81]
-[ext_resource path="res://videos/test071.png" type="Texture" id=82]
-[ext_resource path="res://videos/test072.png" type="Texture" id=83]
-[ext_resource path="res://videos/test073.png" type="Texture" id=84]
-[ext_resource path="res://videos/test074.png" type="Texture" id=85]
-[ext_resource path="res://videos/test075.png" type="Texture" id=86]
-[ext_resource path="res://videos/test076.png" type="Texture" id=87]
-[ext_resource path="res://videos/test077.png" type="Texture" id=88]
-[ext_resource path="res://videos/test078.png" type="Texture" id=89]
-[ext_resource path="res://videos/test079.png" type="Texture" id=90]
-[ext_resource path="res://videos/test080.png" type="Texture" id=91]
-[ext_resource path="res://videos/test081.png" type="Texture" id=92]
-[ext_resource path="res://videos/test082.png" type="Texture" id=93]
-[ext_resource path="res://videos/test083.png" type="Texture" id=94]
-[ext_resource path="res://videos/test084.png" type="Texture" id=95]
-[ext_resource path="res://videos/test085.png" type="Texture" id=96]
-[ext_resource path="res://videos/test086.png" type="Texture" id=97]
-[ext_resource path="res://videos/test087.png" type="Texture" id=98]
-[ext_resource path="res://videos/test088.png" type="Texture" id=99]
-[ext_resource path="res://videos/test089.png" type="Texture" id=100]
-[ext_resource path="res://videos/test090.png" type="Texture" id=101]
-[ext_resource path="res://videos/test091.png" type="Texture" id=102]
-[ext_resource path="res://videos/test092.png" type="Texture" id=103]
-[ext_resource path="res://videos/test093.png" type="Texture" id=104]
-[ext_resource path="res://videos/test094.png" type="Texture" id=105]
-[ext_resource path="res://videos/test095.png" type="Texture" id=106]
-[ext_resource path="res://videos/test096.png" type="Texture" id=107]
-[ext_resource path="res://videos/test097.png" type="Texture" id=108]
-[ext_resource path="res://videos/test098.png" type="Texture" id=109]
-[ext_resource path="res://videos/test099.png" type="Texture" id=110]
-[ext_resource path="res://videos/test100.png" type="Texture" id=111]
-[ext_resource path="res://videos/test101.png" type="Texture" id=112]
-[ext_resource path="res://videos/test102.png" type="Texture" id=113]
-[ext_resource path="res://videos/test103.png" type="Texture" id=114]
-[ext_resource path="res://videos/test104.png" type="Texture" id=115]
-[ext_resource path="res://videos/test105.png" type="Texture" id=116]
-[ext_resource path="res://videos/test106.png" type="Texture" id=117]
-[ext_resource path="res://videos/test107.png" type="Texture" id=118]
-[ext_resource path="res://videos/test108.png" type="Texture" id=119]
-[ext_resource path="res://videos/test109.png" type="Texture" id=120]
-[ext_resource path="res://videos/test110.png" type="Texture" id=121]
-[ext_resource path="res://videos/test111.png" type="Texture" id=122]
-[ext_resource path="res://videos/test112.png" type="Texture" id=123]
-[ext_resource path="res://videos/test113.png" type="Texture" id=124]
-[ext_resource path="res://videos/test114.png" type="Texture" id=125]
-[ext_resource path="res://videos/test115.png" type="Texture" id=126]
-[ext_resource path="res://videos/test116.png" type="Texture" id=127]
-[ext_resource path="res://videos/test117.png" type="Texture" id=128]
-[ext_resource path="res://videos/test118.png" type="Texture" id=129]
-[ext_resource path="res://videos/test119.png" type="Texture" id=130]
-[ext_resource path="res://videos/test120.png" type="Texture" id=131]
-[ext_resource path="res://videos/test121.png" type="Texture" id=132]
-[ext_resource path="res://videos/test122.png" type="Texture" id=133]
-[ext_resource path="res://videos/test123.png" type="Texture" id=134]
-[ext_resource path="res://videos/test124.png" type="Texture" id=135]
-[ext_resource path="res://videos/test125.png" type="Texture" id=136]
-[ext_resource path="res://videos/test126.png" type="Texture" id=137]
-[ext_resource path="res://videos/test127.png" type="Texture" id=138]
-[ext_resource path="res://videos/test128.png" type="Texture" id=139]
-[ext_resource path="res://videos/test129.png" type="Texture" id=140]
-[ext_resource path="res://videos/test130.png" type="Texture" id=141]
-[ext_resource path="res://videos/test131.png" type="Texture" id=142]
-[ext_resource path="res://videos/test132.png" type="Texture" id=143]
-[ext_resource path="res://videos/test133.png" type="Texture" id=144]
-[ext_resource path="res://videos/test134.png" type="Texture" id=145]
-[ext_resource path="res://videos/test135.png" type="Texture" id=146]
-[ext_resource path="res://videos/test136.png" type="Texture" id=147]
-[ext_resource path="res://videos/test137.png" type="Texture" id=148]
-[ext_resource path="res://videos/test138.png" type="Texture" id=149]
-[ext_resource path="res://videos/test139.png" type="Texture" id=150]
-[ext_resource path="res://videos/test140.png" type="Texture" id=151]
-[ext_resource path="res://videos/test141.png" type="Texture" id=152]
-[ext_resource path="res://videos/test142.png" type="Texture" id=153]
-[ext_resource path="res://videos/test143.png" type="Texture" id=154]
-[ext_resource path="res://videos/test144.png" type="Texture" id=155]
-[ext_resource path="res://videos/test145.png" type="Texture" id=156]
-[ext_resource path="res://videos/test146.png" type="Texture" id=157]
-[ext_resource path="res://videos/test147.png" type="Texture" id=158]
-[ext_resource path="res://videos/test148.png" type="Texture" id=159]
-[ext_resource path="res://videos/test149.png" type="Texture" id=160]
-[ext_resource path="res://videos/test150.png" type="Texture" id=161]
-[ext_resource path="res://videos/test151.png" type="Texture" id=162]
-[ext_resource path="res://videos/test152.png" type="Texture" id=163]
-[ext_resource path="res://videos/test153.png" type="Texture" id=164]
-[ext_resource path="res://videos/test154.png" type="Texture" id=165]
-[ext_resource path="res://videos/test155.png" type="Texture" id=166]
-[ext_resource path="res://videos/test156.png" type="Texture" id=167]
-[ext_resource path="res://videos/test157.png" type="Texture" id=168]
-[ext_resource path="res://videos/test158.png" type="Texture" id=169]
-[ext_resource path="res://videos/test159.png" type="Texture" id=170]
-[ext_resource path="res://videos/test160.png" type="Texture" id=171]
-[ext_resource path="res://videos/test161.png" type="Texture" id=172]
-[ext_resource path="res://videos/test162.png" type="Texture" id=173]
-[ext_resource path="res://videos/test163.png" type="Texture" id=174]
-[ext_resource path="res://videos/test164.png" type="Texture" id=175]
-[ext_resource path="res://videos/test165.png" type="Texture" id=176]
-[ext_resource path="res://videos/test166.png" type="Texture" id=177]
-[ext_resource path="res://videos/test167.png" type="Texture" id=178]
-[ext_resource path="res://videos/test168.png" type="Texture" id=179]
-[ext_resource path="res://videos/test169.png" type="Texture" id=180]
-[ext_resource path="res://videos/test170.png" type="Texture" id=181]
-[ext_resource path="res://videos/test171.png" type="Texture" id=182]
-[ext_resource path="res://videos/test172.png" type="Texture" id=183]
-[ext_resource path="res://videos/test173.png" type="Texture" id=184]
-[ext_resource path="res://videos/test174.png" type="Texture" id=185]
-[ext_resource path="res://videos/test175.png" type="Texture" id=186]
-[ext_resource path="res://videos/test176.png" type="Texture" id=187]
-[ext_resource path="res://videos/test177.png" type="Texture" id=188]
-[ext_resource path="res://videos/test178.png" type="Texture" id=189]
-[ext_resource path="res://videos/test179.png" type="Texture" id=190]
-[ext_resource path="res://videos/test180.png" type="Texture" id=191]
-[ext_resource path="res://videos/test181.png" type="Texture" id=192]
-[ext_resource path="res://videos/test182.png" type="Texture" id=193]
-[ext_resource path="res://videos/test183.png" type="Texture" id=194]
-[ext_resource path="res://videos/test184.png" type="Texture" id=195]
-[ext_resource path="res://videos/test185.png" type="Texture" id=196]
-[ext_resource path="res://videos/test186.png" type="Texture" id=197]
-[ext_resource path="res://videos/test187.png" type="Texture" id=198]
-[ext_resource path="res://videos/test188.png" type="Texture" id=199]
-[ext_resource path="res://videos/test189.png" type="Texture" id=200]
-[ext_resource path="res://videos/test190.png" type="Texture" id=201]
-[ext_resource path="res://videos/test191.png" type="Texture" id=202]
-[ext_resource path="res://videos/test192.png" type="Texture" id=203]
-[ext_resource path="res://videos/test193.png" type="Texture" id=204]
-[ext_resource path="res://videos/test194.png" type="Texture" id=205]
-[ext_resource path="res://videos/test195.png" type="Texture" id=206]
-[ext_resource path="res://videos/test196.png" type="Texture" id=207]
-[ext_resource path="res://videos/test197.png" type="Texture" id=208]
-[ext_resource path="res://videos/test198.png" type="Texture" id=209]
-[ext_resource path="res://videos/test199.png" type="Texture" id=210]
-[ext_resource path="res://videos/test200.png" type="Texture" id=211]
-[ext_resource path="res://videos/test201.png" type="Texture" id=212]
-[ext_resource path="res://videos/test202.png" type="Texture" id=213]
-[ext_resource path="res://videos/test203.png" type="Texture" id=214]
-[ext_resource path="res://videos/test204.png" type="Texture" id=215]
-[ext_resource path="res://videos/test205.png" type="Texture" id=216]
-[ext_resource path="res://videos/test206.png" type="Texture" id=217]
-[ext_resource path="res://videos/test207.png" type="Texture" id=218]
-[ext_resource path="res://videos/test208.png" type="Texture" id=219]
-[ext_resource path="res://videos/test209.png" type="Texture" id=220]
-[ext_resource path="res://videos/test210.png" type="Texture" id=221]
-[ext_resource path="res://videos/test211.png" type="Texture" id=222]
-[ext_resource path="res://videos/test212.png" type="Texture" id=223]
-[ext_resource path="res://videos/test213.png" type="Texture" id=224]
-[ext_resource path="res://videos/test214.png" type="Texture" id=225]
-[ext_resource path="res://videos/test215.png" type="Texture" id=226]
-[ext_resource path="res://videos/test216.png" type="Texture" id=227]
-[ext_resource path="res://videos/test217.png" type="Texture" id=228]
-[ext_resource path="res://videos/test218.png" type="Texture" id=229]
-[ext_resource path="res://videos/test219.png" type="Texture" id=230]
-[ext_resource path="res://videos/test220.png" type="Texture" id=231]
-[ext_resource path="res://videos/test221.png" type="Texture" id=232]
-[ext_resource path="res://videos/test222.png" type="Texture" id=233]
-[ext_resource path="res://videos/test223.png" type="Texture" id=234]
-[ext_resource path="res://videos/test224.png" type="Texture" id=235]
-[ext_resource path="res://videos/test225.png" type="Texture" id=236]
-[ext_resource path="res://videos/test226.png" type="Texture" id=237]
-[ext_resource path="res://videos/test227.png" type="Texture" id=238]
-[ext_resource path="res://videos/test228.png" type="Texture" id=239]
-[ext_resource path="res://videos/test229.png" type="Texture" id=240]
-[ext_resource path="res://videos/test230.png" type="Texture" id=241]
-[ext_resource path="res://videos/test231.png" type="Texture" id=242]
-[ext_resource path="res://videos/test232.png" type="Texture" id=243]
-[ext_resource path="res://videos/test233.png" type="Texture" id=244]
-[ext_resource path="res://videos/test234.png" type="Texture" id=245]
-[ext_resource path="res://videos/test235.png" type="Texture" id=246]
-[ext_resource path="res://videos/test236.png" type="Texture" id=247]
-[ext_resource path="res://videos/test237.png" type="Texture" id=248]
-[ext_resource path="res://videos/test238.png" type="Texture" id=249]
-[ext_resource path="res://videos/test239.png" type="Texture" id=250]
-[ext_resource path="res://videos/test240.png" type="Texture" id=251]
-[ext_resource path="res://videos/test241.png" type="Texture" id=252]
-[ext_resource path="res://videos/test242.png" type="Texture" id=253]
-[ext_resource path="res://videos/test243.png" type="Texture" id=254]
-[ext_resource path="res://videos/test244.png" type="Texture" id=255]
-[ext_resource path="res://videos/test245.png" type="Texture" id=256]
-[ext_resource path="res://videos/test246.png" type="Texture" id=257]
-[ext_resource path="res://videos/test247.png" type="Texture" id=258]
-[ext_resource path="res://videos/test248.png" type="Texture" id=259]
-[ext_resource path="res://videos/test249.png" type="Texture" id=260]
-[ext_resource path="res://videos/test250.png" type="Texture" id=261]
-[ext_resource path="res://videos/test251.png" type="Texture" id=262]
-[ext_resource path="res://videos/test252.png" type="Texture" id=263]
-[ext_resource path="res://videos/test253.png" type="Texture" id=264]
-[ext_resource path="res://videos/test254.png" type="Texture" id=265]
-[ext_resource path="res://videos/test255.png" type="Texture" id=266]
-[ext_resource path="res://videos/test256.png" type="Texture" id=267]
-[ext_resource path="res://videos/test257.png" type="Texture" id=268]
-[ext_resource path="res://videos/test258.png" type="Texture" id=269]
-[ext_resource path="res://videos/test259.png" type="Texture" id=270]
-[ext_resource path="res://videos/test260.png" type="Texture" id=271]
-[ext_resource path="res://videos/test261.png" type="Texture" id=272]
-[ext_resource path="res://videos/test262.png" type="Texture" id=273]
-[ext_resource path="res://videos/test263.png" type="Texture" id=274]
-[ext_resource path="res://videos/test264.png" type="Texture" id=275]
-[ext_resource path="res://videos/test265.png" type="Texture" id=276]
-[ext_resource path="res://videos/test266.png" type="Texture" id=277]
-[ext_resource path="res://videos/test267.png" type="Texture" id=278]
-[ext_resource path="res://videos/test268.png" type="Texture" id=279]
-[ext_resource path="res://videos/test269.png" type="Texture" id=280]
-[ext_resource path="res://videos/test270.png" type="Texture" id=281]
-[ext_resource path="res://videos/test271.png" type="Texture" id=282]
-[ext_resource path="res://videos/test272.png" type="Texture" id=283]
-[ext_resource path="res://videos/test273.png" type="Texture" id=284]
-[ext_resource path="res://videos/test274.png" type="Texture" id=285]
-[ext_resource path="res://videos/test275.png" type="Texture" id=286]
-[ext_resource path="res://videos/test276.png" type="Texture" id=287]
-[ext_resource path="res://videos/test277.png" type="Texture" id=288]
-[ext_resource path="res://videos/test278.png" type="Texture" id=289]
-[ext_resource path="res://videos/test279.png" type="Texture" id=290]
-[ext_resource path="res://videos/test280.png" type="Texture" id=291]
-[ext_resource path="res://videos/test281.png" type="Texture" id=292]
-[ext_resource path="res://videos/test282.png" type="Texture" id=293]
-[ext_resource path="res://videos/test283.png" type="Texture" id=294]
-[ext_resource path="res://videos/test284.png" type="Texture" id=295]
-[ext_resource path="res://videos/test285.png" type="Texture" id=296]
-[ext_resource path="res://videos/test286.png" type="Texture" id=297]
-[ext_resource path="res://videos/test287.png" type="Texture" id=298]
-[ext_resource path="res://videos/test288.png" type="Texture" id=299]
-[ext_resource path="res://videos/test289.png" type="Texture" id=300]
-[ext_resource path="res://videos/test290.png" type="Texture" id=301]
-[ext_resource path="res://videos/test291.png" type="Texture" id=302]
-[ext_resource path="res://videos/test292.png" type="Texture" id=303]
-[ext_resource path="res://videos/test293.png" type="Texture" id=304]
-[ext_resource path="res://videos/test294.png" type="Texture" id=305]
-[ext_resource path="res://textures/preorder.png" type="Texture" id=306]
+[ext_resource path="res://videos/open/out0001.png" type="Texture" id=12]
+[ext_resource path="res://videos/open/out0002.png" type="Texture" id=13]
+[ext_resource path="res://videos/open/out0003.png" type="Texture" id=14]
+[ext_resource path="res://videos/open/out0004.png" type="Texture" id=15]
+[ext_resource path="res://videos/open/out0005.png" type="Texture" id=16]
+[ext_resource path="res://videos/open/out0006.png" type="Texture" id=17]
+[ext_resource path="res://videos/open/out0007.png" type="Texture" id=18]
+[ext_resource path="res://videos/open/out0008.png" type="Texture" id=19]
+[ext_resource path="res://videos/open/out0009.png" type="Texture" id=20]
+[ext_resource path="res://videos/open/out0010.png" type="Texture" id=21]
+[ext_resource path="res://videos/open/out0011.png" type="Texture" id=22]
+[ext_resource path="res://videos/open/out0012.png" type="Texture" id=23]
+[ext_resource path="res://videos/open/out0013.png" type="Texture" id=24]
+[ext_resource path="res://videos/open/out0014.png" type="Texture" id=25]
+[ext_resource path="res://videos/open/out0015.png" type="Texture" id=26]
+[ext_resource path="res://videos/open/out0016.png" type="Texture" id=27]
+[ext_resource path="res://videos/open/out0017.png" type="Texture" id=28]
+[ext_resource path="res://videos/open/out0018.png" type="Texture" id=29]
+[ext_resource path="res://videos/open/out0019.png" type="Texture" id=30]
+[ext_resource path="res://videos/open/out0020.png" type="Texture" id=31]
+[ext_resource path="res://videos/open/out0021.png" type="Texture" id=32]
+[ext_resource path="res://videos/open/out0022.png" type="Texture" id=33]
+[ext_resource path="res://videos/open/out0023.png" type="Texture" id=34]
+[ext_resource path="res://videos/open/out0024.png" type="Texture" id=35]
+[ext_resource path="res://videos/open/out0025.png" type="Texture" id=36]
+[ext_resource path="res://videos/open/out0026.png" type="Texture" id=37]
+[ext_resource path="res://videos/open/out0027.png" type="Texture" id=38]
+[ext_resource path="res://videos/open/out0028.png" type="Texture" id=39]
+[ext_resource path="res://videos/open/out0029.png" type="Texture" id=40]
+[ext_resource path="res://videos/open/out0030.png" type="Texture" id=41]
+[ext_resource path="res://videos/open/out0031.png" type="Texture" id=42]
+[ext_resource path="res://videos/open/out0032.png" type="Texture" id=43]
+[ext_resource path="res://videos/open/out0033.png" type="Texture" id=44]
+[ext_resource path="res://videos/open/out0034.png" type="Texture" id=45]
+[ext_resource path="res://videos/open/out0035.png" type="Texture" id=46]
+[ext_resource path="res://videos/open/out0036.png" type="Texture" id=47]
+[ext_resource path="res://videos/open/out0037.png" type="Texture" id=48]
+[ext_resource path="res://videos/open/out0038.png" type="Texture" id=49]
+[ext_resource path="res://videos/open/out0039.png" type="Texture" id=50]
+[ext_resource path="res://videos/open/out0040.png" type="Texture" id=51]
+[ext_resource path="res://videos/open/out0041.png" type="Texture" id=52]
+[ext_resource path="res://videos/open/out0042.png" type="Texture" id=53]
+[ext_resource path="res://videos/open/out0043.png" type="Texture" id=54]
+[ext_resource path="res://videos/open/out0044.png" type="Texture" id=55]
+[ext_resource path="res://videos/open/out0045.png" type="Texture" id=56]
+[ext_resource path="res://videos/open/out0046.png" type="Texture" id=57]
+[ext_resource path="res://videos/open/out0047.png" type="Texture" id=58]
+[ext_resource path="res://videos/open/out0048.png" type="Texture" id=59]
+[ext_resource path="res://videos/open/out0049.png" type="Texture" id=60]
+[ext_resource path="res://videos/open/out0050.png" type="Texture" id=61]
+[ext_resource path="res://videos/open/out0051.png" type="Texture" id=62]
+[ext_resource path="res://videos/open/out0052.png" type="Texture" id=63]
+[ext_resource path="res://videos/open/out0053.png" type="Texture" id=64]
+[ext_resource path="res://videos/open/out0054.png" type="Texture" id=65]
+[ext_resource path="res://videos/open/out0055.png" type="Texture" id=66]
+[ext_resource path="res://videos/open/out0056.png" type="Texture" id=67]
+[ext_resource path="res://videos/open/out0057.png" type="Texture" id=68]
+[ext_resource path="res://videos/open/out0058.png" type="Texture" id=69]
+[ext_resource path="res://videos/open/out0059.png" type="Texture" id=70]
+[ext_resource path="res://videos/open/out0060.png" type="Texture" id=71]
+[ext_resource path="res://videos/open/out0061.png" type="Texture" id=72]
+[ext_resource path="res://videos/open/out0062.png" type="Texture" id=73]
+[ext_resource path="res://videos/open/out0063.png" type="Texture" id=74]
+[ext_resource path="res://videos/open/out0064.png" type="Texture" id=75]
+[ext_resource path="res://videos/open/out0065.png" type="Texture" id=76]
+[ext_resource path="res://videos/open/out0066.png" type="Texture" id=77]
+[ext_resource path="res://videos/open/out0067.png" type="Texture" id=78]
+[ext_resource path="res://videos/open/out0068.png" type="Texture" id=79]
+[ext_resource path="res://videos/open/out0069.png" type="Texture" id=80]
+[ext_resource path="res://videos/open/out0070.png" type="Texture" id=81]
+[ext_resource path="res://videos/open/out0071.png" type="Texture" id=82]
+[ext_resource path="res://videos/open/out0072.png" type="Texture" id=83]
+[ext_resource path="res://videos/open/out0073.png" type="Texture" id=84]
+[ext_resource path="res://videos/open/out0074.png" type="Texture" id=85]
+[ext_resource path="res://videos/open/out0075.png" type="Texture" id=86]
+[ext_resource path="res://videos/open/out0076.png" type="Texture" id=87]
+[ext_resource path="res://videos/open/out0077.png" type="Texture" id=88]
+[ext_resource path="res://videos/open/out0078.png" type="Texture" id=89]
+[ext_resource path="res://videos/open/out0079.png" type="Texture" id=90]
+[ext_resource path="res://videos/open/out0080.png" type="Texture" id=91]
+[ext_resource path="res://videos/open/out0081.png" type="Texture" id=92]
+[ext_resource path="res://videos/open/out0082.png" type="Texture" id=93]
+[ext_resource path="res://videos/open/out0083.png" type="Texture" id=94]
+[ext_resource path="res://videos/open/out0084.png" type="Texture" id=95]
+[ext_resource path="res://videos/open/out0085.png" type="Texture" id=96]
+[ext_resource path="res://videos/open/out0086.png" type="Texture" id=97]
+[ext_resource path="res://videos/open/out0087.png" type="Texture" id=98]
+[ext_resource path="res://videos/open/out0088.png" type="Texture" id=99]
+[ext_resource path="res://videos/open/out0089.png" type="Texture" id=100]
+[ext_resource path="res://videos/open/out0090.png" type="Texture" id=101]
+[ext_resource path="res://videos/open/out0091.png" type="Texture" id=102]
+[ext_resource path="res://videos/open/out0092.png" type="Texture" id=103]
+[ext_resource path="res://videos/open/out0093.png" type="Texture" id=104]
+[ext_resource path="res://videos/open/out0094.png" type="Texture" id=105]
+[ext_resource path="res://videos/open/out0095.png" type="Texture" id=106]
+[ext_resource path="res://videos/open/out0096.png" type="Texture" id=107]
+[ext_resource path="res://videos/open/out0097.png" type="Texture" id=108]
+[ext_resource path="res://videos/open/out0098.png" type="Texture" id=109]
+[ext_resource path="res://videos/open/out0099.png" type="Texture" id=110]
+[ext_resource path="res://videos/open/out0100.png" type="Texture" id=111]
+[ext_resource path="res://videos/open/out0101.png" type="Texture" id=112]
+[ext_resource path="res://videos/open/out0102.png" type="Texture" id=113]
+[ext_resource path="res://videos/open/out0103.png" type="Texture" id=114]
+[ext_resource path="res://videos/open/out0104.png" type="Texture" id=115]
+[ext_resource path="res://videos/open/out0105.png" type="Texture" id=116]
+[ext_resource path="res://videos/open/out0106.png" type="Texture" id=117]
+[ext_resource path="res://videos/open/out0107.png" type="Texture" id=118]
+[ext_resource path="res://videos/open/out0108.png" type="Texture" id=119]
+[ext_resource path="res://videos/open/out0109.png" type="Texture" id=120]
+[ext_resource path="res://videos/open/out0110.png" type="Texture" id=121]
+[ext_resource path="res://videos/open/out0111.png" type="Texture" id=122]
+[ext_resource path="res://videos/open/out0112.png" type="Texture" id=123]
+[ext_resource path="res://videos/open/out0113.png" type="Texture" id=124]
+[ext_resource path="res://videos/open/out0114.png" type="Texture" id=125]
+[ext_resource path="res://videos/open/out0115.png" type="Texture" id=126]
+[ext_resource path="res://videos/open/out0116.png" type="Texture" id=127]
+[ext_resource path="res://videos/open/out0117.png" type="Texture" id=128]
+[ext_resource path="res://videos/open/out0118.png" type="Texture" id=129]
+[ext_resource path="res://videos/open/out0119.png" type="Texture" id=130]
+[ext_resource path="res://videos/open/out0120.png" type="Texture" id=131]
+[ext_resource path="res://videos/open/out0121.png" type="Texture" id=132]
+[ext_resource path="res://videos/open/out0122.png" type="Texture" id=133]
+[ext_resource path="res://videos/open/out0123.png" type="Texture" id=134]
+[ext_resource path="res://videos/open/out0124.png" type="Texture" id=135]
+[ext_resource path="res://videos/open/out0125.png" type="Texture" id=136]
+[ext_resource path="res://videos/open/out0126.png" type="Texture" id=137]
+[ext_resource path="res://videos/open/out0127.png" type="Texture" id=138]
+[ext_resource path="res://videos/open/out0128.png" type="Texture" id=139]
+[ext_resource path="res://videos/open/out0129.png" type="Texture" id=140]
+[ext_resource path="res://videos/open/out0130.png" type="Texture" id=141]
+[ext_resource path="res://videos/open/out0131.png" type="Texture" id=142]
+[ext_resource path="res://videos/open/out0132.png" type="Texture" id=143]
+[ext_resource path="res://videos/open/out0133.png" type="Texture" id=144]
+[ext_resource path="res://videos/open/out0134.png" type="Texture" id=145]
+[ext_resource path="res://videos/open/out0135.png" type="Texture" id=146]
+[ext_resource path="res://videos/open/out0136.png" type="Texture" id=147]
+[ext_resource path="res://videos/open/out0137.png" type="Texture" id=148]
+[ext_resource path="res://videos/open/out0138.png" type="Texture" id=149]
+[ext_resource path="res://videos/open/out0139.png" type="Texture" id=150]
+[ext_resource path="res://videos/open/out0140.png" type="Texture" id=151]
+[ext_resource path="res://videos/open/out0141.png" type="Texture" id=152]
+[ext_resource path="res://videos/open/out0142.png" type="Texture" id=153]
+[ext_resource path="res://videos/open/out0143.png" type="Texture" id=154]
+[ext_resource path="res://videos/open/out0144.png" type="Texture" id=155]
+[ext_resource path="res://videos/open/out0145.png" type="Texture" id=156]
+[ext_resource path="res://videos/open/out0146.png" type="Texture" id=157]
+[ext_resource path="res://videos/open/out0147.png" type="Texture" id=158]
+[ext_resource path="res://videos/open/out0148.png" type="Texture" id=159]
+[ext_resource path="res://videos/open/out0149.png" type="Texture" id=160]
+[ext_resource path="res://videos/open/out0150.png" type="Texture" id=161]
+[ext_resource path="res://videos/open/out0151.png" type="Texture" id=162]
+[ext_resource path="res://videos/open/out0152.png" type="Texture" id=163]
+[ext_resource path="res://videos/open/out0153.png" type="Texture" id=164]
+[ext_resource path="res://videos/open/out0154.png" type="Texture" id=165]
+[ext_resource path="res://videos/open/out0155.png" type="Texture" id=166]
+[ext_resource path="res://videos/open/out0156.png" type="Texture" id=167]
+[ext_resource path="res://videos/open/out0157.png" type="Texture" id=168]
+[ext_resource path="res://videos/open/out0158.png" type="Texture" id=169]
+[ext_resource path="res://videos/open/out0159.png" type="Texture" id=170]
+[ext_resource path="res://videos/open/out0160.png" type="Texture" id=171]
+[ext_resource path="res://videos/open/out0161.png" type="Texture" id=172]
+[ext_resource path="res://videos/open/out0162.png" type="Texture" id=173]
+[ext_resource path="res://videos/open/out0163.png" type="Texture" id=174]
+[ext_resource path="res://videos/open/out0164.png" type="Texture" id=175]
+[ext_resource path="res://videos/open/out0165.png" type="Texture" id=176]
+[ext_resource path="res://videos/open/out0166.png" type="Texture" id=177]
+[ext_resource path="res://videos/open/out0167.png" type="Texture" id=178]
+[ext_resource path="res://videos/open/out0168.png" type="Texture" id=179]
+[ext_resource path="res://videos/open/out0169.png" type="Texture" id=180]
+[ext_resource path="res://videos/open/out0170.png" type="Texture" id=181]
+[ext_resource path="res://videos/open/out0171.png" type="Texture" id=182]
+[ext_resource path="res://videos/open/out0172.png" type="Texture" id=183]
+[ext_resource path="res://videos/open/out0173.png" type="Texture" id=184]
+[ext_resource path="res://videos/open/out0174.png" type="Texture" id=185]
+[ext_resource path="res://videos/open/out0175.png" type="Texture" id=186]
+[ext_resource path="res://videos/open/out0176.png" type="Texture" id=187]
+[ext_resource path="res://videos/open/out0177.png" type="Texture" id=188]
+[ext_resource path="res://videos/open/out0178.png" type="Texture" id=189]
+[ext_resource path="res://videos/open/out0179.png" type="Texture" id=190]
+[ext_resource path="res://videos/open/out0180.png" type="Texture" id=191]
+[ext_resource path="res://videos/open/out0181.png" type="Texture" id=192]
+[ext_resource path="res://videos/open/out0182.png" type="Texture" id=193]
+[ext_resource path="res://videos/open/out0183.png" type="Texture" id=194]
+[ext_resource path="res://videos/open/out0184.png" type="Texture" id=195]
+[ext_resource path="res://videos/open/out0185.png" type="Texture" id=196]
+[ext_resource path="res://videos/open/out0186.png" type="Texture" id=197]
+[ext_resource path="res://videos/open/out0187.png" type="Texture" id=198]
+[ext_resource path="res://videos/open/out0188.png" type="Texture" id=199]
+[ext_resource path="res://videos/open/out0189.png" type="Texture" id=200]
+[ext_resource path="res://videos/open/out0190.png" type="Texture" id=201]
+[ext_resource path="res://videos/open/out0191.png" type="Texture" id=202]
+[ext_resource path="res://videos/open/out0192.png" type="Texture" id=203]
+[ext_resource path="res://videos/open/out0193.png" type="Texture" id=204]
+[ext_resource path="res://videos/open/out0194.png" type="Texture" id=205]
+[ext_resource path="res://videos/open/out0195.png" type="Texture" id=206]
+[ext_resource path="res://videos/open/out0196.png" type="Texture" id=207]
+[ext_resource path="res://videos/open/out0197.png" type="Texture" id=208]
+[ext_resource path="res://videos/open/out0198.png" type="Texture" id=209]
+[ext_resource path="res://videos/open/out0199.png" type="Texture" id=210]
+[ext_resource path="res://videos/open/out0200.png" type="Texture" id=211]
+[ext_resource path="res://videos/open/out0201.png" type="Texture" id=212]
+[ext_resource path="res://videos/open/out0202.png" type="Texture" id=213]
+[ext_resource path="res://videos/open/out0203.png" type="Texture" id=214]
+[ext_resource path="res://videos/open/out0204.png" type="Texture" id=215]
+[ext_resource path="res://videos/open/out0205.png" type="Texture" id=216]
+[ext_resource path="res://videos/open/out0206.png" type="Texture" id=217]
+[ext_resource path="res://videos/open/out0207.png" type="Texture" id=218]
+[ext_resource path="res://videos/open/out0208.png" type="Texture" id=219]
+[ext_resource path="res://videos/open/out0209.png" type="Texture" id=220]
+[ext_resource path="res://videos/open/out0210.png" type="Texture" id=221]
+[ext_resource path="res://videos/open/out0211.png" type="Texture" id=222]
+[ext_resource path="res://videos/open/out0212.png" type="Texture" id=223]
+[ext_resource path="res://videos/open/out0213.png" type="Texture" id=224]
+[ext_resource path="res://videos/open/out0214.png" type="Texture" id=225]
+[ext_resource path="res://videos/open/out0215.png" type="Texture" id=226]
+[ext_resource path="res://videos/open/out0216.png" type="Texture" id=227]
+[ext_resource path="res://videos/open/out0217.png" type="Texture" id=228]
+[ext_resource path="res://videos/open/out0218.png" type="Texture" id=229]
+[ext_resource path="res://videos/open/out0219.png" type="Texture" id=230]
+[ext_resource path="res://videos/open/out0220.png" type="Texture" id=231]
+[ext_resource path="res://videos/open/out0221.png" type="Texture" id=232]
+[ext_resource path="res://videos/open/out0222.png" type="Texture" id=233]
+[ext_resource path="res://videos/open/out0223.png" type="Texture" id=234]
+[ext_resource path="res://videos/open/out0224.png" type="Texture" id=235]
+[ext_resource path="res://videos/open/out0225.png" type="Texture" id=236]
+[ext_resource path="res://videos/open/out0226.png" type="Texture" id=237]
+[ext_resource path="res://videos/open/out0227.png" type="Texture" id=238]
+[ext_resource path="res://videos/open/out0228.png" type="Texture" id=239]
+[ext_resource path="res://videos/open/out0229.png" type="Texture" id=240]
+[ext_resource path="res://videos/open/out0230.png" type="Texture" id=241]
+[ext_resource path="res://videos/open/out0231.png" type="Texture" id=242]
+[ext_resource path="res://videos/open/out0232.png" type="Texture" id=243]
+[ext_resource path="res://videos/open/out0233.png" type="Texture" id=244]
+[ext_resource path="res://videos/open/out0234.png" type="Texture" id=245]
+[ext_resource path="res://videos/open/out0235.png" type="Texture" id=246]
+[ext_resource path="res://videos/open/out0236.png" type="Texture" id=247]
+[ext_resource path="res://videos/open/out0237.png" type="Texture" id=248]
+[ext_resource path="res://videos/open/out0238.png" type="Texture" id=249]
+[ext_resource path="res://videos/open/out0239.png" type="Texture" id=250]
+[ext_resource path="res://videos/open/out0240.png" type="Texture" id=251]
+[ext_resource path="res://videos/open/out0241.png" type="Texture" id=252]
+[ext_resource path="res://videos/open/out0242.png" type="Texture" id=253]
+[ext_resource path="res://videos/open/out0243.png" type="Texture" id=254]
+[ext_resource path="res://videos/open/out0244.png" type="Texture" id=255]
+[ext_resource path="res://videos/open/out0245.png" type="Texture" id=256]
+[ext_resource path="res://videos/open/out0246.png" type="Texture" id=257]
+[ext_resource path="res://videos/open/out0247.png" type="Texture" id=258]
+[ext_resource path="res://videos/open/out0248.png" type="Texture" id=259]
+[ext_resource path="res://videos/open/out0249.png" type="Texture" id=260]
+[ext_resource path="res://videos/open/out0250.png" type="Texture" id=261]
+[ext_resource path="res://videos/open/out0251.png" type="Texture" id=262]
+[ext_resource path="res://videos/open/out0252.png" type="Texture" id=263]
+[ext_resource path="res://videos/open/out0253.png" type="Texture" id=264]
+[ext_resource path="res://videos/open/out0254.png" type="Texture" id=265]
+[ext_resource path="res://videos/open/out0255.png" type="Texture" id=266]
+[ext_resource path="res://videos/open/out0256.png" type="Texture" id=267]
+[ext_resource path="res://videos/open/out0257.png" type="Texture" id=268]
+[ext_resource path="res://videos/open/out0258.png" type="Texture" id=269]
+[ext_resource path="res://videos/open/out0259.png" type="Texture" id=270]
+[ext_resource path="res://videos/open/out0260.png" type="Texture" id=271]
+[ext_resource path="res://videos/open/out0261.png" type="Texture" id=272]
+[ext_resource path="res://videos/open/out0262.png" type="Texture" id=273]
+[ext_resource path="res://videos/open/out0263.png" type="Texture" id=274]
+[ext_resource path="res://videos/open/out0264.png" type="Texture" id=275]
+[ext_resource path="res://videos/open/out0265.png" type="Texture" id=276]
+[ext_resource path="res://videos/open/out0266.png" type="Texture" id=277]
+[ext_resource path="res://videos/open/out0267.png" type="Texture" id=278]
+[ext_resource path="res://videos/open/out0268.png" type="Texture" id=279]
+[ext_resource path="res://videos/open/out0269.png" type="Texture" id=280]
+[ext_resource path="res://videos/open/out0270.png" type="Texture" id=281]
+[ext_resource path="res://videos/open/out0271.png" type="Texture" id=282]
+[ext_resource path="res://videos/open/out0272.png" type="Texture" id=283]
+[ext_resource path="res://videos/open/out0273.png" type="Texture" id=284]
+[ext_resource path="res://videos/open/out0274.png" type="Texture" id=285]
+[ext_resource path="res://videos/open/out0275.png" type="Texture" id=286]
+[ext_resource path="res://videos/open/out0276.png" type="Texture" id=287]
+[ext_resource path="res://videos/open/out0277.png" type="Texture" id=288]
+[ext_resource path="res://videos/open/out0278.png" type="Texture" id=289]
+[ext_resource path="res://videos/open/out0279.png" type="Texture" id=290]
+[ext_resource path="res://videos/open/out0280.png" type="Texture" id=291]
+[ext_resource path="res://videos/open/out0281.png" type="Texture" id=292]
+[ext_resource path="res://videos/open/out0282.png" type="Texture" id=293]
+[ext_resource path="res://videos/open/out0283.png" type="Texture" id=294]
+[ext_resource path="res://videos/open/out0284.png" type="Texture" id=295]
+[ext_resource path="res://videos/open/out0285.png" type="Texture" id=296]
+[ext_resource path="res://videos/open/out0286.png" type="Texture" id=297]
+[ext_resource path="res://videos/open/out0287.png" type="Texture" id=298]
+[ext_resource path="res://videos/open/out0288.png" type="Texture" id=299]
+[ext_resource path="res://videos/open/out0289.png" type="Texture" id=300]
+[ext_resource path="res://videos/open/out0290.png" type="Texture" id=301]
+[ext_resource path="res://videos/open/out0291.png" type="Texture" id=302]
+[ext_resource path="res://videos/open/out0292.png" type="Texture" id=303]
+[ext_resource path="res://videos/open/out0293.png" type="Texture" id=304]
+[ext_resource path="res://videos/open/out0294.png" type="Texture" id=305]
+[ext_resource path="res://videos/open/out0295.png" type="Texture" id=306]
+[ext_resource path="res://videos/open/out0296.png" type="Texture" id=307]
+[ext_resource path="res://videos/open/out0297.png" type="Texture" id=308]
+[ext_resource path="res://videos/open/out0298.png" type="Texture" id=309]
+[ext_resource path="res://videos/open/out0299.png" type="Texture" id=310]
+[ext_resource path="res://videos/open/out0300.png" type="Texture" id=311]
+[ext_resource path="res://videos/open/out0301.png" type="Texture" id=312]
+[ext_resource path="res://videos/open/out0302.png" type="Texture" id=313]
+[ext_resource path="res://videos/open/out0303.png" type="Texture" id=314]
+[ext_resource path="res://videos/open/out0304.png" type="Texture" id=315]
+[ext_resource path="res://videos/open/out0305.png" type="Texture" id=316]
+[ext_resource path="res://videos/open/out0306.png" type="Texture" id=317]
+[ext_resource path="res://videos/open/out0307.png" type="Texture" id=318]
+[ext_resource path="res://videos/open/out0308.png" type="Texture" id=319]
+[ext_resource path="res://videos/open/out0309.png" type="Texture" id=320]
+[ext_resource path="res://videos/open/out0310.png" type="Texture" id=321]
+[ext_resource path="res://videos/open/out0311.png" type="Texture" id=322]
+[ext_resource path="res://videos/open/out0312.png" type="Texture" id=323]
+[ext_resource path="res://videos/open/out0313.png" type="Texture" id=324]
+[ext_resource path="res://videos/open/out0314.png" type="Texture" id=325]
+[ext_resource path="res://videos/open/out0315.png" type="Texture" id=326]
+[ext_resource path="res://videos/open/out0316.png" type="Texture" id=327]
+[ext_resource path="res://videos/open/out0317.png" type="Texture" id=328]
+[ext_resource path="res://videos/open/out0318.png" type="Texture" id=329]
+[ext_resource path="res://videos/open/out0319.png" type="Texture" id=330]
+[ext_resource path="res://videos/open/out0320.png" type="Texture" id=331]
+[ext_resource path="res://videos/open/out0321.png" type="Texture" id=332]
+[ext_resource path="res://videos/open/out0322.png" type="Texture" id=333]
+[ext_resource path="res://videos/open/out0323.png" type="Texture" id=334]
+[ext_resource path="res://videos/open/out0324.png" type="Texture" id=335]
+[ext_resource path="res://videos/open/out0325.png" type="Texture" id=336]
+[ext_resource path="res://videos/open/out0326.png" type="Texture" id=337]
+[ext_resource path="res://videos/open/out0327.png" type="Texture" id=338]
+[ext_resource path="res://videos/open/out0328.png" type="Texture" id=339]
+[ext_resource path="res://videos/open/out0329.png" type="Texture" id=340]
+[ext_resource path="res://videos/open/out0330.png" type="Texture" id=341]
+[ext_resource path="res://videos/open/out0331.png" type="Texture" id=342]
+[ext_resource path="res://videos/open/out0332.png" type="Texture" id=343]
+[ext_resource path="res://videos/open/out0333.png" type="Texture" id=344]
+[ext_resource path="res://videos/open/out0334.png" type="Texture" id=345]
+[ext_resource path="res://videos/open/out0335.png" type="Texture" id=346]
+[ext_resource path="res://videos/open/out0336.png" type="Texture" id=347]
+[ext_resource path="res://videos/open/out0337.png" type="Texture" id=348]
+[ext_resource path="res://videos/open/out0338.png" type="Texture" id=349]
+[ext_resource path="res://videos/open/out0339.png" type="Texture" id=350]
+[ext_resource path="res://videos/open/out0340.png" type="Texture" id=351]
+[ext_resource path="res://videos/open/out0341.png" type="Texture" id=352]
+[ext_resource path="res://videos/open/out0342.png" type="Texture" id=353]
+[ext_resource path="res://videos/open/out0343.png" type="Texture" id=354]
+[ext_resource path="res://videos/open/out0344.png" type="Texture" id=355]
+[ext_resource path="res://videos/open/out0345.png" type="Texture" id=356]
+[ext_resource path="res://videos/open/out0346.png" type="Texture" id=357]
+[ext_resource path="res://videos/open/out0347.png" type="Texture" id=358]
+[ext_resource path="res://videos/open/out0348.png" type="Texture" id=359]
+[ext_resource path="res://videos/open/out0349.png" type="Texture" id=360]
+[ext_resource path="res://videos/open/out0350.png" type="Texture" id=361]
+[ext_resource path="res://videos/open/out0351.png" type="Texture" id=362]
+[ext_resource path="res://videos/open/out0352.png" type="Texture" id=363]
+[ext_resource path="res://videos/open/out0353.png" type="Texture" id=364]
+[ext_resource path="res://videos/open/out0354.png" type="Texture" id=365]
+[ext_resource path="res://videos/open/out0355.png" type="Texture" id=366]
+[ext_resource path="res://videos/open/out0356.png" type="Texture" id=367]
+[ext_resource path="res://videos/open/out0357.png" type="Texture" id=368]
+[ext_resource path="res://videos/open/out0358.png" type="Texture" id=369]
+[ext_resource path="res://videos/open/out0359.png" type="Texture" id=370]
+[ext_resource path="res://videos/open/out0360.png" type="Texture" id=371]
+[ext_resource path="res://videos/open/out0361.png" type="Texture" id=372]
+[ext_resource path="res://videos/open/out0362.png" type="Texture" id=373]
+[ext_resource path="res://videos/open/out0363.png" type="Texture" id=374]
+[ext_resource path="res://videos/open/out0364.png" type="Texture" id=375]
+[ext_resource path="res://videos/open/out0365.png" type="Texture" id=376]
+[ext_resource path="res://videos/open/out0366.png" type="Texture" id=377]
+[ext_resource path="res://videos/open/out0367.png" type="Texture" id=378]
+[ext_resource path="res://videos/open/out0368.png" type="Texture" id=379]
+[ext_resource path="res://videos/open/out0369.png" type="Texture" id=380]
+[ext_resource path="res://videos/open/out0370.png" type="Texture" id=381]
+[ext_resource path="res://videos/open/out0371.png" type="Texture" id=382]
+[ext_resource path="res://videos/open/out0372.png" type="Texture" id=383]
+[ext_resource path="res://videos/open/out0373.png" type="Texture" id=384]
+[ext_resource path="res://videos/open/out0374.png" type="Texture" id=385]
+[ext_resource path="res://videos/open/out0375.png" type="Texture" id=386]
+[ext_resource path="res://videos/open/out0376.png" type="Texture" id=387]
+[ext_resource path="res://videos/open/out0377.png" type="Texture" id=388]
+[ext_resource path="res://videos/open/out0378.png" type="Texture" id=389]
+[ext_resource path="res://videos/open/out0379.png" type="Texture" id=390]
+[ext_resource path="res://videos/open/out0380.png" type="Texture" id=391]
+[ext_resource path="res://videos/open/out0381.png" type="Texture" id=392]
+[ext_resource path="res://videos/open/out0382.png" type="Texture" id=393]
+[ext_resource path="res://videos/open/out0383.png" type="Texture" id=394]
+[ext_resource path="res://videos/open/out0384.png" type="Texture" id=395]
+[ext_resource path="res://videos/open/out0385.png" type="Texture" id=396]
+[ext_resource path="res://videos/open/out0386.png" type="Texture" id=397]
+[ext_resource path="res://videos/open/out0387.png" type="Texture" id=398]
+[ext_resource path="res://videos/open/out0388.png" type="Texture" id=399]
+[ext_resource path="res://videos/open/out0389.png" type="Texture" id=400]
+[ext_resource path="res://videos/open/out0390.png" type="Texture" id=401]
+[ext_resource path="res://videos/open/out0391.png" type="Texture" id=402]
+[ext_resource path="res://videos/open/out0392.png" type="Texture" id=403]
+[ext_resource path="res://videos/open/out0393.png" type="Texture" id=404]
+[ext_resource path="res://videos/open/out0394.png" type="Texture" id=405]
+[ext_resource path="res://videos/open/out0395.png" type="Texture" id=406]
+[ext_resource path="res://videos/open/out0396.png" type="Texture" id=407]
+[ext_resource path="res://videos/open/out0397.png" type="Texture" id=408]
+[ext_resource path="res://videos/open/out0398.png" type="Texture" id=409]
+[ext_resource path="res://videos/open/out0399.png" type="Texture" id=410]
+[ext_resource path="res://videos/open/out0400.png" type="Texture" id=411]
+[ext_resource path="res://videos/open/out0401.png" type="Texture" id=412]
+[ext_resource path="res://videos/open/out0402.png" type="Texture" id=413]
+[ext_resource path="res://videos/open/out0403.png" type="Texture" id=414]
+[ext_resource path="res://videos/open/out0404.png" type="Texture" id=415]
+[ext_resource path="res://videos/open/out0405.png" type="Texture" id=416]
+[ext_resource path="res://videos/open/out0406.png" type="Texture" id=417]
+[ext_resource path="res://videos/open/out0407.png" type="Texture" id=418]
+[ext_resource path="res://videos/open/out0408.png" type="Texture" id=419]
+[ext_resource path="res://videos/open/out0409.png" type="Texture" id=420]
+[ext_resource path="res://videos/open/out0410.png" type="Texture" id=421]
+[ext_resource path="res://videos/open/out0411.png" type="Texture" id=422]
+[ext_resource path="res://videos/open/out0412.png" type="Texture" id=423]
+[ext_resource path="res://videos/open/out0413.png" type="Texture" id=424]
+[ext_resource path="res://videos/open/out0414.png" type="Texture" id=425]
+[ext_resource path="res://videos/open/out0415.png" type="Texture" id=426]
+[ext_resource path="res://videos/open/out0416.png" type="Texture" id=427]
+[ext_resource path="res://videos/open/out0417.png" type="Texture" id=428]
+[ext_resource path="res://videos/open/out0418.png" type="Texture" id=429]
+[ext_resource path="res://videos/open/out0419.png" type="Texture" id=430]
+[ext_resource path="res://videos/open/out0420.png" type="Texture" id=431]
+[ext_resource path="res://videos/open/out0421.png" type="Texture" id=432]
+[ext_resource path="res://videos/open/out0422.png" type="Texture" id=433]
+[ext_resource path="res://videos/open/out0423.png" type="Texture" id=434]
+[ext_resource path="res://videos/open/out0424.png" type="Texture" id=435]
+[ext_resource path="res://videos/open/out0425.png" type="Texture" id=436]
+[ext_resource path="res://videos/open/out0426.png" type="Texture" id=437]
+[ext_resource path="res://videos/open/out0427.png" type="Texture" id=438]
+[ext_resource path="res://videos/open/out0428.png" type="Texture" id=439]
+[ext_resource path="res://videos/open/out0429.png" type="Texture" id=440]
+[ext_resource path="res://videos/open/out0430.png" type="Texture" id=441]
+[ext_resource path="res://videos/open/out0431.png" type="Texture" id=442]
+[ext_resource path="res://videos/open/out0432.png" type="Texture" id=443]
+[ext_resource path="res://videos/open/out0433.png" type="Texture" id=444]
+[ext_resource path="res://videos/open/out0434.png" type="Texture" id=445]
+[ext_resource path="res://videos/open/out0435.png" type="Texture" id=446]
+[ext_resource path="res://videos/open/out0436.png" type="Texture" id=447]
+[ext_resource path="res://videos/open/out0437.png" type="Texture" id=448]
+[ext_resource path="res://videos/open/out0438.png" type="Texture" id=449]
+[ext_resource path="res://videos/open/out0439.png" type="Texture" id=450]
+[ext_resource path="res://videos/open/out0440.png" type="Texture" id=451]
+[ext_resource path="res://videos/open/out0441.png" type="Texture" id=452]
+[ext_resource path="res://videos/open/out0442.png" type="Texture" id=453]
+[ext_resource path="res://videos/open/out0443.png" type="Texture" id=454]
+[ext_resource path="res://videos/open/out0444.png" type="Texture" id=455]
+[ext_resource path="res://videos/open/out0445.png" type="Texture" id=456]
+[ext_resource path="res://videos/open/out0446.png" type="Texture" id=457]
+[ext_resource path="res://videos/open/out0447.png" type="Texture" id=458]
+[ext_resource path="res://videos/open/out0448.png" type="Texture" id=459]
+[ext_resource path="res://videos/open/out0449.png" type="Texture" id=460]
+[ext_resource path="res://videos/open/out0450.png" type="Texture" id=461]
+[ext_resource path="res://videos/open/out0451.png" type="Texture" id=462]
+[ext_resource path="res://videos/open/out0452.png" type="Texture" id=463]
+[ext_resource path="res://videos/open/out0453.png" type="Texture" id=464]
+[ext_resource path="res://videos/open/out0454.png" type="Texture" id=465]
+[ext_resource path="res://videos/open/out0455.png" type="Texture" id=466]
+[ext_resource path="res://videos/open/out0456.png" type="Texture" id=467]
+[ext_resource path="res://videos/open/out0457.png" type="Texture" id=468]
+[ext_resource path="res://videos/open/out0458.png" type="Texture" id=469]
+[ext_resource path="res://videos/open/out0459.png" type="Texture" id=470]
+[ext_resource path="res://videos/open/out0460.png" type="Texture" id=471]
+[ext_resource path="res://videos/open/out0461.png" type="Texture" id=472]
+[ext_resource path="res://videos/open/out0462.png" type="Texture" id=473]
+[ext_resource path="res://videos/open/out0463.png" type="Texture" id=474]
+[ext_resource path="res://videos/open/out0464.png" type="Texture" id=475]
+[ext_resource path="res://videos/open/out0465.png" type="Texture" id=476]
+[ext_resource path="res://videos/open/out0466.png" type="Texture" id=477]
+[ext_resource path="res://videos/open/out0467.png" type="Texture" id=478]
+[ext_resource path="res://videos/open/out0468.png" type="Texture" id=479]
+[ext_resource path="res://videos/open/out0469.png" type="Texture" id=480]
+[ext_resource path="res://videos/open/out0470.png" type="Texture" id=481]
+[ext_resource path="res://videos/open/out0471.png" type="Texture" id=482]
+[ext_resource path="res://videos/open/out0472.png" type="Texture" id=483]
+[ext_resource path="res://videos/open/out0473.png" type="Texture" id=484]
+[ext_resource path="res://videos/open/out0474.png" type="Texture" id=485]
+[ext_resource path="res://videos/open/out0475.png" type="Texture" id=486]
+[ext_resource path="res://videos/open/out0476.png" type="Texture" id=487]
+[ext_resource path="res://videos/open/out0477.png" type="Texture" id=488]
+[ext_resource path="res://videos/open/out0478.png" type="Texture" id=489]
+[ext_resource path="res://videos/open/out0479.png" type="Texture" id=490]
+[ext_resource path="res://videos/open/out0480.png" type="Texture" id=491]
+[ext_resource path="res://videos/open/out0481.png" type="Texture" id=492]
+[ext_resource path="res://videos/open/out0482.png" type="Texture" id=493]
+[ext_resource path="res://videos/open/out0483.png" type="Texture" id=494]
+[ext_resource path="res://videos/open/out0484.png" type="Texture" id=495]
+[ext_resource path="res://videos/open/out0485.png" type="Texture" id=496]
+[ext_resource path="res://videos/open/out0486.png" type="Texture" id=497]
+[ext_resource path="res://videos/open/out0487.png" type="Texture" id=498]
+[ext_resource path="res://videos/open/out0488.png" type="Texture" id=499]
+[ext_resource path="res://videos/open/out0489.png" type="Texture" id=500]
+[ext_resource path="res://videos/open/out0490.png" type="Texture" id=501]
+[ext_resource path="res://videos/open/out0491.png" type="Texture" id=502]
+[ext_resource path="res://videos/open/out0492.png" type="Texture" id=503]
+[ext_resource path="res://videos/open/out0493.png" type="Texture" id=504]
+[ext_resource path="res://videos/open/out0494.png" type="Texture" id=505]
+[ext_resource path="res://videos/open/out0495.png" type="Texture" id=506]
+[ext_resource path="res://videos/open/out0496.png" type="Texture" id=507]
+[ext_resource path="res://videos/open/out0497.png" type="Texture" id=508]
+[ext_resource path="res://videos/open/out0498.png" type="Texture" id=509]
+[ext_resource path="res://videos/open/out0499.png" type="Texture" id=510]
+[ext_resource path="res://videos/open/out0500.png" type="Texture" id=511]
+[ext_resource path="res://videos/open/out0501.png" type="Texture" id=512]
+[ext_resource path="res://videos/open/out0502.png" type="Texture" id=513]
+[ext_resource path="res://videos/open/out0503.png" type="Texture" id=514]
+[ext_resource path="res://videos/open/out0504.png" type="Texture" id=515]
+[ext_resource path="res://videos/open/out0505.png" type="Texture" id=516]
+[ext_resource path="res://videos/open/out0506.png" type="Texture" id=517]
+[ext_resource path="res://videos/open/out0507.png" type="Texture" id=518]
+[ext_resource path="res://videos/open/out0508.png" type="Texture" id=519]
+[ext_resource path="res://videos/open/out0509.png" type="Texture" id=520]
+[ext_resource path="res://videos/open/out0510.png" type="Texture" id=521]
+[ext_resource path="res://videos/open/out0511.png" type="Texture" id=522]
+[ext_resource path="res://videos/open/out0512.png" type="Texture" id=523]
+[ext_resource path="res://videos/open/out0513.png" type="Texture" id=524]
+[ext_resource path="res://videos/open/out0514.png" type="Texture" id=525]
+[ext_resource path="res://videos/open/out0515.png" type="Texture" id=526]
+[ext_resource path="res://videos/open/out0516.png" type="Texture" id=527]
+[ext_resource path="res://videos/open/out0517.png" type="Texture" id=528]
+[ext_resource path="res://videos/open/out0518.png" type="Texture" id=529]
+[ext_resource path="res://videos/open/out0519.png" type="Texture" id=530]
+[ext_resource path="res://videos/open/out0520.png" type="Texture" id=531]
+[ext_resource path="res://videos/open/out0521.png" type="Texture" id=532]
+[ext_resource path="res://videos/open/out0522.png" type="Texture" id=533]
+[ext_resource path="res://videos/open/out0523.png" type="Texture" id=534]
+[ext_resource path="res://videos/open/out0524.png" type="Texture" id=535]
+[ext_resource path="res://videos/open/out0525.png" type="Texture" id=536]
+[ext_resource path="res://videos/open/out0526.png" type="Texture" id=537]
+[ext_resource path="res://videos/open/out0527.png" type="Texture" id=538]
+[ext_resource path="res://videos/open/out0528.png" type="Texture" id=539]
+[ext_resource path="res://videos/open/out0529.png" type="Texture" id=540]
+[ext_resource path="res://videos/open/out0530.png" type="Texture" id=541]
+[ext_resource path="res://videos/open/out0531.png" type="Texture" id=542]
+[ext_resource path="res://videos/open/out0532.png" type="Texture" id=543]
+[ext_resource path="res://videos/open/out0533.png" type="Texture" id=544]
+[ext_resource path="res://videos/open/out0534.png" type="Texture" id=545]
+[ext_resource path="res://videos/open/out0535.png" type="Texture" id=546]
+[ext_resource path="res://videos/open/out0536.png" type="Texture" id=547]
+[ext_resource path="res://videos/open/out0537.png" type="Texture" id=548]
+[ext_resource path="res://videos/open/out0538.png" type="Texture" id=549]
+[ext_resource path="res://videos/open/out0539.png" type="Texture" id=550]
+[ext_resource path="res://videos/open/out0540.png" type="Texture" id=551]
+[ext_resource path="res://videos/open/out0541.png" type="Texture" id=552]
+[ext_resource path="res://videos/open/out0542.png" type="Texture" id=553]
+[ext_resource path="res://videos/open/out0543.png" type="Texture" id=554]
+[ext_resource path="res://videos/open/out0544.png" type="Texture" id=555]
+[ext_resource path="res://videos/open/out0545.png" type="Texture" id=556]
+[ext_resource path="res://videos/open/out0546.png" type="Texture" id=557]
+[ext_resource path="res://videos/open/out0547.png" type="Texture" id=558]
+[ext_resource path="res://videos/open/out0548.png" type="Texture" id=559]
+[ext_resource path="res://videos/open/out0549.png" type="Texture" id=560]
+[ext_resource path="res://videos/open/out0550.png" type="Texture" id=561]
+[ext_resource path="res://videos/open/out0551.png" type="Texture" id=562]
+[ext_resource path="res://videos/open/out0552.png" type="Texture" id=563]
+[ext_resource path="res://videos/open/out0553.png" type="Texture" id=564]
+[ext_resource path="res://videos/open/out0554.png" type="Texture" id=565]
+[ext_resource path="res://videos/open/out0555.png" type="Texture" id=566]
+[ext_resource path="res://videos/open/out0556.png" type="Texture" id=567]
+[ext_resource path="res://videos/open/out0557.png" type="Texture" id=568]
+[ext_resource path="res://videos/open/out0558.png" type="Texture" id=569]
+[ext_resource path="res://videos/open/out0559.png" type="Texture" id=570]
+[ext_resource path="res://videos/open/out0560.png" type="Texture" id=571]
+[ext_resource path="res://videos/open/out0561.png" type="Texture" id=572]
+[ext_resource path="res://videos/open/out0562.png" type="Texture" id=573]
+[ext_resource path="res://videos/open/out0563.png" type="Texture" id=574]
+[ext_resource path="res://videos/open/out0564.png" type="Texture" id=575]
+[ext_resource path="res://videos/open/out0565.png" type="Texture" id=576]
+[ext_resource path="res://videos/open/out0566.png" type="Texture" id=577]
+[ext_resource path="res://videos/open/out0567.png" type="Texture" id=578]
+[ext_resource path="res://videos/open/out0568.png" type="Texture" id=579]
+[ext_resource path="res://videos/open/out0569.png" type="Texture" id=580]
+[ext_resource path="res://videos/open/out0570.png" type="Texture" id=581]
+[ext_resource path="res://videos/open/out0571.png" type="Texture" id=582]
+[ext_resource path="res://videos/open/out0572.png" type="Texture" id=583]
+[ext_resource path="res://videos/open/out0573.png" type="Texture" id=584]
+[ext_resource path="res://videos/open/out0574.png" type="Texture" id=585]
+[ext_resource path="res://videos/open/out0575.png" type="Texture" id=586]
+[ext_resource path="res://videos/open/out0576.png" type="Texture" id=587]
+[ext_resource path="res://videos/open/out0577.png" type="Texture" id=588]
+[ext_resource path="res://videos/open/out0578.png" type="Texture" id=589]
+[ext_resource path="res://videos/open/out0579.png" type="Texture" id=590]
+[ext_resource path="res://videos/open/out0580.png" type="Texture" id=591]
+[ext_resource path="res://videos/open/out0581.png" type="Texture" id=592]
+[ext_resource path="res://videos/open/out0582.png" type="Texture" id=593]
+[ext_resource path="res://videos/open/out0583.png" type="Texture" id=594]
+[ext_resource path="res://videos/open/out0584.png" type="Texture" id=595]
+[ext_resource path="res://videos/open/out0585.png" type="Texture" id=596]
+[ext_resource path="res://videos/open/out0586.png" type="Texture" id=597]
+[ext_resource path="res://videos/open/out0587.png" type="Texture" id=598]
+[ext_resource path="res://videos/open/out0588.png" type="Texture" id=599]
+[ext_resource path="res://videos/open/out0589.png" type="Texture" id=600]
+[ext_resource path="res://videos/open/out0590.png" type="Texture" id=601]
+[ext_resource path="res://videos/open/out0591.png" type="Texture" id=602]
+[ext_resource path="res://videos/open/out0592.png" type="Texture" id=603]
+[ext_resource path="res://videos/open/out0593.png" type="Texture" id=604]
+[ext_resource path="res://videos/open/out0594.png" type="Texture" id=605]
+[ext_resource path="res://videos/open/out0595.png" type="Texture" id=606]
+[ext_resource path="res://videos/open/out0596.png" type="Texture" id=607]
+[ext_resource path="res://videos/open/out0597.png" type="Texture" id=608]
+[ext_resource path="res://videos/open/out0598.png" type="Texture" id=609]
+[ext_resource path="res://videos/open/out0599.png" type="Texture" id=610]
+[ext_resource path="res://videos/open/out0600.png" type="Texture" id=611]
+[ext_resource path="res://videos/open/out0601.png" type="Texture" id=612]
+[ext_resource path="res://videos/open/out0602.png" type="Texture" id=613]
+[ext_resource path="res://videos/open/out0603.png" type="Texture" id=614]
+[ext_resource path="res://videos/open/out0604.png" type="Texture" id=615]
+[ext_resource path="res://videos/open/out0605.png" type="Texture" id=616]
+[ext_resource path="res://videos/open/out0606.png" type="Texture" id=617]
+[ext_resource path="res://videos/open/out0607.png" type="Texture" id=618]
+[ext_resource path="res://videos/open/out0608.png" type="Texture" id=619]
+[ext_resource path="res://videos/open/out0609.png" type="Texture" id=620]
+[ext_resource path="res://videos/open/out0610.png" type="Texture" id=621]
+[ext_resource path="res://videos/open/out0611.png" type="Texture" id=622]
+[ext_resource path="res://videos/open/out0612.png" type="Texture" id=623]
+[ext_resource path="res://videos/open/out0613.png" type="Texture" id=624]
+[ext_resource path="res://videos/open/out0614.png" type="Texture" id=625]
+[ext_resource path="res://videos/open/out0615.png" type="Texture" id=626]
+[ext_resource path="res://videos/open/out0616.png" type="Texture" id=627]
+[ext_resource path="res://videos/open/out0617.png" type="Texture" id=628]
+[ext_resource path="res://videos/open/out0618.png" type="Texture" id=629]
+[ext_resource path="res://videos/open/out0619.png" type="Texture" id=630]
+[ext_resource path="res://videos/open/out0620.png" type="Texture" id=631]
+[ext_resource path="res://videos/open/out0621.png" type="Texture" id=632]
+[ext_resource path="res://videos/open/out0622.png" type="Texture" id=633]
+[ext_resource path="res://videos/open/out0623.png" type="Texture" id=634]
+[ext_resource path="res://videos/open/out0624.png" type="Texture" id=635]
+[ext_resource path="res://videos/open/out0625.png" type="Texture" id=636]
+[ext_resource path="res://videos/open/out0626.png" type="Texture" id=637]
+[ext_resource path="res://videos/open/out0627.png" type="Texture" id=638]
+[ext_resource path="res://videos/open/out0628.png" type="Texture" id=639]
+[ext_resource path="res://videos/open/out0629.png" type="Texture" id=640]
+[ext_resource path="res://videos/open/out0630.png" type="Texture" id=641]
+[ext_resource path="res://videos/open/out0631.png" type="Texture" id=642]
+[ext_resource path="res://videos/open/out0632.png" type="Texture" id=643]
+[ext_resource path="res://videos/open/out0633.png" type="Texture" id=644]
+[ext_resource path="res://videos/open/out0634.png" type="Texture" id=645]
+[ext_resource path="res://videos/open/out0635.png" type="Texture" id=646]
+[ext_resource path="res://videos/open/out0636.png" type="Texture" id=647]
+[ext_resource path="res://videos/open/out0637.png" type="Texture" id=648]
+[ext_resource path="res://videos/open/out0638.png" type="Texture" id=649]
+[ext_resource path="res://videos/open/out0639.png" type="Texture" id=650]
+[ext_resource path="res://videos/open/out0640.png" type="Texture" id=651]
+[ext_resource path="res://videos/open/out0641.png" type="Texture" id=652]
+[ext_resource path="res://videos/open/out0642.png" type="Texture" id=653]
+[ext_resource path="res://videos/open/out0643.png" type="Texture" id=654]
+[ext_resource path="res://videos/open/out0644.png" type="Texture" id=655]
+[ext_resource path="res://videos/open/out0645.png" type="Texture" id=656]
+[ext_resource path="res://videos/open/out0646.png" type="Texture" id=657]
+[ext_resource path="res://videos/open/out0647.png" type="Texture" id=658]
+[ext_resource path="res://videos/open/out0648.png" type="Texture" id=659]
+[ext_resource path="res://videos/open/out0649.png" type="Texture" id=660]
+[ext_resource path="res://videos/open/out0650.png" type="Texture" id=661]
+[ext_resource path="res://videos/open/out0651.png" type="Texture" id=662]
+[ext_resource path="res://videos/open/out0652.png" type="Texture" id=663]
+[ext_resource path="res://videos/open/out0653.png" type="Texture" id=664]
+[ext_resource path="res://videos/open/out0654.png" type="Texture" id=665]
+[ext_resource path="res://videos/open/out0655.png" type="Texture" id=666]
+[ext_resource path="res://videos/open/out0656.png" type="Texture" id=667]
+[ext_resource path="res://videos/open/out0657.png" type="Texture" id=668]
+[ext_resource path="res://videos/open/out0658.png" type="Texture" id=669]
+[ext_resource path="res://videos/open/out0659.png" type="Texture" id=670]
+[ext_resource path="res://videos/open/out0660.png" type="Texture" id=671]
+[ext_resource path="res://videos/open/out0661.png" type="Texture" id=672]
+[ext_resource path="res://videos/open/out0662.png" type="Texture" id=673]
+[ext_resource path="res://videos/open/out0663.png" type="Texture" id=674]
+[ext_resource path="res://videos/open/out0664.png" type="Texture" id=675]
+[ext_resource path="res://videos/open/out0665.png" type="Texture" id=676]
+[ext_resource path="res://videos/open/out0666.png" type="Texture" id=677]
+[ext_resource path="res://videos/open/out0667.png" type="Texture" id=678]
+[ext_resource path="res://videos/open/out0668.png" type="Texture" id=679]
+[ext_resource path="res://videos/open/out0669.png" type="Texture" id=680]
+[ext_resource path="res://videos/open/out0670.png" type="Texture" id=681]
+[ext_resource path="res://videos/open/out0671.png" type="Texture" id=682]
+[ext_resource path="res://videos/open/out0672.png" type="Texture" id=683]
+[ext_resource path="res://videos/open/out0673.png" type="Texture" id=684]
+[ext_resource path="res://videos/open/out0674.png" type="Texture" id=685]
+[ext_resource path="res://videos/open/out0675.png" type="Texture" id=686]
+[ext_resource path="res://videos/open/out0676.png" type="Texture" id=687]
+[ext_resource path="res://videos/open/out0677.png" type="Texture" id=688]
+[ext_resource path="res://videos/open/out0678.png" type="Texture" id=689]
+[ext_resource path="res://videos/open/out0679.png" type="Texture" id=690]
+[ext_resource path="res://videos/open/out0680.png" type="Texture" id=691]
+[ext_resource path="res://videos/open/out0681.png" type="Texture" id=692]
+[ext_resource path="res://videos/open/out0682.png" type="Texture" id=693]
+[ext_resource path="res://videos/open/out0683.png" type="Texture" id=694]
+[ext_resource path="res://videos/open/out0684.png" type="Texture" id=695]
+[ext_resource path="res://videos/open/out0685.png" type="Texture" id=696]
+[ext_resource path="res://videos/open/out0686.png" type="Texture" id=697]
+[ext_resource path="res://videos/open/out0687.png" type="Texture" id=698]
+[ext_resource path="res://videos/open/out0688.png" type="Texture" id=699]
+[ext_resource path="res://videos/open/out0689.png" type="Texture" id=700]
+[ext_resource path="res://videos/open/out0690.png" type="Texture" id=701]
+[ext_resource path="res://videos/open/out0691.png" type="Texture" id=702]
+[ext_resource path="res://videos/open/out0692.png" type="Texture" id=703]
+[ext_resource path="res://videos/open/out0693.png" type="Texture" id=704]
+[ext_resource path="res://videos/open/out0694.png" type="Texture" id=705]
+[ext_resource path="res://videos/open/out0695.png" type="Texture" id=706]
+[ext_resource path="res://videos/open/out0696.png" type="Texture" id=707]
+[ext_resource path="res://videos/open/out0697.png" type="Texture" id=708]
+[ext_resource path="res://videos/open/out0698.png" type="Texture" id=709]
+[ext_resource path="res://videos/open/out0699.png" type="Texture" id=710]
+[ext_resource path="res://videos/open/out0700.png" type="Texture" id=711]
+[ext_resource path="res://videos/open/out0701.png" type="Texture" id=712]
+[ext_resource path="res://videos/open/out0702.png" type="Texture" id=713]
+[ext_resource path="res://videos/open/out0703.png" type="Texture" id=714]
+[ext_resource path="res://videos/open/out0704.png" type="Texture" id=715]
+[ext_resource path="res://videos/open/out0705.png" type="Texture" id=716]
+[ext_resource path="res://videos/open/out0706.png" type="Texture" id=717]
+[ext_resource path="res://videos/open/out0707.png" type="Texture" id=718]
+[ext_resource path="res://videos/open/out0708.png" type="Texture" id=719]
+[ext_resource path="res://videos/open/out0709.png" type="Texture" id=720]
+[ext_resource path="res://videos/open/out0710.png" type="Texture" id=721]
+[ext_resource path="res://videos/open/out0711.png" type="Texture" id=722]
+[ext_resource path="res://videos/open/out0712.png" type="Texture" id=723]
+[ext_resource path="res://videos/open/out0713.png" type="Texture" id=724]
+[ext_resource path="res://videos/open/out0714.png" type="Texture" id=725]
+[ext_resource path="res://videos/open/out0715.png" type="Texture" id=726]
+[ext_resource path="res://videos/open/out0716.png" type="Texture" id=727]
+[ext_resource path="res://videos/open/out0717.png" type="Texture" id=728]
+[ext_resource path="res://videos/open/out0718.png" type="Texture" id=729]
+[ext_resource path="res://videos/open/out0719.png" type="Texture" id=730]
+[ext_resource path="res://videos/open/out0720.png" type="Texture" id=731]
+[ext_resource path="res://videos/open/out0721.png" type="Texture" id=732]
+[ext_resource path="res://videos/open/out0722.png" type="Texture" id=733]
+[ext_resource path="res://videos/open/out0723.png" type="Texture" id=734]
+[ext_resource path="res://videos/open/out0724.png" type="Texture" id=735]
+[ext_resource path="res://videos/open/out0725.png" type="Texture" id=736]
+[ext_resource path="res://videos/open/out0726.png" type="Texture" id=737]
+[ext_resource path="res://videos/open/out0727.png" type="Texture" id=738]
+[ext_resource path="res://videos/open/out0728.png" type="Texture" id=739]
+[ext_resource path="res://videos/open/out0729.png" type="Texture" id=740]
+[ext_resource path="res://videos/open/out0730.png" type="Texture" id=741]
+[ext_resource path="res://videos/open/out0731.png" type="Texture" id=742]
+[ext_resource path="res://videos/open/out0732.png" type="Texture" id=743]
+[ext_resource path="res://videos/open/out0733.png" type="Texture" id=744]
+[ext_resource path="res://videos/open/out0734.png" type="Texture" id=745]
+[ext_resource path="res://videos/open/out0735.png" type="Texture" id=746]
+[ext_resource path="res://videos/open/out0736.png" type="Texture" id=747]
+[ext_resource path="res://videos/open/out0737.png" type="Texture" id=748]
+[ext_resource path="res://videos/open/out0738.png" type="Texture" id=749]
+[ext_resource path="res://videos/open/out0739.png" type="Texture" id=750]
+[ext_resource path="res://videos/open/out0740.png" type="Texture" id=751]
+[ext_resource path="res://videos/open/out0741.png" type="Texture" id=752]
+[ext_resource path="res://videos/open/out0742.png" type="Texture" id=753]
+[ext_resource path="res://videos/open/out0743.png" type="Texture" id=754]
+[ext_resource path="res://videos/open/out0744.png" type="Texture" id=755]
+[ext_resource path="res://videos/open/out0745.png" type="Texture" id=756]
+[ext_resource path="res://videos/open/out0746.png" type="Texture" id=757]
+[ext_resource path="res://videos/open/out0747.png" type="Texture" id=758]
+[ext_resource path="res://videos/open/out0748.png" type="Texture" id=759]
+[ext_resource path="res://videos/open/out0749.png" type="Texture" id=760]
+[ext_resource path="res://videos/open/out0750.png" type="Texture" id=761]
+[ext_resource path="res://videos/open/out0751.png" type="Texture" id=762]
+[ext_resource path="res://videos/open/out0752.png" type="Texture" id=763]
+[ext_resource path="res://videos/open/out0753.png" type="Texture" id=764]
+[ext_resource path="res://videos/open/out0754.png" type="Texture" id=765]
+[ext_resource path="res://videos/open/out0755.png" type="Texture" id=766]
+[ext_resource path="res://videos/open/out0756.png" type="Texture" id=767]
+[ext_resource path="res://videos/open/out0757.png" type="Texture" id=768]
+[ext_resource path="res://videos/open/out0758.png" type="Texture" id=769]
+[ext_resource path="res://videos/open/out0759.png" type="Texture" id=770]
+[ext_resource path="res://videos/open/out0760.png" type="Texture" id=771]
+[ext_resource path="res://videos/open/out0761.png" type="Texture" id=772]
+[ext_resource path="res://videos/open/out0762.png" type="Texture" id=773]
+[ext_resource path="res://videos/open/out0763.png" type="Texture" id=774]
+[ext_resource path="res://videos/open/out0764.png" type="Texture" id=775]
+[ext_resource path="res://videos/open/out0765.png" type="Texture" id=776]
+[ext_resource path="res://videos/open/out0766.png" type="Texture" id=777]
+[ext_resource path="res://videos/open/out0767.png" type="Texture" id=778]
+[ext_resource path="res://videos/open/out0768.png" type="Texture" id=779]
+[ext_resource path="res://videos/open/out0769.png" type="Texture" id=780]
+[ext_resource path="res://videos/open/out0770.png" type="Texture" id=781]
+[ext_resource path="res://videos/open/out0771.png" type="Texture" id=782]
+[ext_resource path="res://videos/open/out0772.png" type="Texture" id=783]
+[ext_resource path="res://videos/open/out0773.png" type="Texture" id=784]
+[ext_resource path="res://videos/open/out0774.png" type="Texture" id=785]
+[ext_resource path="res://videos/open/out0775.png" type="Texture" id=786]
+[ext_resource path="res://videos/open/out0776.png" type="Texture" id=787]
+[ext_resource path="res://videos/open/out0777.png" type="Texture" id=788]
+[ext_resource path="res://videos/open/out0778.png" type="Texture" id=789]
+[ext_resource path="res://videos/open/out0779.png" type="Texture" id=790]
+[ext_resource path="res://videos/open/out0780.png" type="Texture" id=791]
+[ext_resource path="res://videos/open/out0781.png" type="Texture" id=792]
+[ext_resource path="res://videos/open/out0782.png" type="Texture" id=793]
+[ext_resource path="res://videos/open/out0783.png" type="Texture" id=794]
+[ext_resource path="res://videos/open/out0784.png" type="Texture" id=795]
+[ext_resource path="res://videos/open/out0785.png" type="Texture" id=796]
+[ext_resource path="res://videos/open/out0786.png" type="Texture" id=797]
+[ext_resource path="res://videos/open/out0787.png" type="Texture" id=798]
+[ext_resource path="res://videos/open/out0788.png" type="Texture" id=799]
+[ext_resource path="res://videos/open/out0789.png" type="Texture" id=800]
+[ext_resource path="res://videos/open/out0790.png" type="Texture" id=801]
+[ext_resource path="res://videos/open/out0791.png" type="Texture" id=802]
+[ext_resource path="res://videos/open/out0792.png" type="Texture" id=803]
+[ext_resource path="res://videos/open/out0793.png" type="Texture" id=804]
+[ext_resource path="res://videos/open/out0794.png" type="Texture" id=805]
+[ext_resource path="res://videos/open/out0795.png" type="Texture" id=806]
+[ext_resource path="res://videos/open/out0796.png" type="Texture" id=807]
+[ext_resource path="res://videos/open/out0797.png" type="Texture" id=808]
+[ext_resource path="res://videos/open/out0798.png" type="Texture" id=809]
+[ext_resource path="res://videos/open/out0799.png" type="Texture" id=810]
+[ext_resource path="res://videos/open/out0800.png" type="Texture" id=811]
+[ext_resource path="res://videos/open/out0801.png" type="Texture" id=812]
+[ext_resource path="res://videos/open/out0802.png" type="Texture" id=813]
+[ext_resource path="res://videos/open/out0803.png" type="Texture" id=814]
+[ext_resource path="res://videos/open/out0804.png" type="Texture" id=815]
+[ext_resource path="res://videos/open/out0805.png" type="Texture" id=816]
+[ext_resource path="res://videos/open/out0806.png" type="Texture" id=817]
+[ext_resource path="res://videos/open/out0807.png" type="Texture" id=818]
+[ext_resource path="res://videos/open/out0808.png" type="Texture" id=819]
+[ext_resource path="res://videos/open/out0809.png" type="Texture" id=820]
+[ext_resource path="res://videos/open/out0810.png" type="Texture" id=821]
+[ext_resource path="res://videos/open/out0811.png" type="Texture" id=822]
+[ext_resource path="res://videos/open/out0812.png" type="Texture" id=823]
+[ext_resource path="res://videos/open/out0813.png" type="Texture" id=824]
+[ext_resource path="res://videos/open/out0814.png" type="Texture" id=825]
+[ext_resource path="res://videos/open/out0815.png" type="Texture" id=826]
+[ext_resource path="res://videos/open/out0816.png" type="Texture" id=827]
+[ext_resource path="res://videos/open/out0817.png" type="Texture" id=828]
+[ext_resource path="res://videos/open/out0818.png" type="Texture" id=829]
+[ext_resource path="res://videos/open/out0819.png" type="Texture" id=830]
+[ext_resource path="res://videos/open/out0820.png" type="Texture" id=831]
+[ext_resource path="res://videos/open/out0821.png" type="Texture" id=832]
+[ext_resource path="res://videos/open/out0822.png" type="Texture" id=833]
+[ext_resource path="res://videos/open/out0823.png" type="Texture" id=834]
+[ext_resource path="res://videos/open/out0824.png" type="Texture" id=835]
+[ext_resource path="res://videos/open/out0825.png" type="Texture" id=836]
+[ext_resource path="res://videos/open/out0826.png" type="Texture" id=837]
+[ext_resource path="res://videos/open/out0827.png" type="Texture" id=838]
+[ext_resource path="res://videos/open/out0828.png" type="Texture" id=839]
+[ext_resource path="res://videos/open/out0829.png" type="Texture" id=840]
+[ext_resource path="res://videos/open/out0830.png" type="Texture" id=841]
+[ext_resource path="res://videos/open/out0831.png" type="Texture" id=842]
+[ext_resource path="res://videos/open/out0832.png" type="Texture" id=843]
+[ext_resource path="res://videos/open/out0833.png" type="Texture" id=844]
+[ext_resource path="res://videos/end/test001.png" type="Texture" id=845]
+[ext_resource path="res://videos/end/test002.png" type="Texture" id=846]
+[ext_resource path="res://videos/end/test003.png" type="Texture" id=847]
+[ext_resource path="res://videos/end/test004.png" type="Texture" id=848]
+[ext_resource path="res://videos/end/test005.png" type="Texture" id=849]
+[ext_resource path="res://videos/end/test006.png" type="Texture" id=850]
+[ext_resource path="res://videos/end/test007.png" type="Texture" id=851]
+[ext_resource path="res://videos/end/test008.png" type="Texture" id=852]
+[ext_resource path="res://videos/end/test009.png" type="Texture" id=853]
+[ext_resource path="res://videos/end/test010.png" type="Texture" id=854]
+[ext_resource path="res://videos/end/test011.png" type="Texture" id=855]
+[ext_resource path="res://videos/end/test012.png" type="Texture" id=856]
+[ext_resource path="res://videos/end/test013.png" type="Texture" id=857]
+[ext_resource path="res://videos/end/test014.png" type="Texture" id=858]
+[ext_resource path="res://videos/end/test015.png" type="Texture" id=859]
+[ext_resource path="res://videos/end/test016.png" type="Texture" id=860]
+[ext_resource path="res://videos/end/test017.png" type="Texture" id=861]
+[ext_resource path="res://videos/end/test018.png" type="Texture" id=862]
+[ext_resource path="res://videos/end/test019.png" type="Texture" id=863]
+[ext_resource path="res://videos/end/test020.png" type="Texture" id=864]
+[ext_resource path="res://videos/end/test021.png" type="Texture" id=865]
+[ext_resource path="res://videos/end/test022.png" type="Texture" id=866]
+[ext_resource path="res://videos/end/test023.png" type="Texture" id=867]
+[ext_resource path="res://videos/end/test024.png" type="Texture" id=868]
+[ext_resource path="res://videos/end/test025.png" type="Texture" id=869]
+[ext_resource path="res://videos/end/test026.png" type="Texture" id=870]
+[ext_resource path="res://videos/end/test027.png" type="Texture" id=871]
+[ext_resource path="res://videos/end/test028.png" type="Texture" id=872]
+[ext_resource path="res://videos/end/test029.png" type="Texture" id=873]
+[ext_resource path="res://videos/end/test030.png" type="Texture" id=874]
+[ext_resource path="res://videos/end/test031.png" type="Texture" id=875]
+[ext_resource path="res://videos/end/test032.png" type="Texture" id=876]
+[ext_resource path="res://videos/end/test033.png" type="Texture" id=877]
+[ext_resource path="res://videos/end/test034.png" type="Texture" id=878]
+[ext_resource path="res://videos/end/test035.png" type="Texture" id=879]
+[ext_resource path="res://videos/end/test036.png" type="Texture" id=880]
+[ext_resource path="res://videos/end/test037.png" type="Texture" id=881]
+[ext_resource path="res://videos/end/test038.png" type="Texture" id=882]
+[ext_resource path="res://videos/end/test039.png" type="Texture" id=883]
+[ext_resource path="res://videos/end/test040.png" type="Texture" id=884]
+[ext_resource path="res://videos/end/test041.png" type="Texture" id=885]
+[ext_resource path="res://videos/end/test042.png" type="Texture" id=886]
+[ext_resource path="res://videos/end/test043.png" type="Texture" id=887]
+[ext_resource path="res://videos/end/test044.png" type="Texture" id=888]
+[ext_resource path="res://videos/end/test045.png" type="Texture" id=889]
+[ext_resource path="res://videos/end/test046.png" type="Texture" id=890]
+[ext_resource path="res://videos/end/test047.png" type="Texture" id=891]
+[ext_resource path="res://videos/end/test048.png" type="Texture" id=892]
+[ext_resource path="res://videos/end/test049.png" type="Texture" id=893]
+[ext_resource path="res://videos/end/test050.png" type="Texture" id=894]
+[ext_resource path="res://videos/end/test051.png" type="Texture" id=895]
+[ext_resource path="res://videos/end/test052.png" type="Texture" id=896]
+[ext_resource path="res://videos/end/test053.png" type="Texture" id=897]
+[ext_resource path="res://videos/end/test054.png" type="Texture" id=898]
+[ext_resource path="res://videos/end/test055.png" type="Texture" id=899]
+[ext_resource path="res://videos/end/test056.png" type="Texture" id=900]
+[ext_resource path="res://videos/end/test057.png" type="Texture" id=901]
+[ext_resource path="res://videos/end/test058.png" type="Texture" id=902]
+[ext_resource path="res://videos/end/test059.png" type="Texture" id=903]
+[ext_resource path="res://videos/end/test060.png" type="Texture" id=904]
+[ext_resource path="res://videos/end/test061.png" type="Texture" id=905]
+[ext_resource path="res://videos/end/test062.png" type="Texture" id=906]
+[ext_resource path="res://videos/end/test063.png" type="Texture" id=907]
+[ext_resource path="res://videos/end/test064.png" type="Texture" id=908]
+[ext_resource path="res://videos/end/test065.png" type="Texture" id=909]
+[ext_resource path="res://videos/end/test066.png" type="Texture" id=910]
+[ext_resource path="res://videos/end/test067.png" type="Texture" id=911]
+[ext_resource path="res://videos/end/test068.png" type="Texture" id=912]
+[ext_resource path="res://videos/end/test069.png" type="Texture" id=913]
+[ext_resource path="res://videos/end/test070.png" type="Texture" id=914]
+[ext_resource path="res://videos/end/test071.png" type="Texture" id=915]
+[ext_resource path="res://videos/end/test072.png" type="Texture" id=916]
+[ext_resource path="res://videos/end/test073.png" type="Texture" id=917]
+[ext_resource path="res://videos/end/test074.png" type="Texture" id=918]
+[ext_resource path="res://videos/end/test075.png" type="Texture" id=919]
+[ext_resource path="res://videos/end/test076.png" type="Texture" id=920]
+[ext_resource path="res://videos/end/test077.png" type="Texture" id=921]
+[ext_resource path="res://videos/end/test078.png" type="Texture" id=922]
+[ext_resource path="res://videos/end/test079.png" type="Texture" id=923]
+[ext_resource path="res://videos/end/test080.png" type="Texture" id=924]
+[ext_resource path="res://videos/end/test081.png" type="Texture" id=925]
+[ext_resource path="res://videos/end/test082.png" type="Texture" id=926]
+[ext_resource path="res://videos/end/test083.png" type="Texture" id=927]
+[ext_resource path="res://videos/end/test084.png" type="Texture" id=928]
+[ext_resource path="res://videos/end/test085.png" type="Texture" id=929]
+[ext_resource path="res://videos/end/test086.png" type="Texture" id=930]
+[ext_resource path="res://videos/end/test087.png" type="Texture" id=931]
+[ext_resource path="res://videos/end/test088.png" type="Texture" id=932]
+[ext_resource path="res://videos/end/test089.png" type="Texture" id=933]
+[ext_resource path="res://videos/end/test090.png" type="Texture" id=934]
+[ext_resource path="res://videos/end/test091.png" type="Texture" id=935]
+[ext_resource path="res://videos/end/test092.png" type="Texture" id=936]
+[ext_resource path="res://videos/end/test093.png" type="Texture" id=937]
+[ext_resource path="res://videos/end/test094.png" type="Texture" id=938]
+[ext_resource path="res://videos/end/test095.png" type="Texture" id=939]
+[ext_resource path="res://videos/end/test096.png" type="Texture" id=940]
+[ext_resource path="res://videos/end/test097.png" type="Texture" id=941]
+[ext_resource path="res://videos/end/test098.png" type="Texture" id=942]
+[ext_resource path="res://videos/end/test099.png" type="Texture" id=943]
+[ext_resource path="res://videos/end/test100.png" type="Texture" id=944]
+[ext_resource path="res://videos/end/test101.png" type="Texture" id=945]
+[ext_resource path="res://videos/end/test102.png" type="Texture" id=946]
+[ext_resource path="res://videos/end/test103.png" type="Texture" id=947]
+[ext_resource path="res://videos/end/test104.png" type="Texture" id=948]
+[ext_resource path="res://videos/end/test105.png" type="Texture" id=949]
+[ext_resource path="res://videos/end/test106.png" type="Texture" id=950]
+[ext_resource path="res://videos/end/test107.png" type="Texture" id=951]
+[ext_resource path="res://videos/end/test108.png" type="Texture" id=952]
+[ext_resource path="res://videos/end/test109.png" type="Texture" id=953]
+[ext_resource path="res://videos/end/test110.png" type="Texture" id=954]
+[ext_resource path="res://videos/end/test111.png" type="Texture" id=955]
+[ext_resource path="res://videos/end/test112.png" type="Texture" id=956]
+[ext_resource path="res://videos/end/test113.png" type="Texture" id=957]
+[ext_resource path="res://videos/end/test114.png" type="Texture" id=958]
+[ext_resource path="res://videos/end/test115.png" type="Texture" id=959]
+[ext_resource path="res://videos/end/test116.png" type="Texture" id=960]
+[ext_resource path="res://videos/end/test117.png" type="Texture" id=961]
+[ext_resource path="res://videos/end/test118.png" type="Texture" id=962]
+[ext_resource path="res://videos/end/test119.png" type="Texture" id=963]
+[ext_resource path="res://videos/end/test120.png" type="Texture" id=964]
+[ext_resource path="res://videos/end/test121.png" type="Texture" id=965]
+[ext_resource path="res://videos/end/test122.png" type="Texture" id=966]
+[ext_resource path="res://videos/end/test123.png" type="Texture" id=967]
+[ext_resource path="res://videos/end/test124.png" type="Texture" id=968]
+[ext_resource path="res://videos/end/test125.png" type="Texture" id=969]
+[ext_resource path="res://videos/end/test126.png" type="Texture" id=970]
+[ext_resource path="res://videos/end/test127.png" type="Texture" id=971]
+[ext_resource path="res://videos/end/test128.png" type="Texture" id=972]
+[ext_resource path="res://videos/end/test129.png" type="Texture" id=973]
+[ext_resource path="res://videos/end/test130.png" type="Texture" id=974]
+[ext_resource path="res://videos/end/test131.png" type="Texture" id=975]
+[ext_resource path="res://videos/end/test132.png" type="Texture" id=976]
+[ext_resource path="res://videos/end/test133.png" type="Texture" id=977]
+[ext_resource path="res://videos/end/test134.png" type="Texture" id=978]
+[ext_resource path="res://videos/end/test135.png" type="Texture" id=979]
+[ext_resource path="res://videos/end/test136.png" type="Texture" id=980]
+[ext_resource path="res://videos/end/test137.png" type="Texture" id=981]
+[ext_resource path="res://videos/end/test138.png" type="Texture" id=982]
+[ext_resource path="res://videos/end/test139.png" type="Texture" id=983]
+[ext_resource path="res://videos/end/test140.png" type="Texture" id=984]
+[ext_resource path="res://videos/end/test141.png" type="Texture" id=985]
+[ext_resource path="res://videos/end/test142.png" type="Texture" id=986]
+[ext_resource path="res://videos/end/test143.png" type="Texture" id=987]
+[ext_resource path="res://videos/end/test144.png" type="Texture" id=988]
+[ext_resource path="res://videos/end/test145.png" type="Texture" id=989]
+[ext_resource path="res://videos/end/test146.png" type="Texture" id=990]
+[ext_resource path="res://videos/end/test147.png" type="Texture" id=991]
+[ext_resource path="res://videos/end/test148.png" type="Texture" id=992]
+[ext_resource path="res://videos/end/test149.png" type="Texture" id=993]
+[ext_resource path="res://videos/end/test150.png" type="Texture" id=994]
+[ext_resource path="res://videos/end/test151.png" type="Texture" id=995]
+[ext_resource path="res://videos/end/test152.png" type="Texture" id=996]
+[ext_resource path="res://videos/end/test153.png" type="Texture" id=997]
+[ext_resource path="res://videos/end/test154.png" type="Texture" id=998]
+[ext_resource path="res://videos/end/test155.png" type="Texture" id=999]
+[ext_resource path="res://videos/end/test156.png" type="Texture" id=1000]
+[ext_resource path="res://videos/end/test157.png" type="Texture" id=1001]
+[ext_resource path="res://videos/end/test158.png" type="Texture" id=1002]
+[ext_resource path="res://videos/end/test159.png" type="Texture" id=1003]
+[ext_resource path="res://videos/end/test160.png" type="Texture" id=1004]
+[ext_resource path="res://videos/end/test161.png" type="Texture" id=1005]
+[ext_resource path="res://videos/end/test162.png" type="Texture" id=1006]
+[ext_resource path="res://videos/end/test163.png" type="Texture" id=1007]
+[ext_resource path="res://videos/end/test164.png" type="Texture" id=1008]
+[ext_resource path="res://videos/end/test165.png" type="Texture" id=1009]
+[ext_resource path="res://videos/end/test166.png" type="Texture" id=1010]
+[ext_resource path="res://videos/end/test167.png" type="Texture" id=1011]
+[ext_resource path="res://videos/end/test168.png" type="Texture" id=1012]
+[ext_resource path="res://videos/end/test169.png" type="Texture" id=1013]
+[ext_resource path="res://videos/end/test170.png" type="Texture" id=1014]
+[ext_resource path="res://videos/end/test171.png" type="Texture" id=1015]
+[ext_resource path="res://videos/end/test172.png" type="Texture" id=1016]
+[ext_resource path="res://videos/end/test173.png" type="Texture" id=1017]
+[ext_resource path="res://videos/end/test174.png" type="Texture" id=1018]
+[ext_resource path="res://videos/end/test175.png" type="Texture" id=1019]
+[ext_resource path="res://videos/end/test176.png" type="Texture" id=1020]
+[ext_resource path="res://videos/end/test177.png" type="Texture" id=1021]
+[ext_resource path="res://videos/end/test178.png" type="Texture" id=1022]
+[ext_resource path="res://videos/end/test179.png" type="Texture" id=1023]
+[ext_resource path="res://videos/end/test180.png" type="Texture" id=1024]
+[ext_resource path="res://videos/end/test181.png" type="Texture" id=1025]
+[ext_resource path="res://videos/end/test182.png" type="Texture" id=1026]
+[ext_resource path="res://videos/end/test183.png" type="Texture" id=1027]
+[ext_resource path="res://videos/end/test184.png" type="Texture" id=1028]
+[ext_resource path="res://videos/end/test185.png" type="Texture" id=1029]
+[ext_resource path="res://videos/end/test186.png" type="Texture" id=1030]
+[ext_resource path="res://videos/end/test187.png" type="Texture" id=1031]
+[ext_resource path="res://videos/end/test188.png" type="Texture" id=1032]
+[ext_resource path="res://videos/end/test189.png" type="Texture" id=1033]
+[ext_resource path="res://videos/end/test190.png" type="Texture" id=1034]
+[ext_resource path="res://videos/end/test191.png" type="Texture" id=1035]
+[ext_resource path="res://videos/end/test192.png" type="Texture" id=1036]
+[ext_resource path="res://videos/end/test193.png" type="Texture" id=1037]
+[ext_resource path="res://videos/end/test194.png" type="Texture" id=1038]
+[ext_resource path="res://videos/end/test195.png" type="Texture" id=1039]
+[ext_resource path="res://videos/end/test196.png" type="Texture" id=1040]
+[ext_resource path="res://videos/end/test197.png" type="Texture" id=1041]
+[ext_resource path="res://videos/end/test198.png" type="Texture" id=1042]
+[ext_resource path="res://videos/end/test199.png" type="Texture" id=1043]
+[ext_resource path="res://videos/end/test200.png" type="Texture" id=1044]
+[ext_resource path="res://videos/end/test201.png" type="Texture" id=1045]
+[ext_resource path="res://videos/end/test202.png" type="Texture" id=1046]
+[ext_resource path="res://videos/end/test203.png" type="Texture" id=1047]
+[ext_resource path="res://videos/end/test204.png" type="Texture" id=1048]
+[ext_resource path="res://videos/end/test205.png" type="Texture" id=1049]
+[ext_resource path="res://videos/end/test206.png" type="Texture" id=1050]
+[ext_resource path="res://videos/end/test207.png" type="Texture" id=1051]
+[ext_resource path="res://videos/end/test208.png" type="Texture" id=1052]
+[ext_resource path="res://videos/end/test209.png" type="Texture" id=1053]
+[ext_resource path="res://videos/end/test210.png" type="Texture" id=1054]
+[ext_resource path="res://videos/end/test211.png" type="Texture" id=1055]
+[ext_resource path="res://videos/end/test212.png" type="Texture" id=1056]
+[ext_resource path="res://videos/end/test213.png" type="Texture" id=1057]
+[ext_resource path="res://videos/end/test214.png" type="Texture" id=1058]
+[ext_resource path="res://videos/end/test215.png" type="Texture" id=1059]
+[ext_resource path="res://videos/end/test216.png" type="Texture" id=1060]
+[ext_resource path="res://videos/end/test217.png" type="Texture" id=1061]
+[ext_resource path="res://videos/end/test218.png" type="Texture" id=1062]
+[ext_resource path="res://videos/end/test219.png" type="Texture" id=1063]
+[ext_resource path="res://videos/end/test220.png" type="Texture" id=1064]
+[ext_resource path="res://videos/end/test221.png" type="Texture" id=1065]
+[ext_resource path="res://videos/end/test222.png" type="Texture" id=1066]
+[ext_resource path="res://videos/end/test223.png" type="Texture" id=1067]
+[ext_resource path="res://videos/end/test224.png" type="Texture" id=1068]
+[ext_resource path="res://videos/end/test225.png" type="Texture" id=1069]
+[ext_resource path="res://videos/end/test226.png" type="Texture" id=1070]
+[ext_resource path="res://videos/end/test227.png" type="Texture" id=1071]
+[ext_resource path="res://videos/end/test228.png" type="Texture" id=1072]
+[ext_resource path="res://videos/end/test229.png" type="Texture" id=1073]
+[ext_resource path="res://videos/end/test230.png" type="Texture" id=1074]
+[ext_resource path="res://videos/end/test231.png" type="Texture" id=1075]
+[ext_resource path="res://videos/end/test232.png" type="Texture" id=1076]
+[ext_resource path="res://videos/end/test233.png" type="Texture" id=1077]
+[ext_resource path="res://videos/end/test234.png" type="Texture" id=1078]
+[ext_resource path="res://videos/end/test235.png" type="Texture" id=1079]
+[ext_resource path="res://videos/end/test236.png" type="Texture" id=1080]
+[ext_resource path="res://videos/end/test237.png" type="Texture" id=1081]
+[ext_resource path="res://videos/end/test238.png" type="Texture" id=1082]
+[ext_resource path="res://videos/end/test239.png" type="Texture" id=1083]
+[ext_resource path="res://videos/end/test240.png" type="Texture" id=1084]
+[ext_resource path="res://videos/end/test241.png" type="Texture" id=1085]
+[ext_resource path="res://videos/end/test242.png" type="Texture" id=1086]
+[ext_resource path="res://videos/end/test243.png" type="Texture" id=1087]
+[ext_resource path="res://videos/end/test244.png" type="Texture" id=1088]
+[ext_resource path="res://videos/end/test245.png" type="Texture" id=1089]
+[ext_resource path="res://videos/end/test246.png" type="Texture" id=1090]
+[ext_resource path="res://videos/end/test247.png" type="Texture" id=1091]
+[ext_resource path="res://videos/end/test248.png" type="Texture" id=1092]
+[ext_resource path="res://videos/end/test249.png" type="Texture" id=1093]
+[ext_resource path="res://videos/end/test250.png" type="Texture" id=1094]
+[ext_resource path="res://videos/end/test251.png" type="Texture" id=1095]
+[ext_resource path="res://videos/end/test252.png" type="Texture" id=1096]
+[ext_resource path="res://videos/end/test253.png" type="Texture" id=1097]
+[ext_resource path="res://videos/end/test254.png" type="Texture" id=1098]
+[ext_resource path="res://videos/end/test255.png" type="Texture" id=1099]
+[ext_resource path="res://videos/end/test256.png" type="Texture" id=1100]
+[ext_resource path="res://videos/end/test257.png" type="Texture" id=1101]
+[ext_resource path="res://videos/end/test258.png" type="Texture" id=1102]
+[ext_resource path="res://videos/end/test259.png" type="Texture" id=1103]
+[ext_resource path="res://videos/end/test260.png" type="Texture" id=1104]
+[ext_resource path="res://videos/end/test261.png" type="Texture" id=1105]
+[ext_resource path="res://videos/end/test262.png" type="Texture" id=1106]
+[ext_resource path="res://videos/end/test263.png" type="Texture" id=1107]
+[ext_resource path="res://videos/end/test264.png" type="Texture" id=1108]
+[ext_resource path="res://videos/end/test265.png" type="Texture" id=1109]
+[ext_resource path="res://videos/end/test266.png" type="Texture" id=1110]
+[ext_resource path="res://videos/end/test267.png" type="Texture" id=1111]
+[ext_resource path="res://videos/end/test268.png" type="Texture" id=1112]
+[ext_resource path="res://videos/end/test269.png" type="Texture" id=1113]
+[ext_resource path="res://videos/end/test270.png" type="Texture" id=1114]
+[ext_resource path="res://videos/end/test271.png" type="Texture" id=1115]
+[ext_resource path="res://videos/end/test272.png" type="Texture" id=1116]
+[ext_resource path="res://videos/end/test273.png" type="Texture" id=1117]
+[ext_resource path="res://videos/end/test274.png" type="Texture" id=1118]
+[ext_resource path="res://videos/end/test275.png" type="Texture" id=1119]
+[ext_resource path="res://videos/end/test276.png" type="Texture" id=1120]
+[ext_resource path="res://videos/end/test277.png" type="Texture" id=1121]
+[ext_resource path="res://videos/end/test278.png" type="Texture" id=1122]
+[ext_resource path="res://videos/end/test279.png" type="Texture" id=1123]
+[ext_resource path="res://videos/end/test280.png" type="Texture" id=1124]
+[ext_resource path="res://videos/end/test281.png" type="Texture" id=1125]
+[ext_resource path="res://videos/end/test282.png" type="Texture" id=1126]
+[ext_resource path="res://videos/end/test283.png" type="Texture" id=1127]
+[ext_resource path="res://videos/end/test284.png" type="Texture" id=1128]
+[ext_resource path="res://videos/end/test285.png" type="Texture" id=1129]
+[ext_resource path="res://videos/end/test286.png" type="Texture" id=1130]
+[ext_resource path="res://videos/end/test287.png" type="Texture" id=1131]
+[ext_resource path="res://videos/end/test288.png" type="Texture" id=1132]
+[ext_resource path="res://videos/end/test289.png" type="Texture" id=1133]
+[ext_resource path="res://videos/end/test290.png" type="Texture" id=1134]
+[ext_resource path="res://videos/end/test291.png" type="Texture" id=1135]
+[ext_resource path="res://videos/end/test292.png" type="Texture" id=1136]
+[ext_resource path="res://videos/end/test293.png" type="Texture" id=1137]
+[ext_resource path="res://videos/end/test294.png" type="Texture" id=1138]
+[ext_resource path="res://textures/preorder.png" type="Texture" id=1139]
 
 [sub_resource type="TileSet" id=1]
 
@@ -422,7 +1255,7 @@ content_margin_bottom = -1.0
 
 [sub_resource type="Animation" id=14]
 
-length = 25.0
+length = 30.0
 loop = false
 step = 0.1
 tracks/0/type = "value"
@@ -432,10 +1265,10 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 5.6, 7.3, 10.9, 11.9, 12.5, 13.1 ),
+"times": PoolRealArray( 0, 5.6, 7.3, 14.1, 15.1, 15.7, 16.3 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
 "update": 1,
-"values": [ "walk", "walk", "idle", "walk", "idle", "walk", "idle" ]
+"values": [ "walk", "walk", "idle", "walk", "idle", "walk", "walk" ]
 }
 tracks/1/type = "value"
 tracks/1/path = NodePath("thermostat_hud:visible")
@@ -456,10 +1289,10 @@ tracks/2/loop_wrap = true
 tracks/2/imported = false
 tracks/2/enabled = true
 tracks/2/keys = {
-"times": PoolRealArray( 0, 5.6, 7.3, 10.9, 11.9, 11.9, 12.5, 13.1 ),
-"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"times": PoolRealArray( 0, 5.6, 7.3, 14.1, 15.1, 15.7, 16.3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
 "update": 0,
-"values": [ Vector2( 470, 250 ), Vector2( 470, 250 ), Vector2( 240, 240 ), Vector2( 240, 240 ), Vector2( 100, 160 ), Vector2( 89.9625, 147.095 ), Vector2( 89.9625, 202.062 ), Vector2( 129.962, 202.062 ) ]
+"values": [ Vector2( 470, 250 ), Vector2( 470, 250 ), Vector2( 240, 240 ), Vector2( 240, 240 ), Vector2( 100, 160 ), Vector2( 89.9625, 202.062 ), Vector2( 129.962, 202.062 ) ]
 }
 tracks/3/type = "value"
 tracks/3/path = NodePath("audio_stream_player:playing")
@@ -468,7 +1301,7 @@ tracks/3/loop_wrap = true
 tracks/3/imported = false
 tracks/3/enabled = true
 tracks/3/keys = {
-"times": PoolRealArray( 0, 17.4 ),
+"times": PoolRealArray( 0, 20.6 ),
 "transitions": PoolRealArray( 1, 1 ),
 "update": 2,
 "values": [ false, true ]
@@ -480,7 +1313,7 @@ tracks/4/loop_wrap = true
 tracks/4/imported = false
 tracks/4/enabled = true
 tracks/4/keys = {
-"times": PoolRealArray( 0, 0.1, 5.6, 7.3, 11.9, 13.1, 17.1 ),
+"times": PoolRealArray( 0, 0.1, 5.6, 7.3, 15.1, 16.3, 20.3 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
 "update": 1,
 "values": [ false, true, false, true, false, true, false ]
@@ -492,7 +1325,7 @@ tracks/5/loop_wrap = true
 tracks/5/imported = false
 tracks/5/enabled = true
 tracks/5/keys = {
-"times": PoolRealArray( 0.3, 1.5, 2.9, 4.3, 7.3, 9.1, 10.9, 13.1, 15.1 ),
+"times": PoolRealArray( 0.3, 1.5, 2.9, 4.3, 7.3, 10.6, 14.1, 16.3, 18.3 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
 "update": 1,
 "values": [ Vector2( 330, 210 ), Vector2( 210, 170 ), Vector2( 290, 210 ), Vector2( 210, 170 ), Vector2( 0, 200 ), Vector2( 80, 90 ), Vector2( 50, 260 ), Vector2( 161, 158 ), Vector2( 1, 139 ) ]
@@ -504,7 +1337,7 @@ tracks/6/loop_wrap = true
 tracks/6/imported = false
 tracks/6/enabled = true
 tracks/6/keys = {
-"times": PoolRealArray( 0.1, 1.5, 2.9, 4.3, 7.3, 9.1, 10.9, 13.1, 15.1 ),
+"times": PoolRealArray( 0.1, 1.5, 2.9, 4.3, 7.3, 10.6, 14.1, 16.3, 18.3 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
 "update": 1,
 "values": [ "Toc Toc", "Who is?", "It's me, mario!", "Come on, get in.", "Wow, this room is too $temp$, did you change the thermostat?", "Yes, I wasn't able to withstand $temp$, so I changed the temperature.", "I DIDN'T LIKE THAT!!!!", "You can't do that!", "WHO SAID I CAN'T?!" ]
@@ -516,7 +1349,7 @@ tracks/7/loop_wrap = true
 tracks/7/imported = false
 tracks/7/enabled = true
 tracks/7/keys = {
-"times": PoolRealArray( 0.1, 2.9, 4.3, 7.3, 9.1, 10.9, 13.1, 15.1 ),
+"times": PoolRealArray( 0.1, 2.9, 4.3, 7.3, 10.6, 14.1, 16.3, 18.3 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
 "update": 1,
 "values": [ Vector2( 60, 20 ), Vector2( 100, 20 ), Vector2( 120, 20 ), Vector2( 220, 40 ), Vector2( 290, 50 ), Vector2( 270, 40 ), Vector2( 127, 26 ), Vector2( 147, 37 ) ]
@@ -528,7 +1361,7 @@ tracks/8/loop_wrap = true
 tracks/8/imported = false
 tracks/8/enabled = true
 tracks/8/keys = {
-"times": PoolRealArray( 11.9, 12.5, 13.1 ),
+"times": PoolRealArray( 15.1, 15.7, 16.3 ),
 "transitions": PoolRealArray( 1, 1, 1 ),
 "update": 0,
 "values": [ Vector2( 180, 170 ), Vector2( 180, 201.967 ), Vector2( 150, 201.967 ) ]
@@ -540,7 +1373,7 @@ tracks/9/loop_wrap = true
 tracks/9/imported = false
 tracks/9/enabled = true
 tracks/9/keys = {
-"times": PoolRealArray( 0, 12.5 ),
+"times": PoolRealArray( 0, 15.7 ),
 "transitions": PoolRealArray( 1, 1 ),
 "update": 1,
 "values": [ false, true ]
@@ -552,7 +1385,7 @@ tracks/10/loop_wrap = true
 tracks/10/imported = false
 tracks/10/enabled = true
 tracks/10/keys = {
-"times": PoolRealArray( 11.9 ),
+"times": PoolRealArray( 15.1 ),
 "transitions": PoolRealArray( 1 ),
 "values": [ {
 "args": [  ],
@@ -566,10 +1399,10 @@ tracks/11/loop_wrap = true
 tracks/11/imported = false
 tracks/11/enabled = true
 tracks/11/keys = {
-"times": PoolRealArray( 0, 12.5, 13.1 ),
+"times": PoolRealArray( 0, 15.7, 16.3 ),
 "transitions": PoolRealArray( 1, 1, 1 ),
 "update": 1,
-"values": [ "idle", "walk_h", "idle" ]
+"values": [ "idle", "walk_h", "walk_h" ]
 }
 tracks/12/type = "value"
 tracks/12/path = NodePath("player/animated_sprite:flip_h")
@@ -578,22 +1411,22 @@ tracks/12/loop_wrap = true
 tracks/12/imported = false
 tracks/12/enabled = true
 tracks/12/keys = {
-"times": PoolRealArray( 12.5 ),
+"times": PoolRealArray( 15.7 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
 "values": [ false ]
 }
 tracks/13/type = "value"
-tracks/13/path = NodePath("animated_sprite:visible")
+tracks/13/path = NodePath("animated_sprite:frame")
 tracks/13/interp = 1
 tracks/13/loop_wrap = true
 tracks/13/imported = false
 tracks/13/enabled = true
 tracks/13/keys = {
-"times": PoolRealArray( 0, 17.1 ),
-"transitions": PoolRealArray( 1, 1 ),
+"times": PoolRealArray( 20.3 ),
+"transitions": PoolRealArray( 1 ),
 "update": 1,
-"values": [ false, true ]
+"values": [ 0 ]
 }
 tracks/14/type = "value"
 tracks/14/path = NodePath("animated_sprite:playing")
@@ -602,22 +1435,22 @@ tracks/14/loop_wrap = true
 tracks/14/imported = false
 tracks/14/enabled = true
 tracks/14/keys = {
-"times": PoolRealArray( 0, 17.1 ),
+"times": PoolRealArray( 0, 20.3 ),
 "transitions": PoolRealArray( 1, 1 ),
-"update": 1,
+"update": 0,
 "values": [ false, true ]
 }
 tracks/15/type = "value"
-tracks/15/path = NodePath("animated_sprite:frame")
+tracks/15/path = NodePath("animated_sprite:visible")
 tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/imported = false
 tracks/15/enabled = true
 tracks/15/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 1,
-"values": [ 0 ]
+"times": PoolRealArray( 0, 20.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ false, true ]
 }
 tracks/16/type = "method"
 tracks/16/path = NodePath(".")
@@ -626,7 +1459,7 @@ tracks/16/loop_wrap = true
 tracks/16/imported = false
 tracks/16/enabled = true
 tracks/16/keys = {
-"times": PoolRealArray( 7.3, 9.1 ),
+"times": PoolRealArray( 7.3, 10.6 ),
 "transitions": PoolRealArray( 1, 1 ),
 "values": [ {
 "args": [  ],
@@ -643,13 +1476,140 @@ tracks/17/loop_wrap = true
 tracks/17/imported = false
 tracks/17/enabled = true
 tracks/17/keys = {
-"times": PoolRealArray( 0, 23.9289 ),
+"times": PoolRealArray( 0, 27.1289 ),
 "transitions": PoolRealArray( 1, 1 ),
 "update": 1,
 "values": [ false, true ]
 }
+tracks/18/type = "value"
+tracks/18/path = NodePath("animated_sprite:position")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/keys = {
+"times": PoolRealArray( 20.3 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 200, 152.712 ) ]
+}
+tracks/19/type = "value"
+tracks/19/path = NodePath("animated_sprite:animation")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/keys = {
+"times": PoolRealArray( 20.3 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "default" ]
+}
+tracks/20/type = "value"
+tracks/20/path = NodePath("animated_sprite:scale")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/keys = {
+"times": PoolRealArray( 20.3 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1.25, 1.2274 ) ]
+}
+tracks/21/type = "value"
+tracks/21/path = NodePath("enemy:playing")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/keys = {
+"times": PoolRealArray( 0, 16.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/22/type = "value"
+tracks/22/path = NodePath("player/animated_sprite:playing")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/keys = {
+"times": PoolRealArray( 0, 16.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
 
-[sub_resource type="SpriteFrames" id=15]
+[sub_resource type="Animation" id=15]
+
+resource_name = "start"
+length = 2.0
+loop = false
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0, 300 ), Vector2( 0, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("animated_sprite:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("animated_sprite:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 200, -150 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("animated_sprite:animation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "open" ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("animated_sprite:scale")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 2, 2.20588 ) ]
+}
+
+[sub_resource type="SpriteFrames" id=16]
 
 animations = [ {
 "frames": [ ExtResource( 5 ) ],
@@ -663,7 +1623,7 @@ animations = [ {
 "speed": 10.0
 } ]
 
-[sub_resource type="SpriteFrames" id=16]
+[sub_resource type="SpriteFrames" id=17]
 
 animations = [ {
 "frames": [ ExtResource( 10 ) ],
@@ -672,9 +1632,8 @@ animations = [ {
 "speed": 5.0
 } ]
 
-[sub_resource type="Animation" id=17]
+[sub_resource type="Animation" id=18]
 
-resource_name = "toasty"
 length = 1.0
 loop = false
 step = 0.1
@@ -703,17 +1662,23 @@ tracks/1/keys = {
 "values": [ true ]
 }
 
-[sub_resource type="SpriteFrames" id=18]
+[sub_resource type="SpriteFrames" id=19]
 
 animations = [ {
-"frames": [ ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 71 ), ExtResource( 72 ), ExtResource( 73 ), ExtResource( 74 ), ExtResource( 75 ), ExtResource( 76 ), ExtResource( 77 ), ExtResource( 78 ), ExtResource( 79 ), ExtResource( 80 ), ExtResource( 81 ), ExtResource( 82 ), ExtResource( 83 ), ExtResource( 84 ), ExtResource( 85 ), ExtResource( 86 ), ExtResource( 87 ), ExtResource( 88 ), ExtResource( 89 ), ExtResource( 90 ), ExtResource( 91 ), ExtResource( 92 ), ExtResource( 93 ), ExtResource( 94 ), ExtResource( 95 ), ExtResource( 96 ), ExtResource( 97 ), ExtResource( 98 ), ExtResource( 99 ), ExtResource( 100 ), ExtResource( 101 ), ExtResource( 102 ), ExtResource( 103 ), ExtResource( 104 ), ExtResource( 105 ), ExtResource( 106 ), ExtResource( 107 ), ExtResource( 108 ), ExtResource( 109 ), ExtResource( 110 ), ExtResource( 111 ), ExtResource( 112 ), ExtResource( 113 ), ExtResource( 114 ), ExtResource( 115 ), ExtResource( 116 ), ExtResource( 117 ), ExtResource( 118 ), ExtResource( 119 ), ExtResource( 120 ), ExtResource( 121 ), ExtResource( 122 ), ExtResource( 123 ), ExtResource( 124 ), ExtResource( 125 ), ExtResource( 126 ), ExtResource( 127 ), ExtResource( 128 ), ExtResource( 129 ), ExtResource( 130 ), ExtResource( 131 ), ExtResource( 132 ), ExtResource( 133 ), ExtResource( 134 ), ExtResource( 135 ), ExtResource( 136 ), ExtResource( 137 ), ExtResource( 138 ), ExtResource( 139 ), ExtResource( 140 ), ExtResource( 141 ), ExtResource( 142 ), ExtResource( 143 ), ExtResource( 144 ), ExtResource( 145 ), ExtResource( 146 ), ExtResource( 147 ), ExtResource( 148 ), ExtResource( 149 ), ExtResource( 150 ), ExtResource( 151 ), ExtResource( 152 ), ExtResource( 153 ), ExtResource( 154 ), ExtResource( 155 ), ExtResource( 156 ), ExtResource( 157 ), ExtResource( 158 ), ExtResource( 159 ), ExtResource( 160 ), ExtResource( 161 ), ExtResource( 162 ), ExtResource( 163 ), ExtResource( 164 ), ExtResource( 165 ), ExtResource( 166 ), ExtResource( 167 ), ExtResource( 168 ), ExtResource( 169 ), ExtResource( 170 ), ExtResource( 171 ), ExtResource( 172 ), ExtResource( 173 ), ExtResource( 174 ), ExtResource( 175 ), ExtResource( 176 ), ExtResource( 177 ), ExtResource( 178 ), ExtResource( 179 ), ExtResource( 180 ), ExtResource( 181 ), ExtResource( 182 ), ExtResource( 183 ), ExtResource( 184 ), ExtResource( 185 ), ExtResource( 186 ), ExtResource( 187 ), ExtResource( 188 ), ExtResource( 189 ), ExtResource( 190 ), ExtResource( 191 ), ExtResource( 192 ), ExtResource( 193 ), ExtResource( 194 ), ExtResource( 195 ), ExtResource( 196 ), ExtResource( 197 ), ExtResource( 198 ), ExtResource( 199 ), ExtResource( 200 ), ExtResource( 201 ), ExtResource( 202 ), ExtResource( 203 ), ExtResource( 204 ), ExtResource( 205 ), ExtResource( 206 ), ExtResource( 207 ), ExtResource( 208 ), ExtResource( 209 ), ExtResource( 210 ), ExtResource( 211 ), ExtResource( 212 ), ExtResource( 213 ), ExtResource( 214 ), ExtResource( 215 ), ExtResource( 216 ), ExtResource( 217 ), ExtResource( 218 ), ExtResource( 219 ), ExtResource( 220 ), ExtResource( 221 ), ExtResource( 222 ), ExtResource( 223 ), ExtResource( 224 ), ExtResource( 225 ), ExtResource( 226 ), ExtResource( 227 ), ExtResource( 228 ), ExtResource( 229 ), ExtResource( 230 ), ExtResource( 231 ), ExtResource( 232 ), ExtResource( 233 ), ExtResource( 234 ), ExtResource( 235 ), ExtResource( 236 ), ExtResource( 237 ), ExtResource( 238 ), ExtResource( 239 ), ExtResource( 240 ), ExtResource( 241 ), ExtResource( 242 ), ExtResource( 243 ), ExtResource( 244 ), ExtResource( 245 ), ExtResource( 246 ), ExtResource( 247 ), ExtResource( 248 ), ExtResource( 249 ), ExtResource( 250 ), ExtResource( 251 ), ExtResource( 252 ), ExtResource( 253 ), ExtResource( 254 ), ExtResource( 255 ), ExtResource( 256 ), ExtResource( 257 ), ExtResource( 258 ), ExtResource( 259 ), ExtResource( 260 ), ExtResource( 261 ), ExtResource( 262 ), ExtResource( 263 ), ExtResource( 264 ), ExtResource( 265 ), ExtResource( 266 ), ExtResource( 267 ), ExtResource( 268 ), ExtResource( 269 ), ExtResource( 270 ), ExtResource( 271 ), ExtResource( 272 ), ExtResource( 273 ), ExtResource( 274 ), ExtResource( 275 ), ExtResource( 276 ), ExtResource( 277 ), ExtResource( 278 ), ExtResource( 279 ), ExtResource( 280 ), ExtResource( 281 ), ExtResource( 282 ), ExtResource( 283 ), ExtResource( 284 ), ExtResource( 285 ), ExtResource( 286 ), ExtResource( 287 ), ExtResource( 288 ), ExtResource( 289 ), ExtResource( 290 ), ExtResource( 291 ), ExtResource( 292 ), ExtResource( 293 ), ExtResource( 294 ), ExtResource( 295 ), ExtResource( 296 ), ExtResource( 297 ), ExtResource( 298 ), ExtResource( 299 ), ExtResource( 300 ), ExtResource( 301 ), ExtResource( 302 ), ExtResource( 303 ), ExtResource( 304 ), ExtResource( 305 ) ],
+"frames": [ ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 71 ), ExtResource( 72 ), ExtResource( 73 ), ExtResource( 74 ), ExtResource( 75 ), ExtResource( 76 ), ExtResource( 77 ), ExtResource( 78 ), ExtResource( 79 ), ExtResource( 80 ), ExtResource( 81 ), ExtResource( 82 ), ExtResource( 83 ), ExtResource( 84 ), ExtResource( 85 ), ExtResource( 86 ), ExtResource( 87 ), ExtResource( 88 ), ExtResource( 89 ), ExtResource( 90 ), ExtResource( 91 ), ExtResource( 92 ), ExtResource( 93 ), ExtResource( 94 ), ExtResource( 95 ), ExtResource( 96 ), ExtResource( 97 ), ExtResource( 98 ), ExtResource( 99 ), ExtResource( 100 ), ExtResource( 101 ), ExtResource( 102 ), ExtResource( 103 ), ExtResource( 104 ), ExtResource( 105 ), ExtResource( 106 ), ExtResource( 107 ), ExtResource( 108 ), ExtResource( 109 ), ExtResource( 110 ), ExtResource( 111 ), ExtResource( 112 ), ExtResource( 113 ), ExtResource( 114 ), ExtResource( 115 ), ExtResource( 116 ), ExtResource( 117 ), ExtResource( 118 ), ExtResource( 119 ), ExtResource( 120 ), ExtResource( 121 ), ExtResource( 122 ), ExtResource( 123 ), ExtResource( 124 ), ExtResource( 125 ), ExtResource( 126 ), ExtResource( 127 ), ExtResource( 128 ), ExtResource( 129 ), ExtResource( 130 ), ExtResource( 131 ), ExtResource( 132 ), ExtResource( 133 ), ExtResource( 134 ), ExtResource( 135 ), ExtResource( 136 ), ExtResource( 137 ), ExtResource( 138 ), ExtResource( 139 ), ExtResource( 140 ), ExtResource( 141 ), ExtResource( 142 ), ExtResource( 143 ), ExtResource( 144 ), ExtResource( 145 ), ExtResource( 146 ), ExtResource( 147 ), ExtResource( 148 ), ExtResource( 149 ), ExtResource( 150 ), ExtResource( 151 ), ExtResource( 152 ), ExtResource( 153 ), ExtResource( 154 ), ExtResource( 155 ), ExtResource( 156 ), ExtResource( 157 ), ExtResource( 158 ), ExtResource( 159 ), ExtResource( 160 ), ExtResource( 161 ), ExtResource( 162 ), ExtResource( 163 ), ExtResource( 164 ), ExtResource( 165 ), ExtResource( 166 ), ExtResource( 167 ), ExtResource( 168 ), ExtResource( 169 ), ExtResource( 170 ), ExtResource( 171 ), ExtResource( 172 ), ExtResource( 173 ), ExtResource( 174 ), ExtResource( 175 ), ExtResource( 176 ), ExtResource( 177 ), ExtResource( 178 ), ExtResource( 179 ), ExtResource( 180 ), ExtResource( 181 ), ExtResource( 182 ), ExtResource( 183 ), ExtResource( 184 ), ExtResource( 185 ), ExtResource( 186 ), ExtResource( 187 ), ExtResource( 188 ), ExtResource( 189 ), ExtResource( 190 ), ExtResource( 191 ), ExtResource( 192 ), ExtResource( 193 ), ExtResource( 194 ), ExtResource( 195 ), ExtResource( 196 ), ExtResource( 197 ), ExtResource( 198 ), ExtResource( 199 ), ExtResource( 200 ), ExtResource( 201 ), ExtResource( 202 ), ExtResource( 203 ), ExtResource( 204 ), ExtResource( 205 ), ExtResource( 206 ), ExtResource( 207 ), ExtResource( 208 ), ExtResource( 209 ), ExtResource( 210 ), ExtResource( 211 ), ExtResource( 212 ), ExtResource( 213 ), ExtResource( 214 ), ExtResource( 215 ), ExtResource( 216 ), ExtResource( 217 ), ExtResource( 218 ), ExtResource( 219 ), ExtResource( 220 ), ExtResource( 221 ), ExtResource( 222 ), ExtResource( 223 ), ExtResource( 224 ), ExtResource( 225 ), ExtResource( 226 ), ExtResource( 227 ), ExtResource( 228 ), ExtResource( 229 ), ExtResource( 230 ), ExtResource( 231 ), ExtResource( 232 ), ExtResource( 233 ), ExtResource( 234 ), ExtResource( 235 ), ExtResource( 236 ), ExtResource( 237 ), ExtResource( 238 ), ExtResource( 239 ), ExtResource( 240 ), ExtResource( 241 ), ExtResource( 242 ), ExtResource( 243 ), ExtResource( 244 ), ExtResource( 245 ), ExtResource( 246 ), ExtResource( 247 ), ExtResource( 248 ), ExtResource( 249 ), ExtResource( 250 ), ExtResource( 251 ), ExtResource( 252 ), ExtResource( 253 ), ExtResource( 254 ), ExtResource( 255 ), ExtResource( 256 ), ExtResource( 257 ), ExtResource( 258 ), ExtResource( 259 ), ExtResource( 260 ), ExtResource( 261 ), ExtResource( 262 ), ExtResource( 263 ), ExtResource( 264 ), ExtResource( 265 ), ExtResource( 266 ), ExtResource( 267 ), ExtResource( 268 ), ExtResource( 269 ), ExtResource( 270 ), ExtResource( 271 ), ExtResource( 272 ), ExtResource( 273 ), ExtResource( 274 ), ExtResource( 275 ), ExtResource( 276 ), ExtResource( 277 ), ExtResource( 278 ), ExtResource( 279 ), ExtResource( 280 ), ExtResource( 281 ), ExtResource( 282 ), ExtResource( 283 ), ExtResource( 284 ), ExtResource( 285 ), ExtResource( 286 ), ExtResource( 287 ), ExtResource( 288 ), ExtResource( 289 ), ExtResource( 290 ), ExtResource( 291 ), ExtResource( 292 ), ExtResource( 293 ), ExtResource( 294 ), ExtResource( 295 ), ExtResource( 296 ), ExtResource( 297 ), ExtResource( 298 ), ExtResource( 299 ), ExtResource( 300 ), ExtResource( 301 ), ExtResource( 302 ), ExtResource( 303 ), ExtResource( 304 ), ExtResource( 305 ), ExtResource( 306 ), ExtResource( 307 ), ExtResource( 308 ), ExtResource( 309 ), ExtResource( 310 ), ExtResource( 311 ), ExtResource( 312 ), ExtResource( 313 ), ExtResource( 314 ), ExtResource( 315 ), ExtResource( 316 ), ExtResource( 317 ), ExtResource( 318 ), ExtResource( 319 ), ExtResource( 320 ), ExtResource( 321 ), ExtResource( 322 ), ExtResource( 323 ), ExtResource( 324 ), ExtResource( 325 ), ExtResource( 326 ), ExtResource( 327 ), ExtResource( 328 ), ExtResource( 329 ), ExtResource( 330 ), ExtResource( 331 ), ExtResource( 332 ), ExtResource( 333 ), ExtResource( 334 ), ExtResource( 335 ), ExtResource( 336 ), ExtResource( 337 ), ExtResource( 338 ), ExtResource( 339 ), ExtResource( 340 ), ExtResource( 341 ), ExtResource( 342 ), ExtResource( 343 ), ExtResource( 344 ), ExtResource( 345 ), ExtResource( 346 ), ExtResource( 347 ), ExtResource( 348 ), ExtResource( 349 ), ExtResource( 350 ), ExtResource( 351 ), ExtResource( 352 ), ExtResource( 353 ), ExtResource( 354 ), ExtResource( 355 ), ExtResource( 356 ), ExtResource( 357 ), ExtResource( 358 ), ExtResource( 359 ), ExtResource( 360 ), ExtResource( 361 ), ExtResource( 362 ), ExtResource( 363 ), ExtResource( 364 ), ExtResource( 365 ), ExtResource( 366 ), ExtResource( 367 ), ExtResource( 368 ), ExtResource( 369 ), ExtResource( 370 ), ExtResource( 371 ), ExtResource( 372 ), ExtResource( 373 ), ExtResource( 374 ), ExtResource( 375 ), ExtResource( 376 ), ExtResource( 377 ), ExtResource( 378 ), ExtResource( 379 ), ExtResource( 380 ), ExtResource( 381 ), ExtResource( 382 ), ExtResource( 383 ), ExtResource( 384 ), ExtResource( 385 ), ExtResource( 386 ), ExtResource( 387 ), ExtResource( 388 ), ExtResource( 389 ), ExtResource( 390 ), ExtResource( 391 ), ExtResource( 392 ), ExtResource( 393 ), ExtResource( 394 ), ExtResource( 395 ), ExtResource( 396 ), ExtResource( 397 ), ExtResource( 398 ), ExtResource( 399 ), ExtResource( 400 ), ExtResource( 401 ), ExtResource( 402 ), ExtResource( 403 ), ExtResource( 404 ), ExtResource( 405 ), ExtResource( 406 ), ExtResource( 407 ), ExtResource( 408 ), ExtResource( 409 ), ExtResource( 410 ), ExtResource( 411 ), ExtResource( 412 ), ExtResource( 413 ), ExtResource( 414 ), ExtResource( 415 ), ExtResource( 416 ), ExtResource( 417 ), ExtResource( 418 ), ExtResource( 419 ), ExtResource( 420 ), ExtResource( 421 ), ExtResource( 422 ), ExtResource( 423 ), ExtResource( 424 ), ExtResource( 425 ), ExtResource( 426 ), ExtResource( 427 ), ExtResource( 428 ), ExtResource( 429 ), ExtResource( 430 ), ExtResource( 431 ), ExtResource( 432 ), ExtResource( 433 ), ExtResource( 434 ), ExtResource( 435 ), ExtResource( 436 ), ExtResource( 437 ), ExtResource( 438 ), ExtResource( 439 ), ExtResource( 440 ), ExtResource( 441 ), ExtResource( 442 ), ExtResource( 443 ), ExtResource( 444 ), ExtResource( 445 ), ExtResource( 446 ), ExtResource( 447 ), ExtResource( 448 ), ExtResource( 449 ), ExtResource( 450 ), ExtResource( 451 ), ExtResource( 452 ), ExtResource( 453 ), ExtResource( 454 ), ExtResource( 455 ), ExtResource( 456 ), ExtResource( 457 ), ExtResource( 458 ), ExtResource( 459 ), ExtResource( 460 ), ExtResource( 461 ), ExtResource( 462 ), ExtResource( 463 ), ExtResource( 464 ), ExtResource( 465 ), ExtResource( 466 ), ExtResource( 467 ), ExtResource( 468 ), ExtResource( 469 ), ExtResource( 470 ), ExtResource( 471 ), ExtResource( 472 ), ExtResource( 473 ), ExtResource( 474 ), ExtResource( 475 ), ExtResource( 476 ), ExtResource( 477 ), ExtResource( 478 ), ExtResource( 479 ), ExtResource( 480 ), ExtResource( 481 ), ExtResource( 482 ), ExtResource( 483 ), ExtResource( 484 ), ExtResource( 485 ), ExtResource( 486 ), ExtResource( 487 ), ExtResource( 488 ), ExtResource( 489 ), ExtResource( 490 ), ExtResource( 491 ), ExtResource( 492 ), ExtResource( 493 ), ExtResource( 494 ), ExtResource( 495 ), ExtResource( 496 ), ExtResource( 497 ), ExtResource( 498 ), ExtResource( 499 ), ExtResource( 500 ), ExtResource( 501 ), ExtResource( 502 ), ExtResource( 503 ), ExtResource( 504 ), ExtResource( 505 ), ExtResource( 506 ), ExtResource( 507 ), ExtResource( 508 ), ExtResource( 509 ), ExtResource( 510 ), ExtResource( 511 ), ExtResource( 512 ), ExtResource( 513 ), ExtResource( 514 ), ExtResource( 515 ), ExtResource( 516 ), ExtResource( 517 ), ExtResource( 518 ), ExtResource( 519 ), ExtResource( 520 ), ExtResource( 521 ), ExtResource( 522 ), ExtResource( 523 ), ExtResource( 524 ), ExtResource( 525 ), ExtResource( 526 ), ExtResource( 527 ), ExtResource( 528 ), ExtResource( 529 ), ExtResource( 530 ), ExtResource( 531 ), ExtResource( 532 ), ExtResource( 533 ), ExtResource( 534 ), ExtResource( 535 ), ExtResource( 536 ), ExtResource( 537 ), ExtResource( 538 ), ExtResource( 539 ), ExtResource( 540 ), ExtResource( 541 ), ExtResource( 542 ), ExtResource( 543 ), ExtResource( 544 ), ExtResource( 545 ), ExtResource( 546 ), ExtResource( 547 ), ExtResource( 548 ), ExtResource( 549 ), ExtResource( 550 ), ExtResource( 551 ), ExtResource( 552 ), ExtResource( 553 ), ExtResource( 554 ), ExtResource( 555 ), ExtResource( 556 ), ExtResource( 557 ), ExtResource( 558 ), ExtResource( 559 ), ExtResource( 560 ), ExtResource( 561 ), ExtResource( 562 ), ExtResource( 563 ), ExtResource( 564 ), ExtResource( 565 ), ExtResource( 566 ), ExtResource( 567 ), ExtResource( 568 ), ExtResource( 569 ), ExtResource( 570 ), ExtResource( 571 ), ExtResource( 572 ), ExtResource( 573 ), ExtResource( 574 ), ExtResource( 575 ), ExtResource( 576 ), ExtResource( 577 ), ExtResource( 578 ), ExtResource( 579 ), ExtResource( 580 ), ExtResource( 581 ), ExtResource( 582 ), ExtResource( 583 ), ExtResource( 584 ), ExtResource( 585 ), ExtResource( 586 ), ExtResource( 587 ), ExtResource( 588 ), ExtResource( 589 ), ExtResource( 590 ), ExtResource( 591 ), ExtResource( 592 ), ExtResource( 593 ), ExtResource( 594 ), ExtResource( 595 ), ExtResource( 596 ), ExtResource( 597 ), ExtResource( 598 ), ExtResource( 599 ), ExtResource( 600 ), ExtResource( 601 ), ExtResource( 602 ), ExtResource( 603 ), ExtResource( 604 ), ExtResource( 605 ), ExtResource( 606 ), ExtResource( 607 ), ExtResource( 608 ), ExtResource( 609 ), ExtResource( 610 ), ExtResource( 611 ), ExtResource( 612 ), ExtResource( 613 ), ExtResource( 614 ), ExtResource( 615 ), ExtResource( 616 ), ExtResource( 617 ), ExtResource( 618 ), ExtResource( 619 ), ExtResource( 620 ), ExtResource( 621 ), ExtResource( 622 ), ExtResource( 623 ), ExtResource( 624 ), ExtResource( 625 ), ExtResource( 626 ), ExtResource( 627 ), ExtResource( 628 ), ExtResource( 629 ), ExtResource( 630 ), ExtResource( 631 ), ExtResource( 632 ), ExtResource( 633 ), ExtResource( 634 ), ExtResource( 635 ), ExtResource( 636 ), ExtResource( 637 ), ExtResource( 638 ), ExtResource( 639 ), ExtResource( 640 ), ExtResource( 641 ), ExtResource( 642 ), ExtResource( 643 ), ExtResource( 644 ), ExtResource( 645 ), ExtResource( 646 ), ExtResource( 647 ), ExtResource( 648 ), ExtResource( 649 ), ExtResource( 650 ), ExtResource( 651 ), ExtResource( 652 ), ExtResource( 653 ), ExtResource( 654 ), ExtResource( 655 ), ExtResource( 656 ), ExtResource( 657 ), ExtResource( 658 ), ExtResource( 659 ), ExtResource( 660 ), ExtResource( 661 ), ExtResource( 662 ), ExtResource( 663 ), ExtResource( 664 ), ExtResource( 665 ), ExtResource( 666 ), ExtResource( 667 ), ExtResource( 668 ), ExtResource( 669 ), ExtResource( 670 ), ExtResource( 671 ), ExtResource( 672 ), ExtResource( 673 ), ExtResource( 674 ), ExtResource( 675 ), ExtResource( 676 ), ExtResource( 677 ), ExtResource( 678 ), ExtResource( 679 ), ExtResource( 680 ), ExtResource( 681 ), ExtResource( 682 ), ExtResource( 683 ), ExtResource( 684 ), ExtResource( 685 ), ExtResource( 686 ), ExtResource( 687 ), ExtResource( 688 ), ExtResource( 689 ), ExtResource( 690 ), ExtResource( 691 ), ExtResource( 692 ), ExtResource( 693 ), ExtResource( 694 ), ExtResource( 695 ), ExtResource( 696 ), ExtResource( 697 ), ExtResource( 698 ), ExtResource( 699 ), ExtResource( 700 ), ExtResource( 701 ), ExtResource( 702 ), ExtResource( 703 ), ExtResource( 704 ), ExtResource( 705 ), ExtResource( 706 ), ExtResource( 707 ), ExtResource( 708 ), ExtResource( 709 ), ExtResource( 710 ), ExtResource( 711 ), ExtResource( 712 ), ExtResource( 713 ), ExtResource( 714 ), ExtResource( 715 ), ExtResource( 716 ), ExtResource( 717 ), ExtResource( 718 ), ExtResource( 719 ), ExtResource( 720 ), ExtResource( 721 ), ExtResource( 722 ), ExtResource( 723 ), ExtResource( 724 ), ExtResource( 725 ), ExtResource( 726 ), ExtResource( 727 ), ExtResource( 728 ), ExtResource( 729 ), ExtResource( 730 ), ExtResource( 731 ), ExtResource( 732 ), ExtResource( 733 ), ExtResource( 734 ), ExtResource( 735 ), ExtResource( 736 ), ExtResource( 737 ), ExtResource( 738 ), ExtResource( 739 ), ExtResource( 740 ), ExtResource( 741 ), ExtResource( 742 ), ExtResource( 743 ), ExtResource( 744 ), ExtResource( 745 ), ExtResource( 746 ), ExtResource( 747 ), ExtResource( 748 ), ExtResource( 749 ), ExtResource( 750 ), ExtResource( 751 ), ExtResource( 752 ), ExtResource( 753 ), ExtResource( 754 ), ExtResource( 755 ), ExtResource( 756 ), ExtResource( 757 ), ExtResource( 758 ), ExtResource( 759 ), ExtResource( 760 ), ExtResource( 761 ), ExtResource( 762 ), ExtResource( 763 ), ExtResource( 764 ), ExtResource( 765 ), ExtResource( 766 ), ExtResource( 767 ), ExtResource( 768 ), ExtResource( 769 ), ExtResource( 770 ), ExtResource( 771 ), ExtResource( 772 ), ExtResource( 773 ), ExtResource( 774 ), ExtResource( 775 ), ExtResource( 776 ), ExtResource( 777 ), ExtResource( 778 ), ExtResource( 779 ), ExtResource( 780 ), ExtResource( 781 ), ExtResource( 782 ), ExtResource( 783 ), ExtResource( 784 ), ExtResource( 785 ), ExtResource( 786 ), ExtResource( 787 ), ExtResource( 788 ), ExtResource( 789 ), ExtResource( 790 ), ExtResource( 791 ), ExtResource( 792 ), ExtResource( 793 ), ExtResource( 794 ), ExtResource( 795 ), ExtResource( 796 ), ExtResource( 797 ), ExtResource( 798 ), ExtResource( 799 ), ExtResource( 800 ), ExtResource( 801 ), ExtResource( 802 ), ExtResource( 803 ), ExtResource( 804 ), ExtResource( 805 ), ExtResource( 806 ), ExtResource( 807 ), ExtResource( 808 ), ExtResource( 809 ), ExtResource( 810 ), ExtResource( 811 ), ExtResource( 812 ), ExtResource( 813 ), ExtResource( 814 ), ExtResource( 815 ), ExtResource( 816 ), ExtResource( 817 ), ExtResource( 818 ), ExtResource( 819 ), ExtResource( 820 ), ExtResource( 821 ), ExtResource( 822 ), ExtResource( 823 ), ExtResource( 824 ), ExtResource( 825 ), ExtResource( 826 ), ExtResource( 827 ), ExtResource( 828 ), ExtResource( 829 ), ExtResource( 830 ), ExtResource( 831 ), ExtResource( 832 ), ExtResource( 833 ), ExtResource( 834 ), ExtResource( 835 ), ExtResource( 836 ), ExtResource( 837 ), ExtResource( 838 ), ExtResource( 839 ), ExtResource( 840 ), ExtResource( 841 ), ExtResource( 842 ), ExtResource( 843 ), ExtResource( 844 ) ],
+"loop": false,
+"name": "open",
+"speed": 30.0
+}, {
+"frames": [ ExtResource( 845 ), ExtResource( 846 ), ExtResource( 847 ), ExtResource( 848 ), ExtResource( 849 ), ExtResource( 850 ), ExtResource( 851 ), ExtResource( 852 ), ExtResource( 853 ), ExtResource( 854 ), ExtResource( 855 ), ExtResource( 856 ), ExtResource( 857 ), ExtResource( 858 ), ExtResource( 859 ), ExtResource( 860 ), ExtResource( 861 ), ExtResource( 862 ), ExtResource( 863 ), ExtResource( 864 ), ExtResource( 865 ), ExtResource( 866 ), ExtResource( 867 ), ExtResource( 868 ), ExtResource( 869 ), ExtResource( 870 ), ExtResource( 871 ), ExtResource( 872 ), ExtResource( 873 ), ExtResource( 874 ), ExtResource( 875 ), ExtResource( 876 ), ExtResource( 877 ), ExtResource( 878 ), ExtResource( 879 ), ExtResource( 880 ), ExtResource( 881 ), ExtResource( 882 ), ExtResource( 883 ), ExtResource( 884 ), ExtResource( 885 ), ExtResource( 886 ), ExtResource( 887 ), ExtResource( 888 ), ExtResource( 889 ), ExtResource( 890 ), ExtResource( 891 ), ExtResource( 892 ), ExtResource( 893 ), ExtResource( 894 ), ExtResource( 895 ), ExtResource( 896 ), ExtResource( 897 ), ExtResource( 898 ), ExtResource( 899 ), ExtResource( 900 ), ExtResource( 901 ), ExtResource( 902 ), ExtResource( 903 ), ExtResource( 904 ), ExtResource( 905 ), ExtResource( 906 ), ExtResource( 907 ), ExtResource( 908 ), ExtResource( 909 ), ExtResource( 910 ), ExtResource( 911 ), ExtResource( 912 ), ExtResource( 913 ), ExtResource( 914 ), ExtResource( 915 ), ExtResource( 916 ), ExtResource( 917 ), ExtResource( 918 ), ExtResource( 919 ), ExtResource( 920 ), ExtResource( 921 ), ExtResource( 922 ), ExtResource( 923 ), ExtResource( 924 ), ExtResource( 925 ), ExtResource( 926 ), ExtResource( 927 ), ExtResource( 928 ), ExtResource( 929 ), ExtResource( 930 ), ExtResource( 931 ), ExtResource( 932 ), ExtResource( 933 ), ExtResource( 934 ), ExtResource( 935 ), ExtResource( 936 ), ExtResource( 937 ), ExtResource( 938 ), ExtResource( 939 ), ExtResource( 940 ), ExtResource( 941 ), ExtResource( 942 ), ExtResource( 943 ), ExtResource( 944 ), ExtResource( 945 ), ExtResource( 946 ), ExtResource( 947 ), ExtResource( 948 ), ExtResource( 949 ), ExtResource( 950 ), ExtResource( 951 ), ExtResource( 952 ), ExtResource( 953 ), ExtResource( 954 ), ExtResource( 955 ), ExtResource( 956 ), ExtResource( 957 ), ExtResource( 958 ), ExtResource( 959 ), ExtResource( 960 ), ExtResource( 961 ), ExtResource( 962 ), ExtResource( 963 ), ExtResource( 964 ), ExtResource( 965 ), ExtResource( 966 ), ExtResource( 967 ), ExtResource( 968 ), ExtResource( 969 ), ExtResource( 970 ), ExtResource( 971 ), ExtResource( 972 ), ExtResource( 973 ), ExtResource( 974 ), ExtResource( 975 ), ExtResource( 976 ), ExtResource( 977 ), ExtResource( 978 ), ExtResource( 979 ), ExtResource( 980 ), ExtResource( 981 ), ExtResource( 982 ), ExtResource( 983 ), ExtResource( 984 ), ExtResource( 985 ), ExtResource( 986 ), ExtResource( 987 ), ExtResource( 988 ), ExtResource( 989 ), ExtResource( 990 ), ExtResource( 991 ), ExtResource( 992 ), ExtResource( 993 ), ExtResource( 994 ), ExtResource( 995 ), ExtResource( 996 ), ExtResource( 997 ), ExtResource( 998 ), ExtResource( 999 ), ExtResource( 1000 ), ExtResource( 1001 ), ExtResource( 1002 ), ExtResource( 1003 ), ExtResource( 1004 ), ExtResource( 1005 ), ExtResource( 1006 ), ExtResource( 1007 ), ExtResource( 1008 ), ExtResource( 1009 ), ExtResource( 1010 ), ExtResource( 1011 ), ExtResource( 1012 ), ExtResource( 1013 ), ExtResource( 1014 ), ExtResource( 1015 ), ExtResource( 1016 ), ExtResource( 1017 ), ExtResource( 1018 ), ExtResource( 1019 ), ExtResource( 1020 ), ExtResource( 1021 ), ExtResource( 1022 ), ExtResource( 1023 ), ExtResource( 1024 ), ExtResource( 1025 ), ExtResource( 1026 ), ExtResource( 1027 ), ExtResource( 1028 ), ExtResource( 1029 ), ExtResource( 1030 ), ExtResource( 1031 ), ExtResource( 1032 ), ExtResource( 1033 ), ExtResource( 1034 ), ExtResource( 1035 ), ExtResource( 1036 ), ExtResource( 1037 ), ExtResource( 1038 ), ExtResource( 1039 ), ExtResource( 1040 ), ExtResource( 1041 ), ExtResource( 1042 ), ExtResource( 1043 ), ExtResource( 1044 ), ExtResource( 1045 ), ExtResource( 1046 ), ExtResource( 1047 ), ExtResource( 1048 ), ExtResource( 1049 ), ExtResource( 1050 ), ExtResource( 1051 ), ExtResource( 1052 ), ExtResource( 1053 ), ExtResource( 1054 ), ExtResource( 1055 ), ExtResource( 1056 ), ExtResource( 1057 ), ExtResource( 1058 ), ExtResource( 1059 ), ExtResource( 1060 ), ExtResource( 1061 ), ExtResource( 1062 ), ExtResource( 1063 ), ExtResource( 1064 ), ExtResource( 1065 ), ExtResource( 1066 ), ExtResource( 1067 ), ExtResource( 1068 ), ExtResource( 1069 ), ExtResource( 1070 ), ExtResource( 1071 ), ExtResource( 1072 ), ExtResource( 1073 ), ExtResource( 1074 ), ExtResource( 1075 ), ExtResource( 1076 ), ExtResource( 1077 ), ExtResource( 1078 ), ExtResource( 1079 ), ExtResource( 1080 ), ExtResource( 1081 ), ExtResource( 1082 ), ExtResource( 1083 ), ExtResource( 1084 ), ExtResource( 1085 ), ExtResource( 1086 ), ExtResource( 1087 ), ExtResource( 1088 ), ExtResource( 1089 ), ExtResource( 1090 ), ExtResource( 1091 ), ExtResource( 1092 ), ExtResource( 1093 ), ExtResource( 1094 ), ExtResource( 1095 ), ExtResource( 1096 ), ExtResource( 1097 ), ExtResource( 1098 ), ExtResource( 1099 ), ExtResource( 1100 ), ExtResource( 1101 ), ExtResource( 1102 ), ExtResource( 1103 ), ExtResource( 1104 ), ExtResource( 1105 ), ExtResource( 1106 ), ExtResource( 1107 ), ExtResource( 1108 ), ExtResource( 1109 ), ExtResource( 1110 ), ExtResource( 1111 ), ExtResource( 1112 ), ExtResource( 1113 ), ExtResource( 1114 ), ExtResource( 1115 ), ExtResource( 1116 ), ExtResource( 1117 ), ExtResource( 1118 ), ExtResource( 1119 ), ExtResource( 1120 ), ExtResource( 1121 ), ExtResource( 1122 ), ExtResource( 1123 ), ExtResource( 1124 ), ExtResource( 1125 ), ExtResource( 1126 ), ExtResource( 1127 ), ExtResource( 1128 ), ExtResource( 1129 ), ExtResource( 1130 ), ExtResource( 1131 ), ExtResource( 1132 ), ExtResource( 1133 ), ExtResource( 1134 ), ExtResource( 1135 ), ExtResource( 1136 ), ExtResource( 1137 ), ExtResource( 1138 ) ],
 "loop": false,
 "name": "default",
 "speed": 30.0
 } ]
 
-[node name="node" type="Node" index="0"]
+[node name="node" type="Node2D" index="0"]
 
+position = Vector2( 0, 300 )
 script = ExtResource( 1 )
 
 [node name="color_rect" type="ColorRect" parent="." index="0"]
@@ -732,7 +1697,7 @@ size_flags_horizontal = 1
 size_flags_vertical = 1
 color = Color( 0.0666667, 0.0666667, 0.0666667, 1 )
 
-[node name="tiles" type="Node" parent="." index="1"]
+[node name="tiles" type="Node2D" parent="." index="1"]
 
 editor/display_folded = true
 
@@ -857,7 +1822,7 @@ __meta__ = {
 "_edit_lock_": true
 }
 
-[node name="objects" type="Node" parent="." index="2"]
+[node name="objects" type="Node2D" parent="." index="2"]
 
 editor/display_folded = true
 
@@ -885,7 +1850,7 @@ region_enabled = true
 region_rect = Rect2( 136, 2, 32, 38 )
 _sections_unfolded = [ "Region" ]
 
-[node name="messages" type="Node" parent="." index="3"]
+[node name="messages" type="Node2D" parent="." index="3"]
 
 editor/display_folded = true
 
@@ -1026,9 +1991,13 @@ _sections_unfolded = [ "Rect" ]
 
 [node name="player" parent="." index="5" instance=ExtResource( 4 )]
 
-editor/display_folded = true
-position = Vector2( 175, 201.967 )
+position = Vector2( 150, 201.967 )
 _sections_unfolded = [ "Transform" ]
+
+[node name="animated_sprite" parent="player" index="0"]
+
+animation = "walk_h"
+playing = false
 
 [node name="area_2d" type="Area2D" parent="." index="6"]
 
@@ -1166,16 +2135,16 @@ playback_process_mode = 1
 playback_default_blend_time = 0.0
 playback_speed = 1.0
 "anims/New Anim" = SubResource( 14 )
+anims/start = SubResource( 15 )
 blend_times = [  ]
 
 [node name="enemy" type="AnimatedSprite" parent="." index="9"]
 
-position = Vector2( 470, 250 )
+position = Vector2( 129.962, 202.062 )
 scale = Vector2( 0.5, 0.5 )
-frames = SubResource( 15 )
+frames = SubResource( 16 )
 animation = "walk"
-frame = 1
-playing = true
+flip_h = true
 _sections_unfolded = [ "Transform", "Visibility" ]
 
 [node name="audio_stream_player" type="AudioStreamPlayer" parent="." index="10"]
@@ -1196,10 +2165,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 330.0
-margin_top = 210.0
-margin_right = 390.0
-margin_bottom = 230.0
+margin_left = 1.0
+margin_top = 139.0
+margin_right = 148.0
+margin_bottom = 176.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 0
@@ -1220,7 +2189,7 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
-text = "Toc Toc"
+text = "WHO SAID I CAN'T?!"
 align = 1
 valign = 1
 autowrap = true
@@ -1234,7 +2203,7 @@ _sections_unfolded = [ "Visibility" ]
 editor/display_folded = true
 position = Vector2( 425.253, 143.645 )
 scale = Vector2( 0.1, 0.1 )
-frames = SubResource( 16 )
+frames = SubResource( 17 )
 animation = "default"
 _sections_unfolded = [ "Transform" ]
 
@@ -1245,7 +2214,7 @@ autoplay = ""
 playback_process_mode = 1
 playback_default_blend_time = 0.0
 playback_speed = 1.0
-anims/toasty = SubResource( 17 )
+anims/toasty = SubResource( 18 )
 blend_times = [  ]
 _sections_unfolded = [ "Pause", "Playback Options" ]
 
@@ -1260,17 +2229,19 @@ bus = "Master"
 
 [node name="animated_sprite" type="AnimatedSprite" parent="." index="14"]
 
-visible = false
-position = Vector2( 200, 150 )
-scale = Vector2( 1.25, 1.25 )
-frames = SubResource( 18 )
-animation = "default"
+position = Vector2( 200, -150 )
+scale = Vector2( 2, 2.20588 )
+frames = SubResource( 19 )
+animation = "open"
+frame = 65
+playing = true
+_sections_unfolded = [ "Transform", "Visibility" ]
 
 [node name="preorder" type="Sprite" parent="." index="15"]
 
 visible = false
 position = Vector2( 200, 150 )
-texture = ExtResource( 306 )
+texture = ExtResource( 1139 )
 _sections_unfolded = [ "Visibility" ]
 
 [connection signal="hide" from="messages/mission 1" to="." method="_on_mission_1_hide"]
@@ -1286,6 +2257,8 @@ _sections_unfolded = [ "Visibility" ]
 [connection signal="pressed" from="thermostat_hud/button" to="." method="_on_button_pressed"]
 
 [connection signal="pressed" from="thermostat_hud/button2" to="." method="_on_button2_pressed"]
+
+[connection signal="animation_finished" from="animated_sprite" to="." method="_on_animated_sprite_animation_finished"]
 
 
 [editable path="player"]
