@@ -2,9 +2,15 @@ extends Node2D
 
 const SPEED = 3
 
-onready var new_pos = self.position
+var new_pos
 var look = false
 var stop = false
+
+
+func _ready():
+	position = Vector2(309, 168)
+	new_pos = position
+
 
 func _input(event):
 	if look:
