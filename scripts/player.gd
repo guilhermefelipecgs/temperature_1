@@ -5,7 +5,6 @@ const SPEED = 3
 onready var new_pos = self.position
 var look = false
 
-
 func _input(event):
 	if look:
 		return
@@ -15,6 +14,7 @@ func _input(event):
 		if event.button_index == BUTTON_LEFT:
 			new_pos = event.position
 			new_pos.y = max(new_pos.y, 130)
+			get_parent().label1.hide()
 
 
 func _process(delta):
