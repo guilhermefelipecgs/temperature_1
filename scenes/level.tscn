@@ -1256,7 +1256,7 @@ content_margin_bottom = -1.0
 
 [sub_resource type="Animation" id=14]
 
-length = 30.0
+length = 35.0
 loop = false
 step = 0.1
 tracks/0/type = "value"
@@ -1302,7 +1302,7 @@ tracks/3/loop_wrap = true
 tracks/3/imported = false
 tracks/3/enabled = true
 tracks/3/keys = {
-"times": PoolRealArray( 0, 21.4 ),
+"times": PoolRealArray( 0, 27.2 ),
 "transitions": PoolRealArray( 1, 1 ),
 "update": 2,
 "values": [ false, true ]
@@ -1314,10 +1314,10 @@ tracks/4/loop_wrap = true
 tracks/4/imported = false
 tracks/4/enabled = true
 tracks/4/keys = {
-"times": PoolRealArray( 0, 0.1, 5.6, 7.3, 15.1, 17.1, 21.1 ),
-"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"times": PoolRealArray( 0, 0.1, 5.6, 7.3, 15.1, 17.1, 21.6, 26.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
 "update": 1,
-"values": [ false, true, false, true, false, true, false ]
+"values": [ false, true, false, true, false, true, false, false ]
 }
 tracks/5/type = "value"
 tracks/5/path = NodePath("dialog/panel:rect_position")
@@ -1424,7 +1424,7 @@ tracks/13/loop_wrap = true
 tracks/13/imported = false
 tracks/13/enabled = true
 tracks/13/keys = {
-"times": PoolRealArray( 21.1 ),
+"times": PoolRealArray( 26.9 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
 "values": [ 0 ]
@@ -1436,7 +1436,7 @@ tracks/14/loop_wrap = true
 tracks/14/imported = false
 tracks/14/enabled = true
 tracks/14/keys = {
-"times": PoolRealArray( 0, 21.1 ),
+"times": PoolRealArray( 0, 26.9 ),
 "transitions": PoolRealArray( 1, 1 ),
 "update": 0,
 "values": [ false, true ]
@@ -1448,7 +1448,7 @@ tracks/15/loop_wrap = true
 tracks/15/imported = false
 tracks/15/enabled = true
 tracks/15/keys = {
-"times": PoolRealArray( 0, 21.1 ),
+"times": PoolRealArray( 0, 26.9 ),
 "transitions": PoolRealArray( 1, 1 ),
 "update": 0,
 "values": [ false, true ]
@@ -1477,7 +1477,7 @@ tracks/17/loop_wrap = true
 tracks/17/imported = false
 tracks/17/enabled = true
 tracks/17/keys = {
-"times": PoolRealArray( 0, 27.9289 ),
+"times": PoolRealArray( 0, 33.7289 ),
 "transitions": PoolRealArray( 1, 1 ),
 "update": 1,
 "values": [ false, true ]
@@ -1489,7 +1489,7 @@ tracks/18/loop_wrap = true
 tracks/18/imported = false
 tracks/18/enabled = true
 tracks/18/keys = {
-"times": PoolRealArray( 21.1 ),
+"times": PoolRealArray( 26.9 ),
 "transitions": PoolRealArray( 1 ),
 "update": 0,
 "values": [ Vector2( 200, 152.712 ) ]
@@ -1501,7 +1501,7 @@ tracks/19/loop_wrap = true
 tracks/19/imported = false
 tracks/19/enabled = true
 tracks/19/keys = {
-"times": PoolRealArray( 21.1 ),
+"times": PoolRealArray( 26.9 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
 "values": [ "default" ]
@@ -1513,7 +1513,7 @@ tracks/20/loop_wrap = true
 tracks/20/imported = false
 tracks/20/enabled = true
 tracks/20/keys = {
-"times": PoolRealArray( 21.1 ),
+"times": PoolRealArray( 26.9 ),
 "transitions": PoolRealArray( 1 ),
 "update": 0,
 "values": [ Vector2( 1.25, 1.2274 ) ]
@@ -1549,10 +1549,34 @@ tracks/23/loop_wrap = true
 tracks/23/imported = false
 tracks/23/enabled = true
 tracks/23/keys = {
-"times": PoolRealArray( 21.1 ),
+"times": PoolRealArray( 26.9 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
 "values": [ false ]
+}
+tracks/24/type = "value"
+tracks/24/path = NodePath("camera_2d:position")
+tracks/24/interp = 1
+tracks/24/loop_wrap = true
+tracks/24/imported = false
+tracks/24/enabled = true
+tracks/24/keys = {
+"times": PoolRealArray( 0, 21.5, 24.2, 26.9 ),
+"transitions": PoolRealArray( 1, 1, 0, 0 ),
+"update": 0,
+"values": [ Vector2( 200, 150 ), Vector2( 200, 150 ), Vector2( 140, 200 ), Vector2( 200, 150 ) ]
+}
+tracks/25/type = "value"
+tracks/25/path = NodePath("camera_2d:zoom")
+tracks/25/interp = 1
+tracks/25/loop_wrap = true
+tracks/25/imported = false
+tracks/25/enabled = true
+tracks/25/keys = {
+"times": PoolRealArray( 0, 21.5, 24.2, 26.9 ),
+"transitions": PoolRealArray( 1, 1, 0, 0 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 0.3, 0.3 ), Vector2( 1, 1 ) ]
 }
 
 [sub_resource type="Animation" id=15]
@@ -1635,6 +1659,18 @@ tracks/5/keys = {
 "method": "unlock"
 } ]
 }
+tracks/6/type = "value"
+tracks/6/path = NodePath("camera_2d:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 200, -150 ), Vector2( 200, 150 ) ]
+}
 
 [sub_resource type="SpriteFrames" id=16]
 
@@ -1695,7 +1731,7 @@ animations = [ {
 "frames": [ ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 71 ), ExtResource( 72 ), ExtResource( 73 ), ExtResource( 74 ), ExtResource( 75 ), ExtResource( 76 ), ExtResource( 77 ), ExtResource( 78 ), ExtResource( 79 ), ExtResource( 80 ), ExtResource( 81 ), ExtResource( 82 ), ExtResource( 83 ), ExtResource( 84 ), ExtResource( 85 ), ExtResource( 86 ), ExtResource( 87 ), ExtResource( 88 ), ExtResource( 89 ), ExtResource( 90 ), ExtResource( 91 ), ExtResource( 92 ), ExtResource( 93 ), ExtResource( 94 ), ExtResource( 95 ), ExtResource( 96 ), ExtResource( 97 ), ExtResource( 98 ), ExtResource( 99 ), ExtResource( 100 ), ExtResource( 101 ), ExtResource( 102 ), ExtResource( 103 ), ExtResource( 104 ), ExtResource( 105 ), ExtResource( 106 ), ExtResource( 107 ), ExtResource( 108 ), ExtResource( 109 ), ExtResource( 110 ), ExtResource( 111 ), ExtResource( 112 ), ExtResource( 113 ), ExtResource( 114 ), ExtResource( 115 ), ExtResource( 116 ), ExtResource( 117 ), ExtResource( 118 ), ExtResource( 119 ), ExtResource( 120 ), ExtResource( 121 ), ExtResource( 122 ), ExtResource( 123 ), ExtResource( 124 ), ExtResource( 125 ), ExtResource( 126 ), ExtResource( 127 ), ExtResource( 128 ), ExtResource( 129 ), ExtResource( 130 ), ExtResource( 131 ), ExtResource( 132 ), ExtResource( 133 ), ExtResource( 134 ), ExtResource( 135 ), ExtResource( 136 ), ExtResource( 137 ), ExtResource( 138 ), ExtResource( 139 ), ExtResource( 140 ), ExtResource( 141 ), ExtResource( 142 ), ExtResource( 143 ), ExtResource( 144 ), ExtResource( 145 ), ExtResource( 146 ), ExtResource( 147 ), ExtResource( 148 ), ExtResource( 149 ), ExtResource( 150 ), ExtResource( 151 ), ExtResource( 152 ), ExtResource( 153 ), ExtResource( 154 ), ExtResource( 155 ), ExtResource( 156 ), ExtResource( 157 ), ExtResource( 158 ), ExtResource( 159 ), ExtResource( 160 ), ExtResource( 161 ), ExtResource( 162 ), ExtResource( 163 ), ExtResource( 164 ), ExtResource( 165 ), ExtResource( 166 ), ExtResource( 167 ), ExtResource( 168 ), ExtResource( 169 ), ExtResource( 170 ), ExtResource( 171 ), ExtResource( 172 ), ExtResource( 173 ), ExtResource( 174 ), ExtResource( 175 ), ExtResource( 176 ), ExtResource( 177 ), ExtResource( 178 ), ExtResource( 179 ), ExtResource( 180 ), ExtResource( 181 ), ExtResource( 182 ), ExtResource( 183 ), ExtResource( 184 ), ExtResource( 185 ), ExtResource( 186 ), ExtResource( 187 ), ExtResource( 188 ), ExtResource( 189 ), ExtResource( 190 ), ExtResource( 191 ), ExtResource( 192 ), ExtResource( 193 ), ExtResource( 194 ), ExtResource( 195 ), ExtResource( 196 ), ExtResource( 197 ), ExtResource( 198 ), ExtResource( 199 ), ExtResource( 200 ), ExtResource( 201 ), ExtResource( 202 ), ExtResource( 203 ), ExtResource( 204 ), ExtResource( 205 ), ExtResource( 206 ), ExtResource( 207 ), ExtResource( 208 ), ExtResource( 209 ), ExtResource( 210 ), ExtResource( 211 ), ExtResource( 212 ), ExtResource( 213 ), ExtResource( 214 ), ExtResource( 215 ), ExtResource( 216 ), ExtResource( 217 ), ExtResource( 218 ), ExtResource( 219 ), ExtResource( 220 ), ExtResource( 221 ), ExtResource( 222 ), ExtResource( 223 ), ExtResource( 224 ), ExtResource( 225 ), ExtResource( 226 ), ExtResource( 227 ), ExtResource( 228 ), ExtResource( 229 ), ExtResource( 230 ), ExtResource( 231 ), ExtResource( 232 ), ExtResource( 233 ), ExtResource( 234 ), ExtResource( 235 ), ExtResource( 236 ), ExtResource( 237 ), ExtResource( 238 ), ExtResource( 239 ), ExtResource( 240 ), ExtResource( 241 ), ExtResource( 242 ), ExtResource( 243 ), ExtResource( 244 ), ExtResource( 245 ), ExtResource( 246 ), ExtResource( 247 ), ExtResource( 248 ), ExtResource( 249 ), ExtResource( 250 ), ExtResource( 251 ), ExtResource( 252 ), ExtResource( 253 ), ExtResource( 254 ), ExtResource( 255 ), ExtResource( 256 ), ExtResource( 257 ), ExtResource( 258 ), ExtResource( 259 ), ExtResource( 260 ), ExtResource( 261 ), ExtResource( 262 ), ExtResource( 263 ), ExtResource( 264 ), ExtResource( 265 ), ExtResource( 266 ), ExtResource( 267 ), ExtResource( 268 ), ExtResource( 269 ), ExtResource( 270 ), ExtResource( 271 ), ExtResource( 272 ), ExtResource( 273 ), ExtResource( 274 ), ExtResource( 275 ), ExtResource( 276 ), ExtResource( 277 ), ExtResource( 278 ), ExtResource( 279 ), ExtResource( 280 ), ExtResource( 281 ), ExtResource( 282 ), ExtResource( 283 ), ExtResource( 284 ), ExtResource( 285 ), ExtResource( 286 ), ExtResource( 287 ), ExtResource( 288 ), ExtResource( 289 ), ExtResource( 290 ), ExtResource( 291 ), ExtResource( 292 ), ExtResource( 293 ), ExtResource( 294 ), ExtResource( 295 ), ExtResource( 296 ), ExtResource( 297 ), ExtResource( 298 ), ExtResource( 299 ), ExtResource( 300 ), ExtResource( 301 ), ExtResource( 302 ), ExtResource( 303 ), ExtResource( 304 ), ExtResource( 305 ), ExtResource( 306 ), ExtResource( 307 ), ExtResource( 308 ), ExtResource( 309 ), ExtResource( 310 ), ExtResource( 311 ), ExtResource( 312 ), ExtResource( 313 ), ExtResource( 314 ), ExtResource( 315 ), ExtResource( 316 ), ExtResource( 317 ), ExtResource( 318 ), ExtResource( 319 ), ExtResource( 320 ), ExtResource( 321 ), ExtResource( 322 ), ExtResource( 323 ), ExtResource( 324 ), ExtResource( 325 ), ExtResource( 326 ), ExtResource( 327 ), ExtResource( 328 ), ExtResource( 329 ), ExtResource( 330 ), ExtResource( 331 ), ExtResource( 332 ), ExtResource( 333 ), ExtResource( 334 ), ExtResource( 335 ), ExtResource( 336 ), ExtResource( 337 ), ExtResource( 338 ), ExtResource( 339 ), ExtResource( 340 ), ExtResource( 341 ), ExtResource( 342 ), ExtResource( 343 ), ExtResource( 344 ), ExtResource( 345 ), ExtResource( 346 ), ExtResource( 347 ), ExtResource( 348 ), ExtResource( 349 ), ExtResource( 350 ), ExtResource( 351 ), ExtResource( 352 ), ExtResource( 353 ), ExtResource( 354 ), ExtResource( 355 ), ExtResource( 356 ), ExtResource( 357 ), ExtResource( 358 ), ExtResource( 359 ), ExtResource( 360 ), ExtResource( 361 ), ExtResource( 362 ), ExtResource( 363 ), ExtResource( 364 ), ExtResource( 365 ), ExtResource( 366 ), ExtResource( 367 ), ExtResource( 368 ), ExtResource( 369 ), ExtResource( 370 ), ExtResource( 371 ), ExtResource( 372 ), ExtResource( 373 ), ExtResource( 374 ), ExtResource( 375 ), ExtResource( 376 ), ExtResource( 377 ), ExtResource( 378 ), ExtResource( 379 ), ExtResource( 380 ), ExtResource( 381 ), ExtResource( 382 ), ExtResource( 383 ), ExtResource( 384 ), ExtResource( 385 ), ExtResource( 386 ), ExtResource( 387 ), ExtResource( 388 ), ExtResource( 389 ), ExtResource( 390 ), ExtResource( 391 ), ExtResource( 392 ), ExtResource( 393 ), ExtResource( 394 ), ExtResource( 395 ), ExtResource( 396 ), ExtResource( 397 ), ExtResource( 398 ), ExtResource( 399 ), ExtResource( 400 ), ExtResource( 401 ), ExtResource( 402 ), ExtResource( 403 ), ExtResource( 404 ), ExtResource( 405 ), ExtResource( 406 ), ExtResource( 407 ), ExtResource( 408 ), ExtResource( 409 ), ExtResource( 410 ), ExtResource( 411 ), ExtResource( 412 ), ExtResource( 413 ), ExtResource( 414 ), ExtResource( 415 ), ExtResource( 416 ), ExtResource( 417 ), ExtResource( 418 ), ExtResource( 419 ), ExtResource( 420 ), ExtResource( 421 ), ExtResource( 422 ), ExtResource( 423 ), ExtResource( 424 ), ExtResource( 425 ), ExtResource( 426 ), ExtResource( 427 ), ExtResource( 428 ), ExtResource( 429 ), ExtResource( 430 ), ExtResource( 431 ), ExtResource( 432 ), ExtResource( 433 ), ExtResource( 434 ), ExtResource( 435 ), ExtResource( 436 ), ExtResource( 437 ), ExtResource( 438 ), ExtResource( 439 ), ExtResource( 440 ), ExtResource( 441 ), ExtResource( 442 ), ExtResource( 443 ), ExtResource( 444 ), ExtResource( 445 ), ExtResource( 446 ), ExtResource( 447 ), ExtResource( 448 ), ExtResource( 449 ), ExtResource( 450 ), ExtResource( 451 ), ExtResource( 452 ), ExtResource( 453 ), ExtResource( 454 ), ExtResource( 455 ), ExtResource( 456 ), ExtResource( 457 ), ExtResource( 458 ), ExtResource( 459 ), ExtResource( 460 ), ExtResource( 461 ), ExtResource( 462 ), ExtResource( 463 ), ExtResource( 464 ), ExtResource( 465 ), ExtResource( 466 ), ExtResource( 467 ), ExtResource( 468 ), ExtResource( 469 ), ExtResource( 470 ), ExtResource( 471 ), ExtResource( 472 ), ExtResource( 473 ), ExtResource( 474 ), ExtResource( 475 ), ExtResource( 476 ), ExtResource( 477 ), ExtResource( 478 ), ExtResource( 479 ), ExtResource( 480 ), ExtResource( 481 ), ExtResource( 482 ), ExtResource( 483 ), ExtResource( 484 ), ExtResource( 485 ), ExtResource( 486 ), ExtResource( 487 ), ExtResource( 488 ), ExtResource( 489 ), ExtResource( 490 ), ExtResource( 491 ), ExtResource( 492 ), ExtResource( 493 ), ExtResource( 494 ), ExtResource( 495 ), ExtResource( 496 ), ExtResource( 497 ), ExtResource( 498 ), ExtResource( 499 ), ExtResource( 500 ), ExtResource( 501 ), ExtResource( 502 ), ExtResource( 503 ), ExtResource( 504 ), ExtResource( 505 ), ExtResource( 506 ), ExtResource( 507 ), ExtResource( 508 ), ExtResource( 509 ), ExtResource( 510 ), ExtResource( 511 ), ExtResource( 512 ), ExtResource( 513 ), ExtResource( 514 ), ExtResource( 515 ), ExtResource( 516 ), ExtResource( 517 ), ExtResource( 518 ), ExtResource( 519 ), ExtResource( 520 ), ExtResource( 521 ), ExtResource( 522 ), ExtResource( 523 ), ExtResource( 524 ), ExtResource( 525 ), ExtResource( 526 ), ExtResource( 527 ), ExtResource( 528 ), ExtResource( 529 ), ExtResource( 530 ), ExtResource( 531 ), ExtResource( 532 ), ExtResource( 533 ), ExtResource( 534 ), ExtResource( 535 ), ExtResource( 536 ), ExtResource( 537 ), ExtResource( 538 ), ExtResource( 539 ), ExtResource( 540 ), ExtResource( 541 ), ExtResource( 542 ), ExtResource( 543 ), ExtResource( 544 ), ExtResource( 545 ), ExtResource( 546 ), ExtResource( 547 ), ExtResource( 548 ), ExtResource( 549 ), ExtResource( 550 ), ExtResource( 551 ), ExtResource( 552 ), ExtResource( 553 ), ExtResource( 554 ), ExtResource( 555 ), ExtResource( 556 ), ExtResource( 557 ), ExtResource( 558 ), ExtResource( 559 ), ExtResource( 560 ), ExtResource( 561 ), ExtResource( 562 ), ExtResource( 563 ), ExtResource( 564 ), ExtResource( 565 ), ExtResource( 566 ), ExtResource( 567 ), ExtResource( 568 ), ExtResource( 569 ), ExtResource( 570 ), ExtResource( 571 ), ExtResource( 572 ), ExtResource( 573 ), ExtResource( 574 ), ExtResource( 575 ), ExtResource( 576 ), ExtResource( 577 ), ExtResource( 578 ), ExtResource( 579 ), ExtResource( 580 ), ExtResource( 581 ), ExtResource( 582 ), ExtResource( 583 ), ExtResource( 584 ), ExtResource( 585 ), ExtResource( 586 ), ExtResource( 587 ), ExtResource( 588 ), ExtResource( 589 ), ExtResource( 590 ), ExtResource( 591 ), ExtResource( 592 ), ExtResource( 593 ), ExtResource( 594 ), ExtResource( 595 ), ExtResource( 596 ), ExtResource( 597 ), ExtResource( 598 ), ExtResource( 599 ), ExtResource( 600 ), ExtResource( 601 ), ExtResource( 602 ), ExtResource( 603 ), ExtResource( 604 ), ExtResource( 605 ), ExtResource( 606 ), ExtResource( 607 ), ExtResource( 608 ), ExtResource( 609 ), ExtResource( 610 ), ExtResource( 611 ), ExtResource( 612 ), ExtResource( 613 ), ExtResource( 614 ), ExtResource( 615 ), ExtResource( 616 ), ExtResource( 617 ), ExtResource( 618 ), ExtResource( 619 ), ExtResource( 620 ), ExtResource( 621 ), ExtResource( 622 ), ExtResource( 623 ), ExtResource( 624 ), ExtResource( 625 ), ExtResource( 626 ), ExtResource( 627 ), ExtResource( 628 ), ExtResource( 629 ), ExtResource( 630 ), ExtResource( 631 ), ExtResource( 632 ), ExtResource( 633 ), ExtResource( 634 ), ExtResource( 635 ), ExtResource( 636 ), ExtResource( 637 ), ExtResource( 638 ), ExtResource( 639 ), ExtResource( 640 ), ExtResource( 641 ), ExtResource( 642 ), ExtResource( 643 ), ExtResource( 644 ), ExtResource( 645 ), ExtResource( 646 ), ExtResource( 647 ), ExtResource( 648 ), ExtResource( 649 ), ExtResource( 650 ), ExtResource( 651 ), ExtResource( 652 ), ExtResource( 653 ), ExtResource( 654 ), ExtResource( 655 ), ExtResource( 656 ), ExtResource( 657 ), ExtResource( 658 ), ExtResource( 659 ), ExtResource( 660 ), ExtResource( 661 ), ExtResource( 662 ), ExtResource( 663 ), ExtResource( 664 ), ExtResource( 665 ), ExtResource( 666 ), ExtResource( 667 ), ExtResource( 668 ), ExtResource( 669 ), ExtResource( 670 ), ExtResource( 671 ), ExtResource( 672 ), ExtResource( 673 ), ExtResource( 674 ), ExtResource( 675 ), ExtResource( 676 ), ExtResource( 677 ), ExtResource( 678 ), ExtResource( 679 ), ExtResource( 680 ), ExtResource( 681 ), ExtResource( 682 ), ExtResource( 683 ), ExtResource( 684 ), ExtResource( 685 ), ExtResource( 686 ), ExtResource( 687 ), ExtResource( 688 ), ExtResource( 689 ), ExtResource( 690 ), ExtResource( 691 ), ExtResource( 692 ), ExtResource( 693 ), ExtResource( 694 ), ExtResource( 695 ), ExtResource( 696 ), ExtResource( 697 ), ExtResource( 698 ), ExtResource( 699 ), ExtResource( 700 ), ExtResource( 701 ), ExtResource( 702 ), ExtResource( 703 ), ExtResource( 704 ), ExtResource( 705 ), ExtResource( 706 ), ExtResource( 707 ), ExtResource( 708 ), ExtResource( 709 ), ExtResource( 710 ), ExtResource( 711 ), ExtResource( 712 ), ExtResource( 713 ), ExtResource( 714 ), ExtResource( 715 ), ExtResource( 716 ), ExtResource( 717 ), ExtResource( 718 ), ExtResource( 719 ), ExtResource( 720 ), ExtResource( 721 ), ExtResource( 722 ), ExtResource( 723 ), ExtResource( 724 ), ExtResource( 725 ), ExtResource( 726 ), ExtResource( 727 ), ExtResource( 728 ), ExtResource( 729 ), ExtResource( 730 ), ExtResource( 731 ), ExtResource( 732 ), ExtResource( 733 ), ExtResource( 734 ), ExtResource( 735 ), ExtResource( 736 ), ExtResource( 737 ), ExtResource( 738 ), ExtResource( 739 ), ExtResource( 740 ), ExtResource( 741 ), ExtResource( 742 ), ExtResource( 743 ), ExtResource( 744 ), ExtResource( 745 ), ExtResource( 746 ), ExtResource( 747 ), ExtResource( 748 ), ExtResource( 749 ), ExtResource( 750 ), ExtResource( 751 ), ExtResource( 752 ), ExtResource( 753 ), ExtResource( 754 ), ExtResource( 755 ), ExtResource( 756 ), ExtResource( 757 ), ExtResource( 758 ), ExtResource( 759 ), ExtResource( 760 ), ExtResource( 761 ), ExtResource( 762 ), ExtResource( 763 ), ExtResource( 764 ), ExtResource( 765 ), ExtResource( 766 ), ExtResource( 767 ), ExtResource( 768 ), ExtResource( 769 ), ExtResource( 770 ), ExtResource( 771 ), ExtResource( 772 ), ExtResource( 773 ), ExtResource( 774 ), ExtResource( 775 ), ExtResource( 776 ), ExtResource( 777 ), ExtResource( 778 ), ExtResource( 779 ), ExtResource( 780 ), ExtResource( 781 ), ExtResource( 782 ), ExtResource( 783 ), ExtResource( 784 ), ExtResource( 785 ), ExtResource( 786 ), ExtResource( 787 ), ExtResource( 788 ), ExtResource( 789 ), ExtResource( 790 ), ExtResource( 791 ), ExtResource( 792 ), ExtResource( 793 ), ExtResource( 794 ), ExtResource( 795 ), ExtResource( 796 ), ExtResource( 797 ), ExtResource( 798 ), ExtResource( 799 ), ExtResource( 800 ), ExtResource( 801 ), ExtResource( 802 ), ExtResource( 803 ), ExtResource( 804 ), ExtResource( 805 ), ExtResource( 806 ), ExtResource( 807 ), ExtResource( 808 ), ExtResource( 809 ), ExtResource( 810 ), ExtResource( 811 ), ExtResource( 812 ), ExtResource( 813 ), ExtResource( 814 ), ExtResource( 815 ), ExtResource( 816 ), ExtResource( 817 ), ExtResource( 818 ), ExtResource( 819 ), ExtResource( 820 ), ExtResource( 821 ), ExtResource( 822 ), ExtResource( 823 ), ExtResource( 824 ), ExtResource( 825 ), ExtResource( 826 ), ExtResource( 827 ), ExtResource( 828 ), ExtResource( 829 ), ExtResource( 830 ), ExtResource( 831 ), ExtResource( 832 ), ExtResource( 833 ), ExtResource( 834 ), ExtResource( 835 ), ExtResource( 836 ), ExtResource( 837 ), ExtResource( 838 ), ExtResource( 839 ), ExtResource( 840 ), ExtResource( 841 ), ExtResource( 842 ), ExtResource( 843 ), ExtResource( 844 ), ExtResource( 845 ) ],
 "loop": false,
 "name": "open",
-"speed": 20.0
+"speed": 15.0
 }, {
 "frames": [ ExtResource( 846 ), ExtResource( 847 ), ExtResource( 848 ), ExtResource( 849 ), ExtResource( 850 ), ExtResource( 851 ), ExtResource( 852 ), ExtResource( 853 ), ExtResource( 854 ), ExtResource( 855 ), ExtResource( 856 ), ExtResource( 857 ), ExtResource( 858 ), ExtResource( 859 ), ExtResource( 860 ), ExtResource( 861 ), ExtResource( 862 ), ExtResource( 863 ), ExtResource( 864 ), ExtResource( 865 ), ExtResource( 866 ), ExtResource( 867 ), ExtResource( 868 ), ExtResource( 869 ), ExtResource( 870 ), ExtResource( 871 ), ExtResource( 872 ), ExtResource( 873 ), ExtResource( 874 ), ExtResource( 875 ), ExtResource( 876 ), ExtResource( 877 ), ExtResource( 878 ), ExtResource( 879 ), ExtResource( 880 ), ExtResource( 881 ), ExtResource( 882 ), ExtResource( 883 ), ExtResource( 884 ), ExtResource( 885 ), ExtResource( 886 ), ExtResource( 887 ), ExtResource( 888 ), ExtResource( 889 ), ExtResource( 890 ), ExtResource( 891 ), ExtResource( 892 ), ExtResource( 893 ), ExtResource( 894 ), ExtResource( 895 ), ExtResource( 896 ), ExtResource( 897 ), ExtResource( 898 ), ExtResource( 899 ), ExtResource( 900 ), ExtResource( 901 ), ExtResource( 902 ), ExtResource( 903 ), ExtResource( 904 ), ExtResource( 905 ), ExtResource( 906 ), ExtResource( 907 ), ExtResource( 908 ), ExtResource( 909 ), ExtResource( 910 ), ExtResource( 911 ), ExtResource( 912 ), ExtResource( 913 ), ExtResource( 914 ), ExtResource( 915 ), ExtResource( 916 ), ExtResource( 917 ), ExtResource( 918 ), ExtResource( 919 ), ExtResource( 920 ), ExtResource( 921 ), ExtResource( 922 ), ExtResource( 923 ), ExtResource( 924 ), ExtResource( 925 ), ExtResource( 926 ), ExtResource( 927 ), ExtResource( 928 ), ExtResource( 929 ), ExtResource( 930 ), ExtResource( 931 ), ExtResource( 932 ), ExtResource( 933 ), ExtResource( 934 ), ExtResource( 935 ), ExtResource( 936 ), ExtResource( 937 ), ExtResource( 938 ), ExtResource( 939 ), ExtResource( 940 ), ExtResource( 941 ), ExtResource( 942 ), ExtResource( 943 ), ExtResource( 944 ), ExtResource( 945 ), ExtResource( 946 ), ExtResource( 947 ), ExtResource( 948 ), ExtResource( 949 ), ExtResource( 950 ), ExtResource( 951 ), ExtResource( 952 ), ExtResource( 953 ), ExtResource( 954 ), ExtResource( 955 ), ExtResource( 956 ), ExtResource( 957 ), ExtResource( 958 ), ExtResource( 959 ), ExtResource( 960 ), ExtResource( 961 ), ExtResource( 962 ), ExtResource( 963 ), ExtResource( 964 ), ExtResource( 965 ), ExtResource( 966 ), ExtResource( 967 ), ExtResource( 968 ), ExtResource( 969 ), ExtResource( 970 ), ExtResource( 971 ), ExtResource( 972 ), ExtResource( 973 ), ExtResource( 974 ), ExtResource( 975 ), ExtResource( 976 ), ExtResource( 977 ), ExtResource( 978 ), ExtResource( 979 ), ExtResource( 980 ), ExtResource( 981 ), ExtResource( 982 ), ExtResource( 983 ), ExtResource( 984 ), ExtResource( 985 ), ExtResource( 986 ), ExtResource( 987 ), ExtResource( 988 ), ExtResource( 989 ), ExtResource( 990 ), ExtResource( 991 ), ExtResource( 992 ), ExtResource( 993 ), ExtResource( 994 ), ExtResource( 995 ), ExtResource( 996 ), ExtResource( 997 ), ExtResource( 998 ), ExtResource( 999 ), ExtResource( 1000 ), ExtResource( 1001 ), ExtResource( 1002 ), ExtResource( 1003 ), ExtResource( 1004 ), ExtResource( 1005 ), ExtResource( 1006 ), ExtResource( 1007 ), ExtResource( 1008 ), ExtResource( 1009 ), ExtResource( 1010 ), ExtResource( 1011 ), ExtResource( 1012 ), ExtResource( 1013 ), ExtResource( 1014 ), ExtResource( 1015 ), ExtResource( 1016 ), ExtResource( 1017 ), ExtResource( 1018 ), ExtResource( 1019 ), ExtResource( 1020 ), ExtResource( 1021 ), ExtResource( 1022 ), ExtResource( 1023 ), ExtResource( 1024 ), ExtResource( 1025 ), ExtResource( 1026 ), ExtResource( 1027 ), ExtResource( 1028 ), ExtResource( 1029 ), ExtResource( 1030 ), ExtResource( 1031 ), ExtResource( 1032 ), ExtResource( 1033 ), ExtResource( 1034 ), ExtResource( 1035 ), ExtResource( 1036 ), ExtResource( 1037 ), ExtResource( 1038 ), ExtResource( 1039 ), ExtResource( 1040 ), ExtResource( 1041 ), ExtResource( 1042 ), ExtResource( 1043 ), ExtResource( 1044 ), ExtResource( 1045 ), ExtResource( 1046 ), ExtResource( 1047 ), ExtResource( 1048 ), ExtResource( 1049 ), ExtResource( 1050 ), ExtResource( 1051 ), ExtResource( 1052 ), ExtResource( 1053 ), ExtResource( 1054 ), ExtResource( 1055 ), ExtResource( 1056 ), ExtResource( 1057 ), ExtResource( 1058 ), ExtResource( 1059 ), ExtResource( 1060 ), ExtResource( 1061 ), ExtResource( 1062 ), ExtResource( 1063 ), ExtResource( 1064 ), ExtResource( 1065 ), ExtResource( 1066 ), ExtResource( 1067 ), ExtResource( 1068 ), ExtResource( 1069 ), ExtResource( 1070 ), ExtResource( 1071 ), ExtResource( 1072 ), ExtResource( 1073 ), ExtResource( 1074 ), ExtResource( 1075 ), ExtResource( 1076 ), ExtResource( 1077 ), ExtResource( 1078 ), ExtResource( 1079 ), ExtResource( 1080 ), ExtResource( 1081 ), ExtResource( 1082 ), ExtResource( 1083 ), ExtResource( 1084 ), ExtResource( 1085 ), ExtResource( 1086 ), ExtResource( 1087 ), ExtResource( 1088 ), ExtResource( 1089 ), ExtResource( 1090 ), ExtResource( 1091 ), ExtResource( 1092 ), ExtResource( 1093 ), ExtResource( 1094 ), ExtResource( 1095 ), ExtResource( 1096 ), ExtResource( 1097 ), ExtResource( 1098 ), ExtResource( 1099 ), ExtResource( 1100 ), ExtResource( 1101 ), ExtResource( 1102 ), ExtResource( 1103 ), ExtResource( 1104 ), ExtResource( 1105 ), ExtResource( 1106 ), ExtResource( 1107 ), ExtResource( 1108 ), ExtResource( 1109 ), ExtResource( 1110 ), ExtResource( 1111 ), ExtResource( 1112 ), ExtResource( 1113 ), ExtResource( 1114 ), ExtResource( 1115 ), ExtResource( 1116 ), ExtResource( 1117 ), ExtResource( 1118 ), ExtResource( 1119 ), ExtResource( 1120 ), ExtResource( 1121 ), ExtResource( 1122 ), ExtResource( 1123 ), ExtResource( 1124 ), ExtResource( 1125 ), ExtResource( 1126 ), ExtResource( 1127 ), ExtResource( 1128 ), ExtResource( 1129 ), ExtResource( 1130 ), ExtResource( 1131 ), ExtResource( 1132 ), ExtResource( 1133 ), ExtResource( 1134 ), ExtResource( 1135 ), ExtResource( 1136 ), ExtResource( 1137 ), ExtResource( 1138 ), ExtResource( 1139 ) ],
 "loop": false,
@@ -2018,7 +2054,7 @@ _sections_unfolded = [ "Rect" ]
 
 [node name="player" parent="." index="5" instance=ExtResource( 4 )]
 
-position = Vector2( 155, 201.967 )
+position = Vector2( 150, 201.967 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="area_2d" type="Area2D" parent="." index="6"]
@@ -2166,7 +2202,7 @@ position = Vector2( 470, 250 )
 scale = Vector2( 0.5, 0.5 )
 frames = SubResource( 16 )
 animation = "walk"
-frame = 2
+frame = 1
 playing = true
 _sections_unfolded = [ "Transform", "Visibility" ]
 
@@ -2273,6 +2309,32 @@ visible = false
 position = Vector2( 200, 150 )
 texture = ExtResource( 1140 )
 _sections_unfolded = [ "Visibility" ]
+
+[node name="camera_2d" type="Camera2D" parent="." index="17"]
+
+position = Vector2( 200, -150 )
+anchor_mode = 1
+rotating = false
+current = true
+zoom = Vector2( 1, 1 )
+limit_left = -10000000
+limit_top = -10000000
+limit_right = 10000000
+limit_bottom = 10000000
+limit_smoothed = false
+drag_margin_h_enabled = false
+drag_margin_v_enabled = false
+smoothing_enabled = false
+smoothing_speed = 5.0
+offset_v = 0.0
+offset_h = 0.0
+drag_margin_left = 0.2
+drag_margin_top = 0.2
+drag_margin_right = 0.2
+drag_margin_bottom = 0.2
+editor_draw_screen = true
+editor_draw_limits = false
+editor_draw_drag_margin = false
 
 [connection signal="hide" from="messages/mission 1" to="." method="_on_mission_1_hide"]
 
