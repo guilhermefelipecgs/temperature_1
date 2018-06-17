@@ -158,108 +158,96 @@ tracks/0/keys = {
 "values": [ "idle", "walk", "idle" ]
 }
 tracks/1/type = "value"
-tracks/1/path = NodePath("label:visible")
+tracks/1/path = NodePath("../thermostat_hud:visible")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/keys = {
-"times": PoolRealArray( 5.6, 11.9 ),
-"transitions": PoolRealArray( 1, 1 ),
-"update": 1,
-"values": [ false, true ]
-}
-tracks/2/type = "value"
-tracks/2/path = NodePath("../thermostat_hud:visible")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/keys = {
 "times": PoolRealArray(  ),
 "transitions": PoolRealArray(  ),
 "update": 1,
 "values": [  ]
 }
-tracks/3/type = "value"
-tracks/3/path = NodePath(".:position")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/keys = {
+tracks/2/type = "value"
+tracks/2/path = NodePath(".:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
 "times": PoolRealArray( 0, 5.6, 7.3, 10.9, 11.9 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
 "update": 0,
 "values": [ Vector2( 470, 250 ), Vector2( 470, 250 ), Vector2( 240, 240 ), Vector2( 240, 240 ), Vector2( 100, 160 ) ]
 }
-tracks/4/type = "value"
-tracks/4/path = NodePath("../audio_stream_player:playing")
-tracks/4/interp = 1
-tracks/4/loop_wrap = true
-tracks/4/imported = false
-tracks/4/enabled = true
-tracks/4/keys = {
+tracks/3/type = "value"
+tracks/3/path = NodePath("../audio_stream_player:playing")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
 "times": PoolRealArray( 5.6, 11.9 ),
 "transitions": PoolRealArray( 1, 1 ),
 "update": 1,
 "values": [ false, true ]
 }
-tracks/5/type = "value"
-tracks/5/path = NodePath("../cover:visible")
-tracks/5/interp = 1
-tracks/5/loop_wrap = true
-tracks/5/imported = false
-tracks/5/enabled = true
-tracks/5/keys = {
+tracks/4/type = "value"
+tracks/4/path = NodePath("../cover:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
 "times": PoolRealArray( 5.6, 12.3, 12.5, 12.7, 12.9, 13.1 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
 "update": 1,
 "values": [ false, true, false, true, false, true ]
 }
-tracks/6/type = "value"
-tracks/6/path = NodePath("../dialog/panel:visible")
-tracks/6/interp = 1
-tracks/6/loop_wrap = true
-tracks/6/imported = false
-tracks/6/enabled = true
-tracks/6/keys = {
+tracks/5/type = "value"
+tracks/5/path = NodePath("../dialog/panel:visible")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
 "times": PoolRealArray( 0, 0.1, 5.6, 7.3, 11.9 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
 "update": 1,
 "values": [ false, true, false, true, false ]
 }
-tracks/7/type = "value"
-tracks/7/path = NodePath("../dialog/panel:rect_position")
-tracks/7/interp = 1
-tracks/7/loop_wrap = true
-tracks/7/imported = false
-tracks/7/enabled = true
-tracks/7/keys = {
+tracks/6/type = "value"
+tracks/6/path = NodePath("../dialog/panel:rect_position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
 "times": PoolRealArray( 0.3, 1.5, 2.9, 4.3, 7.3, 9.1, 10.9 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
 "update": 1,
 "values": [ Vector2( 330, 210 ), Vector2( 210, 170 ), Vector2( 290, 210 ), Vector2( 210, 170 ), Vector2( 0, 200 ), Vector2( 80, 90 ), Vector2( 50, 260 ) ]
 }
-tracks/8/type = "value"
-tracks/8/path = NodePath("../dialog/panel/label:text")
-tracks/8/interp = 1
-tracks/8/loop_wrap = true
-tracks/8/imported = false
-tracks/8/enabled = true
-tracks/8/keys = {
+tracks/7/type = "value"
+tracks/7/path = NodePath("../dialog/panel/label:text")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
 "times": PoolRealArray( 0.1, 1.5, 2.9, 4.3, 7.3, 9.1, 10.9 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
 "update": 1,
 "values": [ "Toc Toc", "Who is?", "It's me, mario!", "Come on, get int.", "Uau, esse quarto esta quente/frio, você mexeu no termostato?", "Sim, não estava aguentando de calor/frio, então eu diminui/aumentei a temperatura", "EU NÃO GOSTEI DISSO!" ]
 }
-tracks/9/type = "value"
-tracks/9/path = NodePath("../dialog/panel:rect_size")
-tracks/9/interp = 1
-tracks/9/loop_wrap = true
-tracks/9/imported = false
-tracks/9/enabled = true
-tracks/9/keys = {
+tracks/8/type = "value"
+tracks/8/path = NodePath("../dialog/panel:rect_size")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
 "times": PoolRealArray( 0.1, 2.9, 4.3, 7.3, 9.1, 10.9 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
 "update": 1,
@@ -753,7 +741,7 @@ _sections_unfolded = [ "custom_fonts", "custom_styles" ]
 
 [node name="enemy" type="AnimatedSprite" parent="." index="8"]
 
-position = Vector2( 100, 160 )
+position = Vector2( 470, 250 )
 scale = Vector2( 0.5, 0.5 )
 frames = SubResource( 14 )
 animation = "idle"
@@ -770,28 +758,6 @@ playback_speed = 1.0
 "anims/New Anim" = SubResource( 15 )
 blend_times = [  ]
 
-[node name="label" type="Label" parent="enemy" index="1"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-margin_left = 10.0
-margin_top = -40.0
-margin_right = 117.0
-margin_bottom = -26.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 4
-text = "It's to hot here!!!"
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
-_sections_unfolded = [ "Visibility" ]
-
 [node name="audio_stream_player" type="AudioStreamPlayer" parent="." index="9"]
 
 stream = ExtResource( 9 )
@@ -803,6 +769,7 @@ bus = "Master"
 
 [node name="cover" type="Sprite" parent="." index="10"]
 
+visible = false
 position = Vector2( 200, 150 )
 texture = ExtResource( 10 )
 _sections_unfolded = [ "Visibility" ]
@@ -816,10 +783,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 50.0
-margin_top = 260.0
-margin_right = 320.0
-margin_bottom = 300.0
+margin_left = 330.0
+margin_top = 210.0
+margin_right = 390.0
+margin_bottom = 230.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 0
@@ -840,7 +807,7 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
-text = "EU NÃO GOSTEI DISSO!"
+text = "Toc Toc"
 align = 1
 valign = 1
 autowrap = true
@@ -871,7 +838,7 @@ _sections_unfolded = [ "Pause", "Playback Options" ]
 [node name="audio_stream_player2" type="AudioStreamPlayer" parent="." index="13"]
 
 stream = ExtResource( 12 )
-volume_db = 0.0
+volume_db = -20.0
 pitch_scale = 1.0
 autoplay = false
 mix_target = 0
