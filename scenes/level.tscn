@@ -1,9 +1,9 @@
-[gd_scene load_steps=18 format=2]
+[gd_scene load_steps=26 format=2]
 
 [ext_resource path="res://scripts/level.gd" type="Script" id=1]
 [ext_resource path="res://textures/tileset_16x16_interior.png" type="Texture" id=2]
-[ext_resource path="res://scenes/player.tscn" type="PackedScene" id=3]
-[ext_resource path="res://textures/THERMOSTAT.png" type="Texture" id=4]
+[ext_resource path="res://textures/THERMOSTAT.png" type="Texture" id=3]
+[ext_resource path="res://scenes/player.tscn" type="PackedScene" id=4]
 [ext_resource path="res://textures/npc_05.png" type="Texture" id=5]
 [ext_resource path="res://textures/npc_14.png" type="Texture" id=6]
 [ext_resource path="res://textures/npc_15.png" type="Texture" id=7]
@@ -67,6 +67,62 @@ _sections_unfolded = [ "0" ]
 
 custom_solver_bias = 0.0
 extents = Vector2( 20, 20 )
+
+[sub_resource type="StyleBoxEmpty" id=9]
+
+content_margin_left = -1.0
+content_margin_right = -1.0
+content_margin_top = -1.0
+content_margin_bottom = -1.0
+
+[sub_resource type="StyleBoxEmpty" id=10]
+
+content_margin_left = -1.0
+content_margin_right = -1.0
+content_margin_top = -1.0
+content_margin_bottom = -1.0
+
+[sub_resource type="StyleBoxEmpty" id=11]
+
+content_margin_left = -1.0
+content_margin_right = -1.0
+content_margin_top = -1.0
+content_margin_bottom = -1.0
+
+[sub_resource type="StyleBoxEmpty" id=12]
+
+content_margin_left = -1.0
+content_margin_right = -1.0
+content_margin_top = -1.0
+content_margin_bottom = -1.0
+
+[sub_resource type="StyleBoxEmpty" id=8]
+
+content_margin_left = -1.0
+content_margin_right = -1.0
+content_margin_top = -1.0
+content_margin_bottom = -1.0
+
+[sub_resource type="StyleBoxEmpty" id=13]
+
+content_margin_left = -1.0
+content_margin_right = -1.0
+content_margin_top = -1.0
+content_margin_bottom = -1.0
+
+[sub_resource type="StyleBoxEmpty" id=14]
+
+content_margin_left = -1.0
+content_margin_right = -1.0
+content_margin_top = -1.0
+content_margin_bottom = -1.0
+
+[sub_resource type="StyleBoxEmpty" id=15]
+
+content_margin_left = -1.0
+content_margin_right = -1.0
+content_margin_top = -1.0
+content_margin_bottom = -1.0
 
 [sub_resource type="SpriteFrames" id=6]
 
@@ -489,16 +545,23 @@ percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
 
-[node name="thermostat" type="Label" parent="." index="4"]
+[node name="THERMOSTAT" type="Sprite" parent="." index="4"]
+
+position = Vector2( 60, 120 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 3 )
+
+[node name="thermostat" type="Label" parent="THERMOSTAT" index="0"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 50.0
-margin_top = 110.0
-margin_right = 79.0
-margin_bottom = 124.0
+margin_left = -56.0
+margin_top = -37.0
+margin_right = -27.0
+margin_bottom = -23.0
+rect_scale = Vector2( 3, 3 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
@@ -510,9 +573,9 @@ text = "30ºC"
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
-_sections_unfolded = [ "custom_colors" ]
+_sections_unfolded = [ "Rect" ]
 
-[node name="player" parent="." index="5" instance=ExtResource( 3 )]
+[node name="player" parent="." index="5" instance=ExtResource( 4 )]
 
 position = Vector2( 190, 140 )
 _sections_unfolded = [ "Transform" ]
@@ -543,10 +606,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 70.0
-margin_top = 90.0
-margin_right = 360.0
-margin_bottom = 230.0
+margin_left = 90.0
+margin_top = 80.0
+margin_right = 320.0
+margin_bottom = 220.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 0
@@ -557,111 +620,93 @@ _sections_unfolded = [ "Rect" ]
 
 [node name="THERMOSTAT" type="Sprite" parent="thermostat_hud" index="0"]
 
-position = Vector2( 160, 80 )
-texture = ExtResource( 4 )
+position = Vector2( 120, 70 )
+texture = ExtResource( 3 )
 
-[node name="h_split_container" type="HSplitContainer" parent="thermostat_hud" index="1"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-split_offset = 41
-collapsed = false
-dragger_visibility = 1
-
-[node name="label" type="Label" parent="thermostat_hud/h_split_container" index="0"]
+[node name="label" type="Label" parent="thermostat_hud" index="1"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_top = 63.0
-margin_right = 70.0
-margin_bottom = 77.0
+margin_left = 60.0
+margin_top = 30.0
+margin_right = 89.0
+margin_bottom = 44.0
+rect_scale = Vector2( 3, 3 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "30ºC"
 align = 1
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
+_sections_unfolded = [ "Rect", "custom_colors" ]
 
-[node name="v_box_container" type="VBoxContainer" parent="thermostat_hud/h_split_container" index="1"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-margin_left = 82.0
-margin_right = 290.0
-margin_bottom = 140.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 1
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-alignment = 1
-
-[node name="button" type="Button" parent="thermostat_hud/h_split_container/v_box_container" index="0"]
+[node name="button" type="Button" parent="thermostat_hud" index="2"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_top = 48.0
-margin_right = 208.0
-margin_bottom = 68.0
+margin_left = 180.0
+margin_top = 30.0
+margin_right = 210.0
+margin_bottom = 50.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
 mouse_filter = 0
-mouse_default_cursor_shape = 0
+mouse_default_cursor_shape = 2
 size_flags_horizontal = 1
 size_flags_vertical = 1
+custom_styles/hover = SubResource( 9 )
+custom_styles/pressed = SubResource( 10 )
+custom_styles/focus = SubResource( 11 )
+custom_styles/disabled = SubResource( 12 )
+custom_styles/normal = SubResource( 8 )
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-text = "Up"
 flat = false
 align = 1
+_sections_unfolded = [ "custom_styles" ]
 
-[node name="button2" type="Button" parent="thermostat_hud/h_split_container/v_box_container" index="1"]
+[node name="button2" type="Button" parent="thermostat_hud" index="3"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_top = 72.0
-margin_right = 208.0
-margin_bottom = 92.0
+margin_left = 180.0
+margin_top = 50.0
+margin_right = 210.0
+margin_bottom = 70.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2
 mouse_filter = 0
-mouse_default_cursor_shape = 0
+mouse_default_cursor_shape = 2
 size_flags_horizontal = 1
 size_flags_vertical = 1
+custom_styles/hover = SubResource( 9 )
+custom_styles/pressed = SubResource( 13 )
+custom_styles/focus = SubResource( 14 )
+custom_styles/disabled = SubResource( 15 )
+custom_styles/normal = SubResource( 8 )
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-text = "Down"
 flat = false
 align = 1
-_sections_unfolded = [ "custom_fonts" ]
+_sections_unfolded = [ "custom_fonts", "custom_styles" ]
 
 [node name="enemy" type="AnimatedSprite" parent="." index="8"]
 
@@ -723,6 +768,8 @@ _sections_unfolded = [ "Visibility" ]
 
 [node name="dialog" type="Node" parent="." index="11"]
 
+editor/display_folded = true
+
 [node name="panel" type="Panel" parent="dialog" index="0"]
 
 visible = false
@@ -773,8 +820,8 @@ _sections_unfolded = [ "Visibility" ]
 
 [connection signal="area_entered" from="area_2d" to="." method="_on_area_2d_area_entered"]
 
-[connection signal="pressed" from="thermostat_hud/h_split_container/v_box_container/button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="thermostat_hud/button" to="." method="_on_button_pressed"]
 
-[connection signal="pressed" from="thermostat_hud/h_split_container/v_box_container/button2" to="." method="_on_button2_pressed"]
+[connection signal="pressed" from="thermostat_hud/button2" to="." method="_on_button2_pressed"]
 
 

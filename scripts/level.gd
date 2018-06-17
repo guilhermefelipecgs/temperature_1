@@ -25,8 +25,8 @@ func _on_button2_pressed():
 
 
 func update_temperature():
-	$thermostat_hud/h_split_container/label.text = str(temperature) + "ºC"
-	$thermostat.text = str(temperature) + "ºC"
+	$thermostat_hud/label.text = str(temperature) + "ºC"
+	$THERMOSTAT/thermostat.text = str(temperature) + "ºC"
 
 	if temperature > 31:
 		$thermostat_hud.hide()
