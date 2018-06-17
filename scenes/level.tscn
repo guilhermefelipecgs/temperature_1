@@ -600,7 +600,7 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
 custom_colors/font_color = Color( 0, 0, 0, 1 )
-text = "30ºC"
+text = "23ºC"
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
@@ -631,7 +631,6 @@ shape = SubResource( 5 )
 
 [node name="thermostat_hud" type="Panel" parent="." index="7"]
 
-editor/display_folded = true
 visible = false
 anchor_left = 0.0
 anchor_top = 0.0
@@ -672,7 +671,7 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
 custom_colors/font_color = Color( 0, 0, 0, 1 )
-text = "30ºC"
+text = "23ºC"
 align = 1
 percent_visible = 1.0
 lines_skipped = 0

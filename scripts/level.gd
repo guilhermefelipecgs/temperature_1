@@ -6,7 +6,7 @@ onready var label3 = $messages/now
 onready var label4 = $"messages/mission 2"
 
 
-var temperature = 30
+var temperature = 23
 var looked = true
 
 func _on_area_2d_area_entered(area):
@@ -28,7 +28,7 @@ func update_temperature():
 	$thermostat_hud/label.text = str(temperature) + "ºC"
 	$THERMOSTAT/thermostat.text = str(temperature) + "ºC"
 
-	if temperature > 31:
+	if temperature > 24 or temperature < 22:
 		$thermostat_hud.hide()
 		$enemy/animation_player.play("New Anim")
 		$player.look = true
