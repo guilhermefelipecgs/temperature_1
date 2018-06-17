@@ -54,3 +54,14 @@ func _on_timer2_timeout():
 
 func _on_mission_2_visibility_changed():
 	looked = false
+
+
+func fix_label():
+	var t = $dialog/panel/label.text
+
+	var x
+	if temperature > 23:
+		x = "heat"
+	else:
+		x = "cold"
+	$dialog/panel/label.text = t.replace("$temp$", x)

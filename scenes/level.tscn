@@ -421,7 +421,7 @@ content_margin_bottom = -1.0
 
 [sub_resource type="Animation" id=14]
 
-length = 20.0
+length = 25.0
 loop = false
 step = 0.1
 tracks/0/type = "value"
@@ -467,7 +467,7 @@ tracks/3/loop_wrap = true
 tracks/3/imported = false
 tracks/3/enabled = true
 tracks/3/keys = {
-"times": PoolRealArray( 5.6, 17.1 ),
+"times": PoolRealArray( 5.6, 17.4 ),
 "transitions": PoolRealArray( 1, 1 ),
 "update": 1,
 "values": [ false, true ]
@@ -506,7 +506,7 @@ tracks/6/keys = {
 "times": PoolRealArray( 0.1, 1.5, 2.9, 4.3, 7.3, 9.1, 10.9, 13.1, 15.1 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
 "update": 1,
-"values": [ "Toc Toc", "Who is?", "It's me, mario!", "Come on, get int.", "Uau, esse quarto esta quente/frio, você mexeu no termostato?", "Sim, não estava aguentando de calor/frio, então eu diminui/aumentei a temperatura", "EU NÃO GOSTEI DISSO!", "You can't do that!", "WHO SAID I CAN'T?!" ]
+"values": [ "Toc Toc", "Who is?", "It's me, mario!", "Come on, get in.", "Wow, this room is too $temp$, did you change the thermostat?", "Yes, I wasn't able to withstand $temp$, so I changed the temperature.", "I DIDN'T LIKE THAT!!!!", "You can't do that!", "WHO SAID I CAN'T?!" ]
 }
 tracks/7/type = "value"
 tracks/7/path = NodePath("dialog/panel:rect_size")
@@ -617,6 +617,35 @@ tracks/15/keys = {
 "transitions": PoolRealArray( 1 ),
 "update": 1,
 "values": [ 0 ]
+}
+tracks/16/type = "value"
+tracks/16/path = NodePath("animated_sprite/color_rect:visible")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/keys = {
+"times": PoolRealArray( 0, 24 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/17/type = "method"
+tracks/17/path = NodePath(".")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/keys = {
+"times": PoolRealArray( 7.3, 9.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"values": [ {
+"args": [  ],
+"method": "fix_label"
+}, {
+"args": [  ],
+"method": "fix_label"
+} ]
 }
 
 [sub_resource type="SpriteFrames" id=15]
@@ -997,7 +1026,7 @@ _sections_unfolded = [ "Rect" ]
 [node name="player" parent="." index="5" instance=ExtResource( 4 )]
 
 editor/display_folded = true
-position = Vector2( 150, 201.967 )
+position = Vector2( 180, 170 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="area_2d" type="Area2D" parent="." index="6"]
@@ -1144,7 +1173,6 @@ position = Vector2( 470, 250 )
 scale = Vector2( 0.5, 0.5 )
 frames = SubResource( 15 )
 animation = "walk"
-frame = 1
 playing = true
 _sections_unfolded = [ "Transform", "Visibility" ]
 
@@ -1158,8 +1186,6 @@ mix_target = 0
 bus = "Master"
 
 [node name="dialog" type="Node" parent="." index="11"]
-
-editor/display_folded = true
 
 [node name="panel" type="Panel" parent="dialog" index="0"]
 
@@ -1237,6 +1263,26 @@ position = Vector2( 200, 150 )
 scale = Vector2( 1.25, 1.25 )
 frames = SubResource( 18 )
 animation = "default"
+
+[node name="color_rect" type="ColorRect" parent="animated_sprite" index="0"]
+
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -160.0
+margin_top = -120.0
+margin_right = 160.0
+margin_bottom = 120.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+color = Color( 0, 0, 0, 1 )
+_sections_unfolded = [ "Visibility" ]
 
 [connection signal="hide" from="messages/mission 1" to="." method="_on_mission_1_hide"]
 
