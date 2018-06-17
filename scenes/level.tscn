@@ -3,10 +3,10 @@
 [ext_resource path="res://scripts/level.gd" type="Script" id=1]
 [ext_resource path="res://textures/tileset_16x16_interior.png" type="Texture" id=2]
 [ext_resource path="res://scenes/player.tscn" type="PackedScene" id=3]
-[ext_resource path="res://textures/player_05.png" type="Texture" id=4]
-[ext_resource path="res://textures/player_14.png" type="Texture" id=5]
-[ext_resource path="res://textures/player_15.png" type="Texture" id=6]
-[ext_resource path="res://textures/player_16.png" type="Texture" id=7]
+[ext_resource path="res://textures/npc_05.png" type="Texture" id=4]
+[ext_resource path="res://textures/npc_14.png" type="Texture" id=5]
+[ext_resource path="res://textures/npc_15.png" type="Texture" id=6]
+[ext_resource path="res://textures/npc_16.png" type="Texture" id=7]
 [ext_resource path="res://sounds/Battlefield 1 Official Reveal Trailer (3).wav" type="AudioStream" id=8]
 [ext_resource path="res://textures/Temperature1_400x300_bg.png" type="Texture" id=9]
 
@@ -465,8 +465,7 @@ _sections_unfolded = [ "custom_colors" ]
 
 [node name="player" parent="." index="5" instance=ExtResource( 3 )]
 
-position = Vector2( 236.654, 157.188 )
-scale = Vector2( 0.5, 0.5 )
+position = Vector2( 190, 140 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="area_2d" type="Area2D" parent="." index="6"]
@@ -480,6 +479,7 @@ linear_damp = 0.1
 angular_damp = 1.0
 audio_bus_override = false
 audio_bus_name = "Master"
+_sections_unfolded = [ "Transform" ]
 
 [node name="collision_shape_2d" type="CollisionShape2D" parent="area_2d" index="0"]
 
@@ -611,12 +611,13 @@ _sections_unfolded = [ "custom_fonts" ]
 
 [node name="enemy" type="AnimatedSprite" parent="." index="8"]
 
-modulate = Color( 1, 0, 0, 1 )
 position = Vector2( 470, 250 )
+scale = Vector2( 0.5, 0.5 )
 frames = SubResource( 6 )
 animation = "walk"
+frame = 2
 playing = true
-_sections_unfolded = [ "Visibility" ]
+_sections_unfolded = [ "Transform", "Visibility" ]
 
 [node name="animation_player" type="AnimationPlayer" parent="enemy" index="0"]
 
@@ -654,7 +655,7 @@ _sections_unfolded = [ "Visibility" ]
 [node name="audio_stream_player" type="AudioStreamPlayer" parent="." index="9"]
 
 stream = ExtResource( 8 )
-volume_db = -50.0
+volume_db = -20.0
 pitch_scale = 1.0
 autoplay = false
 mix_target = 0
