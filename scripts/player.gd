@@ -4,6 +4,7 @@ const SPEED = 3
 
 onready var new_pos = self.position
 var look = false
+var stop = false
 
 func _input(event):
 	if look:
@@ -18,6 +19,9 @@ func _input(event):
 
 
 func _process(delta):
+	if stop:
+		return
+
 	if $"../thermostat_hud".visible:
 		$animated_sprite.animation = "idle"
 		return
@@ -32,3 +36,6 @@ func _process(delta):
 			$animated_sprite.flip_h = false
 	else:
 		$animated_sprite.animation = "idle"
+
+func stop():
+	stop = true

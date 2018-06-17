@@ -30,7 +30,7 @@ func update_temperature():
 
 	if temperature > 24 or temperature < 22:
 		$thermostat_hud.hide()
-		$enemy/animation_player.play("New Anim")
+		$animation_player.play("New Anim")
 		$player.look = true
 		$player.new_pos = Vector2(180, 170)
 
