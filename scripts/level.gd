@@ -42,6 +42,7 @@ func update_temperature():
 func _on_mission_1_hide():
 	label2.show()
 	$messages/cong/timer.start()
+	$animation_player2.play("first_steps")
 
 
 func _on_timer_timeout():

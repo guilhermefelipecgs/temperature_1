@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Xbox Achievement.ogg-dcd5627934d7e346a92394577001665e.oggstr"
+
+[deps]
+
+source_file="res://sounds/Xbox Achievement.ogg"
+dest_files=[ "res://.import/Xbox Achievement.ogg-dcd5627934d7e346a92394577001665e.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
